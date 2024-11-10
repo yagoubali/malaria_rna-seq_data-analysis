@@ -12,7 +12,9 @@
 ILLUMINACLIP:${adapters_dir}/${adapter}:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:20
 ```
 - adapter that is used with each dataset is provided in the the table below
-S/N  | Study id |  Organism           | adapter | Sequence Type | run ids |
+
+
+|S/N  | Study id |  Organism           | adapter | Sequence Type | run ids |
 | --- | ---      | ---                 |  ---    | ---      | ---           |
 | 1  | ERP004740 | Pb                  | TruSeq3-PE.fa | PE    | "ERR435801" "ERR435802" "ERR435803" "ERR435804" "ERR435805" "ERR435806" "ERR435807" "ERR435808"  |
 | 2  | ERP105548 | Pb ANKA             | NexteraPE-PE.fa | PE       | "ERR2216044" "ERR2216045" "ERR2216046" "ERR2216047" "ERR2216048" "ERR2216049" "ERR2216050" "ERR2216051" "ERR2216052" "ERR2216053" "ERR2216054" "ERR2216055" "ERR2216056" "ERR2216057"  |
