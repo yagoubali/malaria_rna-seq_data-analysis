@@ -35,6 +35,7 @@ ILLUMINACLIP:${adapters_dir}/${adapter}:2:30:10 LEADING:3 TRAILING:3 SLIDINGWIND
 # Script
 ```bash
 #trimmomatic/0.39
+cd project_base_dir  ## change this
 
 #PE Truseq  Pb
 ERP004740=("ERR435801" "ERR435802" "ERR435803" "ERR435804" "ERR435805" "ERR435806" "ERR435807" "ERR435808")
