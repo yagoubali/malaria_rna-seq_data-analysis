@@ -207,4 +207,12 @@ quantify.slurm   "PE"   ${gff_pf}  "SRP211863" ${SRP211863_files[@]}
 SRP250329=($(echo ${SRP250329[@]/#/${data_dir}}))
 SRP250329_files=$(echo ${SRP250329[@]/%/${suffix}})   
 quantify.slurm   "SE"   ${gff_pb}  "SRP250329"  ${SRP250329_files[@]}
+
+
+
+#clean out files
+#cd quantification
+#sed -i 's/\/cbio\/projects\/022\/adam\/project_adaobi\/datasets\/raw_data_mapped\///g' *txt*
+#sed -i 's/Aligned.sortedByCoord.out.bam//g' *txt*
+#sed -i '1d'  *.txt
 ```

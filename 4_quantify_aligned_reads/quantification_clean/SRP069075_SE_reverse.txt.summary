@@ -1,0 +1,15 @@
+Status	SRR3134662	SRR3134663	SRR3134664	SRR3134665	SRR3134666	SRR3134667
+Assigned	73358371	26623840	26542483	27381935	30018660	27700952
+Unassigned_Unmapped	1751705	401151	500766	443963	568015	508526
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	11798427	2321093	3696687	2755073	3405502	2776264
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	8727975	3127698	3065067	2920569	3363815	2929288
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	1279138	467309	464872	487600	518301	493426
