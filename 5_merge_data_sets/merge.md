@@ -2,7 +2,7 @@
 To merge all datasets for each species, we follow these steps:
 
 1. Transform the gene IDs of *P. falciparum* and *P. vivax* into *P. berghei* gene IDs by using the BioMart tool in the Ensembl Protists genome browser (release 60).
-2. Access the BioMart tool at the following URL: https://protists.ensembl.org/biomart
+2. Access the BioMart tool at the following URL: https://protists.ensembl.org
 3. Select "Protein Coding" as the gene type.
 4. Optionally, choose "Protein Coding" as the transcript type.
 5. Under "MULTI SPECIES COMPARISONS," apply the homologue filters to include only orthologous genes to *P. berghei*, ensuring to select unique results only.
@@ -66,9 +66,15 @@ write.table(pv_count, file="pv_count.txt", row.names=F)
 
 ## Genes annotations files:
 The downloaded annotation file for each for each species has attached as follows: 
-1. p breghei  --> martquery_0116140127_444.txt.gz.
-2. P.falciparum 3D7 genes (ASM276v2) --> martquery_0116135016_882.txt.gz
-3.  Plasmodium vivax genes (ASM241v2)  --> reference is martquery_0116140813_393.txt.gz. 
-
+1. p breghei  --> 
+  1. All  genes protein coding genes -->  martquery_0116140127_444.txt.gz.
+  2. Pb orthologous Pf  --> martquery_0119172720_255.txt.gz
+  3. Pb orthologous Pv  -- > martquery_0119172647_817.txt.gz
+2. P.falciparum 3D7 genes (ASM276v2):
+  1. Pf orthologous Pb  --> martquery_0116135016_882.txt.gz
+  2. Pf orthologous Pv  -- > martquery_0119171522_690.txt.gz
+3.  Plasmodium vivax genes (ASM241v2)  --> . 
+  1. Pv orthologous Pb  --> martquery_0116140813_393.txt.gz
+  2. Pv orthologous Pf  -->  martquery_0119171142_578.txt.gz
 ## Final gene IDs.
 - Retain genes with 1:1:1 orthologues across the three species.
