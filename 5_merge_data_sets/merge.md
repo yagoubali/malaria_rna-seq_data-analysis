@@ -66,6 +66,7 @@ write.table(pv_count, file="pv_count.txt", row.names=F)
 
 ## Genes annotations files:
 The downloaded annotation file for each for each species has attached as follows: 
+
 1. p breghei  --> 
    - All  genes protein coding genes -->  martquery_0116140127_444.txt.gz.
    - Pb orthologous Pf  --> martquery_0119172720_255.txt.gz
@@ -76,7 +77,8 @@ The downloaded annotation file for each for each species has attached as follows
 3.  Plasmodium vivax genes (ASM241v2):
    - Pv orthologous Pb  --> martquery_0116140813_393.txt.gz
    - Pv orthologous Pf  -->  martquery_0119171142_578.txt.gz
-4. 
+
+
 
 ## Final gene IDs.
 - Retain genes with 1:1:1 orthologues across the three species.
