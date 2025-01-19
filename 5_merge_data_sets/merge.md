@@ -62,6 +62,27 @@ pv_count= merge(pv_count, df, by="Geneid")
 dim(pv_count)
 
 write.table(pv_count, file="pv_count.txt", row.names=F)
+
+################################
+################################
+### Extract orthologous genes
+
+# pb
+pb_orthologous=read.table("pb_orthologous.csv", header=T)
+pb_final=merge(pb_orthologous, pb_count, by="Geneid")
+dim(pb_final)
+
+write.table(pb_final, file="pb_count_orthologous.txt", row.names=F)
+#Pf
+pf_orthologous=read.table("pf_orthologous.csv", header=T)
+pf_final=merge(pf_orthologous, pf_count, by="Geneid")
+dim(pf_final)
+write.table(pf_final, file="pf_count_orthologous.txt", row.names=F)
+#pv
+pv_orthologous=read.table("pv_orthologous.csv", header=T)
+pv_final=merge(pv_orthologous, pv_count, by="Geneid")
+dim(pv_final)
+write.table(pv_final, file="pv_count_orthologous.txt", row.names=F)
 ```
 
 ## Genes annotations files:
