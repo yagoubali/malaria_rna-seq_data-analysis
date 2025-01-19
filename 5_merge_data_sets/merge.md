@@ -74,7 +74,7 @@ The downloaded annotation file for each for each species has attached as follows
 2. P.falciparum 3D7 genes (ASM276v2):
    - Pf orthologous Pb  --> martquery_0116135016_882.txt.gz
    - Pf orthologous Pv  -- > martquery_0119171522_690.txt.gz
-3.  Plasmodium vivax genes (ASM241v2):
+3. Plasmodium vivax genes (ASM241v2):
    - Pv orthologous Pb  --> martquery_0116140813_393.txt.gz
    - Pv orthologous Pf  -->  martquery_0119171142_578.txt.gz
 
