@@ -134,7 +134,7 @@ quantify.slurm   "PE"   ${gff_pv}  "SRP046739" ${SRP046739_files[@]}
 
 #${!SRP048710@} "PE" "Truseq"
 SRP048710=($(echo ${SRP048710[@]/#/${data_dir}}))
-SRP048710_files=$(echo ${v[@]/%/${suffix}})      
+SRP048710_files=$(echo ${SRP048710[@]/%/${suffix}})      
 quantify.slurm  "PE"    ${gff_pf} "SRP048710" ${SRP048710_files[@]} 
 
 

@@ -7,5 +7,6 @@ The steps involved in this project, include:
 2. [Raw data quality control assessment](1_qc_raw_data/qc_raw_data.md)
 3. [Raw data trim](2_raw_data_trim/raw_data_trim.md)
 4. [Mapping trimmed data](3_mapping_trimed_data/mapping.md)
+5. [Merge datasets per species](5_merge_data_sets/merge.md)
 5. [Quantify aligned reads](4_quantify_aligned_reads/quantify_reads.md)
 
