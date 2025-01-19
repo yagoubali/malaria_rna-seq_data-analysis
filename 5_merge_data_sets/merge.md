@@ -78,7 +78,12 @@ The downloaded annotation file for each for each species has attached as follows
    - Pv orthologous Pb  --> martquery_0116140813_393.txt.gz
    - Pv orthologous Pf  -->  martquery_0119171142_578.txt.gz
 
-
-
 ## Final gene IDs.
 - Retain genes with 1:1:1 orthologues across the three species.
+Venn diagrams are generated using [Venny 2.1 By Juan Carlos Oliveros](https://bioinfogp.cnb.csic.es/tools/venny/index.html)
+1. [Pb orthologous](pb_orthologous.csv)
+![Pb orthologous](pb_orthologous.png)
+2. [Pf orthologous](pf_orthologous.csv)
+![Pf orthologous](pf_orthologous.png)
+3. [Pv orthologous](pv_orthologous.csv)
+![Pv orthologous](pv_orthologous.png)
