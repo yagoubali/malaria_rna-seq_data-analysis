@@ -83,6 +83,15 @@ pv_orthologous=read.table("pv_orthologous.csv", header=T)
 pv_final=merge(pv_orthologous, pv_count, by="Geneid")
 dim(pv_final)
 write.table(pv_final, file="pv_count_orthologous.txt", row.names=F)
+
+######
+# # remove Chip-seq data  from Pb
+
+chip_seq=c("SRR10438730", "SRR10438731", "SRR9041561", "SRR9041562", "SRR9041563", "SRR9041564", "SRR9041565", "SRR9041566", "SRR10438732", "SRR10438733")
+pb_final2 = pb_final[,!(names(pb_final) %in% chip_seq)]
+dim(pb_final2)
+dim(pb_final)
+write.table(pb_final2, file="pb_count_orthologous_final.txt", row.names=F)
 ```
 
 ## Genes annotations files:
