@@ -8,6 +8,7 @@ To merge all datasets for each species, we follow these steps:
 5. Under "MULTI SPECIES COMPARISONS," apply the homologue filters to include only orthologous genes to *P. berghei*, ensuring to select unique results only.
 6. Source of the gene should be "ena."
 
+# script
 ```R
 pb=c("ERP004740_PE.txt", "ERP105548_PE.txt", "SRP027529_SE.txt", "SRP073801_PE.txt", "SRP099925_PE.txt", "SRP197607_PE.txt", "SRP197607_SE.txt", "SRP250329_SE.txt")
 pf=c("SRP048710_PE.txt", "SRP069075_SE.txt",  "SRP090611_SE.txt", "SRP142460_SE.txt", "SRP211863_PE.txt" )
@@ -94,7 +95,7 @@ dim(pb_final)
 write.table(pb_final2, file="pb_count_orthologous_final.txt", row.names=F)
 ```
 
-## Genes annotations files:
+# Genes annotations files:
 The downloaded annotation file for each for each species has attached as follows: 
 
 1. p breghei  --> 
@@ -108,7 +109,7 @@ The downloaded annotation file for each for each species has attached as follows
    - Pv orthologous Pb  --> martquery_0116140813_393.txt.gz
    - Pv orthologous Pf  -->  martquery_0119171142_578.txt.gz
 
-## Final gene IDs.
+# Final gene IDs.
 - Retain genes with 1:1:1 orthologues across the three species.
 Venn diagrams are generated using [Venny 2.1 By Juan Carlos Oliveros](https://bioinfogp.cnb.csic.es/tools/venny/index.html)
 1. [Pb orthologous](pb_orthologous.csv)
