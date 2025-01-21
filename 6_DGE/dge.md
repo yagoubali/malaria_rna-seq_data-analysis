@@ -82,7 +82,7 @@ names(DEGlist) <- name
 
 ## extract DEG
 for (i in 1:length(name)) {
-   out_file=paste0("DGE_", name[i], "csv")
+   out_file=paste0("DGE_", name[i], ".csv")
    write.csv(DEGlist[[i]], file=out_file)
 }
 
