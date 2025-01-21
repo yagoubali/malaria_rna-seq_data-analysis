@@ -80,6 +80,13 @@ DEGlist <- map(1:length(resultlist), function(x) {
 name <- as.character(names(resultlist))
 names(DEGlist) <- name
 
+## extract DEG
+for (i in 1:length(name)) {
+   out_file=paste0("DGE_", name[i], "csv")
+   write.csv(DEGlist[[i]], file=out_file)
+}
+
+
 #export summary stats for DEGs per comparison
 for (x in 1:length(resultlist)) {
   sink(paste(as.character(names(resultlist))[x],".txt"))
@@ -87,4 +94,9 @@ for (x in 1:length(resultlist)) {
   sink()
  }
 
+#export summary stats for DEGs per comparison
+for (x in 1:length(resultlist)) {
+  out_file= paste0(as.character(names(resultlist))[x],".csv")
+  write.csv(resultlist[[x]], file=out_file)
+ }
 ```
