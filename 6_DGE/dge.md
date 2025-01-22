@@ -45,10 +45,7 @@ p_value_cutoff <- 0.01
 
 
 
-## Pairwise comparsion
-contrast_oe = unique(as.character(Metadata$stage))
-res_tableOE_unshrunken <- results(dds, contrast=contrast_oe, alpha = 0.05)
-
+## Pairwise comparison
 #perform all possible pairwise comparisons https://hbctraining.github.io/DGE_workshop/lessons/05_DGE_DESeq2_analysis2.html
 resultlist <- list()
 
@@ -86,13 +83,6 @@ for (i in 1:length(name)) {
    write.csv(DEGlist[[i]], file=out_file)
 }
 
-
-#export summary stats for DEGs per comparison
-for (x in 1:length(resultlist)) {
-  sink(paste(as.character(names(resultlist))[x],".txt"))
-  print(summary(resultlist[[x]]))
-  sink()
- }
 
 #export summary stats for DEGs per comparison
 for (x in 1:length(resultlist)) {
