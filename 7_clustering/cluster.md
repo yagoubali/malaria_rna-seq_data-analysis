@@ -254,6 +254,6 @@ for ( i in 1:length(unique_labels)){
     indexes= which(sub_cluster_labels == unique_labels[i])
     out_file= gsub(" ", "", unique_labels[i])
     genes=genes_names[indexes]
-    write.table(as.data.frame(genes), file=out_file, row.names=F)
+    write.table(as.data.frame(genes), file=out_file, row.names=F, quote = FALSE)
     }
 ```

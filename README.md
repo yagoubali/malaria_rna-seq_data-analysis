@@ -11,4 +11,5 @@ The steps involved in this project, include:
 6. [Merge datasets per species](5_merge_data_sets/merge.md)
 7. [Differential gene expression analysis](6_DGE/dge.md)
 8. [Clustering](7_clustering/cluster.md)
+9. [Motif analysis](8_motif_analysis/motif.md)
 
