@@ -139,15 +139,25 @@ write.table(allupregstages_countsavrep_scaled, "up_sclustcountsavrep.csv", sep =
 myCol <- colorRampPalette(c('dodgerblue', 'black', 'yellow'))(100)
 myBreaks <- seq(-3, 3, length.out = 100)
 
-pamClustersallupreg <- cluster::pam( allupregstages_countsavrep_scaled, k = 3) # pre-select k = 3 centers
+
+### k
+k=3
+pamClustersallupreg <- cluster::pam( allupregstages_countsavrep_scaled, k = k) # pre-select k = 10 centers
 pamClustersallupreg$clustering <- paste0('Cluster ', pamClustersallupreg$clustering)
 
 # fix order of the clusters to have 1 to 3, top to bottom
+level_names=c()
+for ( i in 1:k){
+    level_names[i]= paste('Cluster', i)
+
+}
+
+
 pamClustersallupreg$clustering <- factor(pamClustersallupreg$clustering,
-                                          levels = c('Cluster 1', 'Cluster 2', 'Cluster 3'))
+                                          levels = level_names)
 
 # Specify the number of sub-clusters for each initial cluster
-num_sub_clusters <- c(4, 5, 6)
+num_sub_clusters <- c(4:(4+k-1))
 
 # Initialize a list to store sub-cluster results
 sub_cluster_labels <- list()
@@ -156,7 +166,7 @@ sub_cluster_labels <- list()
 
 
 # Iterate through the initial clusters
-for (i in 1:3) {
+for (i in 1:k) {
   # Extract genes in the current initial cluster
   cluster_genes <- allupregstages_countsavrep_scaled[pamClustersallupreg$clustering == paste0('Cluster ', i), ]
   
@@ -227,10 +237,23 @@ hmapallupreg <- Heatmap(allupregstages_countsavrep_scaled,
                          clustering_method_rows = 'ward.D2')
 
 # Draw the heatmap
-pdf("heatmap_pam.pdf")
+pdf("heatmap_pam_k3.pdf")
 draw(hmapallupreg #,
      #heatmap_legend_side = 'left' #,
      #row_sub_title_side = 'left'
      )
 dev.off()
+
+
+
+##
+# Extract genes of clusters
+genes_names=rownames(allupregstages_countsavrep_scaled)
+unique_labels= unique(as.character(sub_cluster_labels))
+for ( i in 1:length(unique_labels)){
+    indexes= which(sub_cluster_labels == unique_labels[i])
+    out_file= gsub(" ", "", unique_labels[i])
+    genes=genes_names[indexes]
+    write.table(as.data.frame(genes), file=out_file, row.names=F)
+    }
 ```
