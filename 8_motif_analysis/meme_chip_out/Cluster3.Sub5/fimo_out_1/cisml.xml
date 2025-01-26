@@ -1,0 +1,3232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Document definition -->
+<!-- http://zlab.bu.edu/~phaverty/SupplementalData/CisML/cisml.dtd -->
+<!DOCTYPE cis-element-search[
+<!ELEMENT cis-element-search (program-name, parameters, (pattern | multi-pattern-scan)*)>
+<!ELEMENT program-name (#PCDATA)>
+<!ELEMENT parameters (
+  pattern-file, 
+  sequence-file, 
+  background-seq-file?,
+  pattern-pvalue-cutoff?,
+  sequence-pvalue-cutoff?,
+  site-pvalue-cutoff?,
+  sequence-filtering,
+  ANY*
+ )>
+<!ELEMENT command-line (#PCDATA)>
+<!ELEMENT pattern-file (#PCDATA)>
+<!ELEMENT sequence-file (#PCDATA)>
+<!ELEMENT background-seq-file (#PCDATA)>
+<!ELEMENT pattern-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-pvalue-cutoff (#PCDATA)>
+<!ELEMENT site-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-filtering EMPTY>
+<!ELEMENT multi-pattern-scan (pattern+, ANY*)>
+<!ELEMENT pattern (scanned-sequence+, ANY*)>
+<!ELEMENT scanned-sequence (matched-element*, ANY*)>
+<!ELEMENT matched-element (sequence)>
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST cis-element-search
+xmlns:xsi CDATA #IMPLIED
+xmlns:mem CDATA #IMPLIED
+xsi:schemaLocation CDATA #IMPLIED
+>
+<!ATTLIST sequence-filtering
+on-off CDATA #REQUIRED
+type CDATA #IMPLIED
+>
+<!ATTLIST multi-pattern-scan
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+>
+<!ATTLIST pattern
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+pvalue CDATA #IMPLIED
+score CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST scanned-sequence
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+length CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST matched-element
+start CDATA #REQUIRED
+stop CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+clusterid CDATA #IMPLIED
+>
+
+]>
+<cis-element-search
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zlab.bu.edu/schema/cisml cisml.xsd"
+  xmlns="http://zlab.bu.edu/schema/cisml"
+  xmlns:mem="http://noble.gs.washington.edu/meme"
+>
+<program-name>fimo</program-name>
+<parameters>
+<command-line>fimo --verbosity 1 --oc meme_chip_out/Cluster3.Sub5/fimo_out_1 --bgfile meme_chip_out/Cluster3.Sub5/background --motif AAAAWRAAAAAATRA meme_chip_out/Cluster3.Sub5/meme_out/meme.xml meme_chip_out/Cluster3.Sub5/Cluster3.Sub5.fasta</command-line>
+<pattern-file>meme_chip_out/Cluster3.Sub5/meme_out/meme.xml</pattern-file>
+<sequence-file>meme_chip_out/Cluster3.Sub5/Cluster3.Sub5.fasta</sequence-file>
+<site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
+<sequence-filtering on-off="off"/>
+</parameters>
+<pattern accession="AAAAWRAAAAAATRA" name="MEME-2">
+<scanned-sequence accession="PBANKA_1011100.1" name="PBANKA_1011100.1">
+<matched-element start="338" stop="324" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1012500.1" name="PBANKA_1012500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1013700.1" name="PBANKA_1013700.1">
+<matched-element start="483" stop="497" score="15.4691" pvalue="1.82e-06">
+<sequence>AAAGAGAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="331" stop="345" score="11.5802" pvalue="6.33e-05">
+<sequence>AAAATGAAGAACAAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1014300.1" name="PBANKA_1014300.1">
+<matched-element start="648" stop="634" score="12.3333" pvalue="4.12e-05">
+<sequence>AAAAGGAAGAACAAA</sequence>
+<mem:qvalue>0.0453</mem:qvalue>
+</matched-element>
+<matched-element start="987" stop="1001" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAATAAAAAAAATA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1014900.1" name="PBANKA_1014900.1">
+<matched-element start="343" stop="357" score="10.8765" pvalue="9.33e-05">
+<sequence>AAAATAAACAAATAA</sequence>
+<mem:qvalue>0.0591</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1016300.1" name="PBANKA_1016300.1">
+<matched-element start="75" stop="61" score="11.321" pvalue="7.27e-05">
+<sequence>AAAAAAAAAAAATTG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="401" stop="415" score="11.0988" pvalue="8.32e-05">
+<sequence>AACAGGAATAAATAA</sequence>
+<mem:qvalue>0.0576</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1018400.1" name="PBANKA_1018400.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1018600.1" name="PBANKA_1018600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1019400.1" name="PBANKA_1019400.1">
+<matched-element start="454" stop="468" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="878" stop="864" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="875" stop="861" score="11.1605" pvalue="8.11e-05">
+<sequence>AGAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0573</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1022000.1" name="PBANKA_1022000.1">
+<matched-element start="222" stop="208" score="11.4691" pvalue="6.79e-05">
+<sequence>AAAAGAAAATAATGA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="820" stop="834" score="11.0494" pvalue="8.55e-05">
+<sequence>GGAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0584</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1023200.1" name="PBANKA_1023200.1">
+<matched-element start="684" stop="670" score="14.0988" pvalue="9.06e-06">
+<sequence>AAAAAGAAAAACAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="675" stop="661" score="12.6296" pvalue="3.37e-05">
+<sequence>AACAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="858" stop="872" score="12.3333" pvalue="4.12e-05">
+<sequence>AAAGGGAAGAAAAAA</sequence>
+<mem:qvalue>0.0453</mem:qvalue>
+</matched-element>
+<matched-element start="689" stop="675" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1024000.1" name="PBANKA_1024000.1">
+<matched-element start="800" stop="814" score="14.8395" pvalue="4.2e-06">
+<sequence>AAAAAGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="801" stop="815" score="11.6914" pvalue="5.96e-05">
+<sequence>AAAAGGAAAAAAAAT</sequence>
+<mem:qvalue>0.0541</mem:qvalue>
+</matched-element>
+<matched-element start="802" stop="816" score="11.6173" pvalue="6.15e-05">
+<sequence>AAAGGAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1026300.1" name="PBANKA_1026300.1">
+<matched-element start="790" stop="776" score="13.3827" pvalue="1.85e-05">
+<sequence>AACGTAGAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1027800.1" name="PBANKA_1027800.1">
+<matched-element start="668" stop="682" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="389" stop="403" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="390" stop="404" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="391" stop="405" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="392" stop="406" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="393" stop="407" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="394" stop="408" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="395" stop="409" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="396" stop="410" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="397" stop="411" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="399" stop="413" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="388" stop="402" score="11.4568" pvalue="6.89e-05">
+<sequence>GAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="400" stop="414" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+<matched-element start="503" stop="489" score="10.8025" pvalue="9.77e-05">
+<sequence>AACAAAAAATAATGA</sequence>
+<mem:qvalue>0.0602</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1028300.1" name="PBANKA_1028300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1028400.1" name="PBANKA_1028400.1">
+<matched-element start="996" stop="982" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1028600.1" name="PBANKA_1028600.1">
+<matched-element start="744" stop="758" score="14.8395" pvalue="4.2e-06">
+<sequence>AAAAAGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="745" stop="759" score="14.7654" pvalue="4.54e-06">
+<sequence>AAAAGGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="758" stop="772" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="769" stop="783" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="855" stop="841" score="13.2469" pvalue="2.18e-05">
+<sequence>AGCAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="757" stop="771" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="768" stop="782" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="759" stop="773" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="750" stop="764" score="12.8148" pvalue="2.94e-05">
+<sequence>GAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="746" stop="760" score="12.6543" pvalue="3.21e-05">
+<sequence>AAAGGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="771" stop="785" score="12.037" pvalue="4.97e-05">
+<sequence>AAAGAAAAAAAAAGG</sequence>
+<mem:qvalue>0.0501</mem:qvalue>
+</matched-element>
+<matched-element start="753" stop="767" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="764" stop="778" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="770" stop="784" score="11.3457" pvalue="7.15e-05">
+<sequence>AAAAGAAAAAAAAAG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1035100.1" name="PBANKA_1035100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1036500.1" name="PBANKA_1036500.1">
+<matched-element start="379" stop="365" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="380" stop="366" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="939" stop="925" score="11.321" pvalue="7.27e-05">
+<sequence>AAAAAAAAAAAATTG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="514" stop="500" score="11.1481" pvalue="8.23e-05">
+<sequence>AAAAAAACAAAATAA</sequence>
+<mem:qvalue>0.0574</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1102900.1" name="PBANKA_1102900.1">
+<matched-element start="842" stop="828" score="11.2469" pvalue="7.68e-05">
+<sequence>AAAAAGAAGAAAATA</sequence>
+<mem:qvalue>0.0561</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1103100.1" name="PBANKA_1103100.1">
+<matched-element start="804" stop="790" score="13.6914" pvalue="1.42e-05">
+<sequence>AAAAAGGAAAGAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="322" stop="336" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="323" stop="337" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="324" stop="338" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="325" stop="339" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="326" stop="340" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="327" stop="341" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="328" stop="342" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="329" stop="343" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="330" stop="344" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="331" stop="345" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+<matched-element start="335" stop="349" score="10.8025" pvalue="9.77e-05">
+<sequence>AAAAAAAAAAGCTGT</sequence>
+<mem:qvalue>0.0602</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1105700.1" name="PBANKA_1105700.1">
+<matched-element start="706" stop="720" score="14.1358" pvalue="8.54e-06">
+<sequence>AAAGTGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="190" stop="176" score="13.716" pvalue="1.35e-05">
+<sequence>AAAAAAAAAAAATGG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="465" stop="451" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="636" stop="650" score="12.6914" pvalue="3.1e-05">
+<sequence>AAAAAGAAAAAAAGT</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="193" stop="179" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="194" stop="180" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="195" stop="181" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="953" stop="939" score="11.5556" pvalue="6.53e-05">
+<sequence>AAAAAGAAATAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="635" stop="649" score="11.4198" pvalue="6.93e-05">
+<sequence>AAAAAAGAAAAAAAG</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="520" stop="534" score="11.2469" pvalue="7.68e-05">
+<sequence>AAAGTAAAAAACTGT</sequence>
+<mem:qvalue>0.0561</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1105800.1" name="PBANKA_1105800.1">
+<matched-element start="474" stop="460" score="14.1358" pvalue="8.54e-06">
+<sequence>AAAGTGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="715" stop="729" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="544" stop="530" score="12.6914" pvalue="3.1e-05">
+<sequence>AAAAAGAAAAAAAGT</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="985" stop="999" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="986" stop="1000" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="987" stop="1001" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="227" stop="241" score="11.5556" pvalue="6.53e-05">
+<sequence>AAAAAGAAATAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="545" stop="531" score="11.4198" pvalue="6.93e-05">
+<sequence>AAAAAAGAAAAAAAG</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="660" stop="646" score="11.2469" pvalue="7.68e-05">
+<sequence>AAAGTAAAAAACTGT</sequence>
+<mem:qvalue>0.0561</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1108100.1" name="PBANKA_1108100.1">
+<matched-element start="75" stop="89" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="77" stop="91" score="13.6543" pvalue="1.54e-05">
+<sequence>AAAGAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="74" stop="88" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="80" stop="94" score="13.037" pvalue="2.4e-05">
+<sequence>GAAAAAAAAAGATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="103" stop="117" score="12.4074" pvalue="3.95e-05">
+<sequence>AAAGAGGAGAAAAAA</sequence>
+<mem:qvalue>0.0445</mem:qvalue>
+</matched-element>
+<matched-element start="76" stop="90" score="11.3457" pvalue="7.15e-05">
+<sequence>AAAAGAAAAAAAAAG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1111900.1" name="PBANKA_1111900.1">
+<matched-element start="155" stop="169" score="11.321" pvalue="7.27e-05">
+<sequence>AAAGTGAAGAAAAGG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1113000.1" name="PBANKA_1113000.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1117100.1" name="PBANKA_1117100.1">
+<matched-element start="339" stop="353" score="14.642" pvalue="5.07e-06">
+<sequence>AAAGGGGAAAAATAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1118600.1" name="PBANKA_1118600.1">
+<matched-element start="989" stop="975" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="990" stop="976" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="724" stop="738" score="11.9136" pvalue="5.35e-05">
+<sequence>AAAGTGAAGAAATTA</sequence>
+<mem:qvalue>0.0517</mem:qvalue>
+</matched-element>
+<matched-element start="988" stop="974" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1120000.1" name="PBANKA_1120000.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1122000.1" name="PBANKA_1122000.1">
+<matched-element start="987" stop="1001" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="38" stop="24" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1124100.1" name="PBANKA_1124100.1">
+<matched-element start="527" stop="513" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1132600.1" name="PBANKA_1132600.1">
+<matched-element start="477" stop="463" score="15.4691" pvalue="1.82e-06">
+<sequence>AAAGAGAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="598" stop="584" score="11.8519" pvalue="5.58e-05">
+<sequence>AAAAAAAAGAAATAA</sequence>
+<mem:qvalue>0.052</mem:qvalue>
+</matched-element>
+<matched-element start="912" stop="926" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="913" stop="927" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1134500.1" name="PBANKA_1134500.1">
+<matched-element start="583" stop="597" score="13.3704" pvalue="1.91e-05">
+<sequence>AAAAAAGAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="264" stop="250" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="263" stop="249" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1141400.1" name="PBANKA_1141400.1">
+<matched-element start="461" stop="447" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="462" stop="448" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="463" stop="449" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="947" stop="961" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="948" stop="962" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="949" stop="963" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="950" stop="964" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="951" stop="965" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="952" stop="966" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="953" stop="967" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="954" stop="968" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="955" stop="969" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="956" stop="970" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="457" stop="443" score="11.9506" pvalue="5.21e-05">
+<sequence>AAAAAAAAAAACTGT</sequence>
+<mem:qvalue>0.0511</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1142300.1" name="PBANKA_1142300.1">
+<matched-element start="736" stop="750" score="11.9506" pvalue="5.21e-05">
+<sequence>AAAATAAAAAAAAGG</sequence>
+<mem:qvalue>0.0511</mem:qvalue>
+</matched-element>
+<matched-element start="361" stop="375" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAATAAAAAAAATA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1203400.1" name="PBANKA_1203400.1">
+<matched-element start="72" stop="58" score="13.3704" pvalue="1.91e-05">
+<sequence>AAAAAGAAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="235" stop="249" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="236" stop="250" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="237" stop="251" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="238" stop="252" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="234" stop="248" score="11.4568" pvalue="6.89e-05">
+<sequence>GAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="71" stop="57" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAAGAAAAAAATAT</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1205200.1" name="PBANKA_1205200.1">
+<matched-element start="487" stop="473" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="701" stop="715" score="12.3827" pvalue="4.01e-05">
+<sequence>AAAATAGAAAAAAGG</sequence>
+<mem:qvalue>0.045</mem:qvalue>
+</matched-element>
+<matched-element start="856" stop="842" score="12.1111" pvalue="4.86e-05">
+<sequence>AAAATAACAAAATGA</sequence>
+<mem:qvalue>0.0493</mem:qvalue>
+</matched-element>
+<matched-element start="593" stop="607" score="11.3951" pvalue="7.03e-05">
+<sequence>GAAATAAAAAAATTA</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="770" stop="784" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAATAAAAAAAATA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1210700.1" name="PBANKA_1210700.1">
+<matched-element start="482" stop="468" score="14.5432" pvalue="5.58e-06">
+<sequence>AAAAGAAAAAGATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1215800.1" name="PBANKA_1215800.1">
+<matched-element start="269" stop="255" score="13.2593" pvalue="2.17e-05">
+<sequence>AAAAAGAAAAGAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="100" stop="86" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="101" stop="87" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="98" stop="84" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="225" stop="239" score="11.1852" pvalue="7.83e-05">
+<sequence>AGAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+<matched-element start="97" stop="83" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1216500.1" name="PBANKA_1216500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1222700.1" name="PBANKA_1222700.1">
+<matched-element start="886" stop="872" score="17.1852" pvalue="6.57e-08">
+<sequence>AAAAGGAAAAACTGA</sequence>
+<mem:qvalue>0.0176</mem:qvalue>
+</matched-element>
+<matched-element start="199" stop="185" score="15.3333" pvalue="2.73e-06">
+<sequence>AAAAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="550" stop="536" score="12.9753" pvalue="2.52e-05">
+<sequence>AAAATAGAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="914" stop="900" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="915" stop="901" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="916" stop="902" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="917" stop="903" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="918" stop="904" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="911" stop="897" score="12.358" pvalue="4.07e-05">
+<sequence>AAAAAAAAAAAATAG</sequence>
+<mem:qvalue>0.0451</mem:qvalue>
+</matched-element>
+<matched-element start="127" stop="141" score="12.1111" pvalue="4.86e-05">
+<sequence>AAAATAACAAAATGA</sequence>
+<mem:qvalue>0.0493</mem:qvalue>
+</matched-element>
+<matched-element start="912" stop="898" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="921" stop="907" score="11.1481" pvalue="8.23e-05">
+<sequence>GACAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0574</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1222800.1" name="PBANKA_1222800.1">
+<matched-element start="691" stop="677" score="15.3333" pvalue="2.73e-06">
+<sequence>AAAAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="218" stop="204" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="353" stop="339" score="12.0123" pvalue="5.01e-05">
+<sequence>AAAATGAATAAATGA</sequence>
+<mem:qvalue>0.0503</mem:qvalue>
+</matched-element>
+<matched-element start="216" stop="202" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="215" stop="201" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1223500.1" name="PBANKA_1223500.1">
+<matched-element start="851" stop="865" score="15.7654" pvalue="1.33e-06">
+<sequence>AAAAAGAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="953" stop="967" score="14.8889" pvalue="4.06e-06">
+<sequence>AAAGGGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="843" stop="857" score="14.7531" pvalue="4.6e-06">
+<sequence>AAAAGAGAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="886" stop="900" score="14.5309" pvalue="5.63e-06">
+<sequence>AAAGAGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="909" stop="923" score="14.5309" pvalue="5.63e-06">
+<sequence>AAAGAGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="932" stop="946" score="14.5309" pvalue="5.63e-06">
+<sequence>AAAGAGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="859" stop="873" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="873" stop="887" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="896" stop="910" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="919" stop="933" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="865" stop="879" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="858" stop="872" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="872" stop="886" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="895" stop="909" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="918" stop="932" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="941" stop="955" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="860" stop="874" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="874" stop="888" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="897" stop="911" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="920" stop="934" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="942" stop="956" score="12.7901" pvalue="2.96e-05">
+<sequence>AAAAAGAAAAAAAAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="943" stop="957" score="12.7037" pvalue="3.09e-05">
+<sequence>AAAAGAAAAAAAAGG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="861" stop="875" score="12.2963" pvalue="4.31e-05">
+<sequence>AAAGAAAAAAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="888" stop="902" score="12.2346" pvalue="4.51e-05">
+<sequence>AGAGGAAAAAAAAGA</sequence>
+<mem:qvalue>0.0474</mem:qvalue>
+</matched-element>
+<matched-element start="911" stop="925" score="12.2346" pvalue="4.51e-05">
+<sequence>AGAGGAAAAAAAAGA</sequence>
+<mem:qvalue>0.0474</mem:qvalue>
+</matched-element>
+<matched-element start="934" stop="948" score="12.2346" pvalue="4.51e-05">
+<sequence>AGAGGAAAAAAAAGA</sequence>
+<mem:qvalue>0.0474</mem:qvalue>
+</matched-element>
+<matched-element start="408" stop="394" score="12.0988" pvalue="4.88e-05">
+<sequence>GGAGAAAAAAAATGA</sequence>
+<mem:qvalue>0.0494</mem:qvalue>
+</matched-element>
+<matched-element start="868" stop="882" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="850" stop="864" score="11.4198" pvalue="6.93e-05">
+<sequence>AAAAAAGAAAAAAAG</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="443" stop="457" score="10.9259" pvalue="9.05e-05">
+<sequence>GGAGGGGAAAAAATA</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+<matched-element start="841" stop="855" score="10.9136" pvalue="9.07e-05">
+<sequence>AAAAAAGAGAAAAAA</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+<matched-element start="863" stop="877" score="10.8272" pvalue="9.69e-05">
+<sequence>AGAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1223600.1" name="PBANKA_1223600.1">
+<matched-element start="30" stop="16" score="13.6543" pvalue="1.54e-05">
+<sequence>AAAGAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="215" stop="229" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="25" stop="11" score="11.8519" pvalue="5.58e-05">
+<sequence>AAAAAAAAGAAATAA</sequence>
+<mem:qvalue>0.052</mem:qvalue>
+</matched-element>
+<matched-element start="22" stop="8" score="11.5556" pvalue="6.53e-05">
+<sequence>AAAAAGAAATAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="757" stop="771" score="10.8519" pvalue="9.57e-05">
+<sequence>AAAATAGAGAAATTA</sequence>
+<mem:qvalue>0.0598</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1226300.1" name="PBANKA_1226300.1">
+<matched-element start="423" stop="409" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1226500.1" name="PBANKA_1226500.1">
+<matched-element start="398" stop="412" score="14.7901" pvalue="4.27e-06">
+<sequence>AAAGGGAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="528" stop="542" score="14.5185" pvalue="5.65e-06">
+<sequence>AAAAGGAAAAAATAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="527" stop="541" score="13.8025" pvalue="1.27e-05">
+<sequence>AAAAAGGAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="584" stop="570" score="11.1728" pvalue="8.01e-05">
+<sequence>GGCAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+<matched-element start="397" stop="411" score="11.0864" pvalue="8.39e-05">
+<sequence>AAAAGGGAAAAAATT</sequence>
+<mem:qvalue>0.0578</mem:qvalue>
+</matched-element>
+<matched-element start="643" stop="657" score="11.0494" pvalue="8.55e-05">
+<sequence>GGAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0584</mem:qvalue>
+</matched-element>
+<matched-element start="519" stop="533" score="10.9136" pvalue="9.07e-05">
+<sequence>GGAGAGAAAAAAAGG</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1228100.1" name="PBANKA_1228100.1">
+<matched-element start="511" stop="497" score="13.1235" pvalue="2.27e-05">
+<sequence>AAAAAGAAAAAATTG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1228300.1" name="PBANKA_1228300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1234000.1" name="PBANKA_1234000.1">
+<matched-element start="588" stop="602" score="13.5802" pvalue="1.71e-05">
+<sequence>AAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="566" stop="552" score="10.8889" pvalue="9.27e-05">
+<sequence>AAAAAAAAAAAAAGT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1234100.1" name="PBANKA_1234100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1234200.1" name="PBANKA_1234200.1">
+<matched-element start="289" stop="303" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="543" stop="557" score="13.8272" pvalue="1.26e-05">
+<sequence>AACGTGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="290" stop="304" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="950" stop="964" score="12.284" pvalue="4.32e-05">
+<sequence>AAAAAGAAGAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="288" stop="302" score="11.8889" pvalue="5.51e-05">
+<sequence>GAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="955" stop="969" score="11.1728" pvalue="8.01e-05">
+<sequence>GAAGAAAAAAACTTA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1235600.1" name="PBANKA_1235600.1">
+<matched-element start="982" stop="968" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="393" stop="407" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="400" stop="414" score="11.8889" pvalue="5.51e-05">
+<sequence>AAAAAAGAAAGAAAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="613" stop="627" score="11.7531" pvalue="5.84e-05">
+<sequence>AAAAAAGAAAAATTG</sequence>
+<mem:qvalue>0.0534</mem:qvalue>
+</matched-element>
+<matched-element start="980" stop="966" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAGAAAAAAAAATA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+<matched-element start="987" stop="973" score="11.0617" pvalue="8.48e-05">
+<sequence>AAAATAAAAAGAAAA</sequence>
+<mem:qvalue>0.0582</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1238200.1" name="PBANKA_1238200.1">
+<matched-element start="537" stop="523" score="13.3704" pvalue="1.91e-05">
+<sequence>AAAAAAGAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="198" stop="184" score="11.2963" pvalue="7.35e-05">
+<sequence>AAAGTAGAAAAAATA</sequence>
+<mem:qvalue>0.0555</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1240200.1" name="PBANKA_1240200.1">
+<matched-element start="957" stop="943" score="17.1358" pvalue="1.51e-07">
+<sequence>AAAAAGAAAAAATGA</sequence>
+<mem:qvalue>0.0176</mem:qvalue>
+</matched-element>
+<matched-element start="702" stop="716" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="969" stop="955" score="13.2593" pvalue="2.17e-05">
+<sequence>AAAAAGAAAAGAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="965" stop="951" score="12.6173" pvalue="3.39e-05">
+<sequence>AGAAAAGAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="698" stop="712" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="699" stop="713" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="974" stop="960" score="11.8148" pvalue="5.67e-05">
+<sequence>AAAAGAAAAAGAAAA</sequence>
+<mem:qvalue>0.0523</mem:qvalue>
+</matched-element>
+<matched-element start="980" stop="966" score="11.8148" pvalue="5.67e-05">
+<sequence>AAAAGAAAAAGAAAA</sequence>
+<mem:qvalue>0.0523</mem:qvalue>
+</matched-element>
+<matched-element start="701" stop="715" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="986" stop="972" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="962" stop="948" score="11.1481" pvalue="8.23e-05">
+<sequence>AAAGAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0574</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1240600.1" name="PBANKA_1240600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1302400.1" name="PBANKA_1302400.1">
+<matched-element start="463" stop="477" score="12.0494" pvalue="4.95e-05">
+<sequence>GAAATGAAAAGATTA</sequence>
+<mem:qvalue>0.0499</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1307700.1" name="PBANKA_1307700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1308600.1" name="PBANKA_1308600.1">
+<matched-element start="479" stop="493" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="687" stop="701" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="480" stop="494" score="11.3333" pvalue="7.22e-05">
+<sequence>AAAAAGAAAAAAAAT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1311600.1" name="PBANKA_1311600.1">
+<matched-element start="4" stop="18" score="14.4444" pvalue="5.96e-06">
+<sequence>AAAATGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="824" stop="838" score="13.5802" pvalue="1.71e-05">
+<sequence>AAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="832" stop="846" score="13.5802" pvalue="1.71e-05">
+<sequence>AAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="848" stop="862" score="13.2716" pvalue="2.11e-05">
+<sequence>AAAGTAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="856" stop="870" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAATAAAAAAAATA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1312500.1" name="PBANKA_1312500.1">
+<matched-element start="686" stop="700" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+<matched-element start="780" stop="766" score="10.8765" pvalue="9.33e-05">
+<sequence>AAAATAAACAAATAA</sequence>
+<mem:qvalue>0.0591</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1313400.1" name="PBANKA_1313400.1">
+<matched-element start="305" stop="319" score="14.3333" pvalue="7.55e-06">
+<sequence>AAAAGAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="73" stop="87" score="13.2593" pvalue="2.17e-05">
+<sequence>AAAATGAAGAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="304" stop="318" score="12.2222" pvalue="4.55e-05">
+<sequence>GAAAAGAAAAAAATA</sequence>
+<mem:qvalue>0.0478</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1315600.1" name="PBANKA_1315600.1">
+<matched-element start="464" stop="478" score="13.3704" pvalue="1.91e-05">
+<sequence>AAAAAGAAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="753" stop="739" score="11.2963" pvalue="7.35e-05">
+<sequence>AACATAGAAAAAATA</sequence>
+<mem:qvalue>0.0555</mem:qvalue>
+</matched-element>
+<matched-element start="465" stop="479" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAAGAAAAAAATAT</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+<matched-element start="644" stop="658" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAGAAAAAAAAATA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1323700.1" name="PBANKA_1323700.1">
+<matched-element start="226" stop="212" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="228" stop="214" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="229" stop="215" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="230" stop="216" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="81" stop="67" score="12.2963" pvalue="4.31e-05">
+<sequence>AACAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="221" stop="207" score="11.5926" pvalue="6.28e-05">
+<sequence>AAAAAAAAGAAATGG</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="227" stop="213" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1325000.1" name="PBANKA_1325000.1">
+<matched-element start="333" stop="319" score="12.9753" pvalue="2.52e-05">
+<sequence>AAAATGAAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="637" stop="651" score="12.2099" pvalue="4.69e-05">
+<sequence>AAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0483</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1329800.1" name="PBANKA_1329800.1">
+<matched-element start="254" stop="240" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="983" stop="997" score="12.2099" pvalue="4.69e-05">
+<sequence>AAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0483</mem:qvalue>
+</matched-element>
+<matched-element start="546" stop="532" score="11.9012" pvalue="5.45e-05">
+<sequence>AAAGTAAAAAAAAAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="562" stop="548" score="11.9012" pvalue="5.45e-05">
+<sequence>AAAGTAAAAAAAAAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="255" stop="241" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+<matched-element start="557" stop="543" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+<matched-element start="573" stop="559" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+<matched-element start="556" stop="542" score="10.8889" pvalue="9.27e-05">
+<sequence>AAAAAAAAAAAAAGT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+<matched-element start="572" stop="558" score="10.8889" pvalue="9.27e-05">
+<sequence>AAAAAAAAAAAAAGT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1331200.1" name="PBANKA_1331200.1">
+<matched-element start="867" stop="853" score="11.1481" pvalue="8.23e-05">
+<sequence>GAAAAAAAAAACAAA</sequence>
+<mem:qvalue>0.0574</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1333800.1" name="PBANKA_1333800.1">
+<matched-element start="901" stop="887" score="11.1111" pvalue="8.31e-05">
+<sequence>AAAAAAAAATAATGA</sequence>
+<mem:qvalue>0.0576</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1337200.1" name="PBANKA_1337200.1">
+<matched-element start="461" stop="475" score="14.4198" pvalue="6.22e-06">
+<sequence>AAAAGGAAAAAATGT</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="379" stop="365" score="12.5432" pvalue="3.71e-05">
+<sequence>AAAATAAAAAAATTA</sequence>
+<mem:qvalue>0.0424</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1339200.1" name="PBANKA_1339200.1">
+<matched-element start="224" stop="210" score="13.6667" pvalue="1.51e-05">
+<sequence>AAAGAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="225" stop="211" score="11.9259" pvalue="5.3e-05">
+<sequence>AAAAGAAAAAAAATA</sequence>
+<mem:qvalue>0.0516</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1341900.1" name="PBANKA_1341900.1">
+<matched-element start="38" stop="52" score="12.5309" pvalue="3.72e-05">
+<sequence>AAAACAAAAAAATGA</sequence>
+<mem:qvalue>0.0424</mem:qvalue>
+</matched-element>
+<matched-element start="106" stop="120" score="11.5185" pvalue="6.63e-05">
+<sequence>AAAACGAAAAGCTAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1343300.1" name="PBANKA_1343300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1345000.1" name="PBANKA_1345000.1">
+<matched-element start="595" stop="581" score="12.642" pvalue="3.26e-05">
+<sequence>AAAATAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="319" stop="305" score="11.6296" pvalue="6.11e-05">
+<sequence>AAAAGAAACAAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="631" stop="617" score="11.358" pvalue="7.13e-05">
+<sequence>AAAGAGAAAAAATTT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="90" stop="104" score="11.2593" pvalue="7.61e-05">
+<sequence>AACAAAAAAAAAATA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1345300.1" name="PBANKA_1345300.1">
+<matched-element start="494" stop="480" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="495" stop="481" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="281" stop="295" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="692" stop="678" score="12.7037" pvalue="3.09e-05">
+<sequence>AAAAAGAAAAAATAT</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="693" stop="679" score="12" pvalue="5.07e-05">
+<sequence>AAAAAAGAAAAAATA</sequence>
+<mem:qvalue>0.0503</mem:qvalue>
+</matched-element>
+<matched-element start="782" stop="768" score="11.5802" pvalue="6.33e-05">
+<sequence>AAAAAAGCAAAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="492" stop="478" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAGAAAAAAAAATA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1348400.1" name="PBANKA_1348400.1">
+<matched-element start="590" stop="604" score="12.679" pvalue="3.12e-05">
+<sequence>AAAGGAAAAAACTTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1349900.1" name="PBANKA_1349900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1352000.1" name="PBANKA_1352000.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1353100.1" name="PBANKA_1353100.1">
+<matched-element start="669" stop="655" score="12.2963" pvalue="4.31e-05">
+<sequence>AAAAAAAAAAACAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="288" stop="302" score="11.9506" pvalue="5.21e-05">
+<sequence>AAAGAAAAAAAATGT</sequence>
+<mem:qvalue>0.0511</mem:qvalue>
+</matched-element>
+<matched-element start="236" stop="250" score="11.5926" pvalue="6.28e-05">
+<sequence>AAAATGGAATAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="368" stop="354" score="11.5556" pvalue="6.53e-05">
+<sequence>AAAAAGAAATAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1357800.1" name="PBANKA_1357800.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1358600.1" name="PBANKA_1358600.1">
+<matched-element start="23" stop="9" score="11.7901" pvalue="5.8e-05">
+<sequence>GAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0532</mem:qvalue>
+</matched-element>
+<matched-element start="701" stop="715" score="11.1481" pvalue="8.23e-05">
+<sequence>AAAAAAAAAAGCAAA</sequence>
+<mem:qvalue>0.0574</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1361200.1" name="PBANKA_1361200.1">
+<matched-element start="393" stop="379" score="15.3333" pvalue="2.73e-06">
+<sequence>AAAAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="589" stop="575" score="12.2593" pvalue="4.37e-05">
+<sequence>AGAATGAACAAATGA</sequence>
+<mem:qvalue>0.0464</mem:qvalue>
+</matched-element>
+<matched-element start="247" stop="261" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1362400.1" name="PBANKA_1362400.1">
+<matched-element start="120" stop="134" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="121" stop="135" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="124" stop="138" score="11.321" pvalue="7.27e-05">
+<sequence>AAAAAAAAAAAATTG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1363300.1" name="PBANKA_1363300.1">
+<matched-element start="419" stop="433" score="12.1481" pvalue="4.78e-05">
+<sequence>GAAAGAAAAAAATTA</sequence>
+<mem:qvalue>0.0488</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1364200.1" name="PBANKA_1364200.1">
+<matched-element start="69" stop="83" score="11.3457" pvalue="7.15e-05">
+<sequence>AGAAAGAAAAAATTG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="514" stop="500" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAAAGGAGAGCAAA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1400600.1" name="PBANKA_1400600.1">
+<matched-element start="608" stop="622" score="14.3333" pvalue="7.55e-06">
+<sequence>AAAAGAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="607" stop="621" score="13.3704" pvalue="1.91e-05">
+<sequence>AAAAAGAAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="105" stop="119" score="12.9753" pvalue="2.52e-05">
+<sequence>AAAACGAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1402200.1" name="PBANKA_1402200.1">
+<matched-element start="827" stop="813" score="14.4321" pvalue="6.2e-06">
+<sequence>AAAGAGAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1405200.1" name="PBANKA_1405200.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1406100.1" name="PBANKA_1406100.1">
+<matched-element start="806" stop="820" score="11.2716" pvalue="7.47e-05">
+<sequence>AAAAAAAACAAATAA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1407700.1" name="PBANKA_1407700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1410400.1" name="PBANKA_1410400.1">
+<matched-element start="298" stop="312" score="10.9506" pvalue="8.91e-05">
+<sequence>AAAGAAAAAAACATA</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1415000.1" name="PBANKA_1415000.1">
+<matched-element start="496" stop="510" score="15.4444" pvalue="1.93e-06">
+<sequence>AAAAAGGAGAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="341" stop="327" score="11.6049" pvalue="6.22e-05">
+<sequence>AAAACGAAAAAAAAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1415500.1" name="PBANKA_1415500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1416100.1" name="PBANKA_1416100.1">
+<matched-element start="712" stop="698" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="710" stop="696" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="709" stop="695" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1418300.1" name="PBANKA_1418300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1423500.1" name="PBANKA_1423500.1">
+<matched-element start="479" stop="493" score="16.8642" pvalue="1.7e-07">
+<sequence>AAAGTGGAAAAATGA</sequence>
+<mem:qvalue>0.0176</mem:qvalue>
+</matched-element>
+<matched-element start="47" stop="33" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="48" stop="34" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="949" stop="935" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="948" stop="934" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1425100.1" name="PBANKA_1425100.1">
+<matched-element start="86" stop="100" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="424" stop="438" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="421" stop="407" score="13.6667" pvalue="1.51e-05">
+<sequence>AAAGAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="434" stop="448" score="13.6667" pvalue="1.51e-05">
+<sequence>AAAGAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="431" stop="445" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="422" stop="436" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="433" stop="447" score="11.9259" pvalue="5.3e-05">
+<sequence>AAAAGAAAAAAAATA</sequence>
+<mem:qvalue>0.0516</mem:qvalue>
+</matched-element>
+<matched-element start="91" stop="105" score="11.8519" pvalue="5.58e-05">
+<sequence>AAAAAAAAGAAATAA</sequence>
+<mem:qvalue>0.052</mem:qvalue>
+</matched-element>
+<matched-element start="427" stop="441" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="432" stop="446" score="11.3333" pvalue="7.22e-05">
+<sequence>AAAAAGAAAAAAAAT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="423" stop="437" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+<matched-element start="95" stop="109" score="10.963" pvalue="8.84e-05">
+<sequence>AAAAGAAATAAATGA</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+<matched-element start="84" stop="98" score="10.8272" pvalue="9.69e-05">
+<sequence>AGAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1427000.1" name="PBANKA_1427000.1">
+<matched-element start="548" stop="534" score="13.2716" pvalue="2.11e-05">
+<sequence>AAAGTAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="679" stop="693" score="12.7284" pvalue="3.04e-05">
+<sequence>AAAAAAGAAAACAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1427100.1" name="PBANKA_1427100.1">
+<matched-element start="206" stop="220" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1428800.1" name="PBANKA_1428800.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1429700.1" name="PBANKA_1429700.1">
+<matched-element start="776" stop="790" score="13.5802" pvalue="1.71e-05">
+<sequence>AAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1430100.1" name="PBANKA_1430100.1">
+<matched-element start="801" stop="787" score="11.9136" pvalue="5.35e-05">
+<sequence>AAAAAGAAAAGCATA</sequence>
+<mem:qvalue>0.0517</mem:qvalue>
+</matched-element>
+<matched-element start="811" stop="797" score="11.8395" pvalue="5.6e-05">
+<sequence>GGAAGGAAAAAAAAA</sequence>
+<mem:qvalue>0.0521</mem:qvalue>
+</matched-element>
+<matched-element start="228" stop="214" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1436200.1" name="PBANKA_1436200.1">
+<matched-element start="23" stop="9" score="12.9753" pvalue="2.52e-05">
+<sequence>AAAATGAAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1439900.1" name="PBANKA_1439900.1">
+<matched-element start="503" stop="517" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="571" stop="585" score="13.7654" pvalue="1.31e-05">
+<sequence>AACAGAAAAAAATGG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="500" stop="514" score="12.2963" pvalue="4.31e-05">
+<sequence>AACAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1440700.1" name="PBANKA_1440700.1">
+<matched-element start="12" stop="26" score="13.9136" pvalue="1.23e-05">
+<sequence>AACGAGGAAAACAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="198" stop="184" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="541" stop="555" score="11.1728" pvalue="8.01e-05">
+<sequence>GGAGAAGAAAAATAA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+<matched-element start="197" stop="183" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1443400.1" name="PBANKA_1443400.1">
+<matched-element start="644" stop="630" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAATGGAGAGAAAA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1447100.1" name="PBANKA_1447100.1">
+<matched-element start="947" stop="933" score="14.0247" pvalue="9.77e-06">
+<sequence>AAAGGAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="39" stop="25" score="13.5802" pvalue="1.71e-05">
+<sequence>AAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="907" stop="893" score="13.2716" pvalue="2.11e-05">
+<sequence>AAAGTAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1451600.1" name="PBANKA_1451600.1">
+<matched-element start="714" stop="728" score="12.9877" pvalue="2.45e-05">
+<sequence>AGAAGGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1457500.1" name="PBANKA_1457500.1">
+<matched-element start="609" stop="623" score="12.6296" pvalue="3.37e-05">
+<sequence>AAAGAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="606" stop="620" score="11.8889" pvalue="5.51e-05">
+<sequence>GAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="607" stop="621" score="11.3333" pvalue="7.22e-05">
+<sequence>AAAAAGAAAAAAAAT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="240" stop="254" score="10.7531" pvalue="9.96e-05">
+<sequence>AAAGTGGAAAACAAT</sequence>
+<mem:qvalue>0.0611</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1458100.1" name="PBANKA_1458100.1">
+<matched-element start="829" stop="843" score="13.2593" pvalue="2.17e-05">
+<sequence>AAAATGAAGAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="184" stop="170" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="511" stop="525" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="394" stop="380" score="12.358" pvalue="4.07e-05">
+<sequence>AAAGTGAAAAACATA</sequence>
+<mem:qvalue>0.0451</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1462200.1" name="PBANKA_1462200.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1463500.1" name="PBANKA_1463500.1">
+<matched-element start="788" stop="774" score="12.7037" pvalue="3.09e-05">
+<sequence>AAAAAGAAAAAATAT</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="789" stop="775" score="12" pvalue="5.07e-05">
+<sequence>AAAAAAGAAAAAATA</sequence>
+<mem:qvalue>0.0503</mem:qvalue>
+</matched-element>
+<matched-element start="793" stop="779" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1010800.1" name="PBANKA_1010800.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1012400.1" name="PBANKA_1012400.1">
+<matched-element start="962" stop="976" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="956" stop="970" score="11.9012" pvalue="5.45e-05">
+<sequence>AAAGTAAAAAAAAAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="961" stop="975" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1012800.1" name="PBANKA_1012800.1">
+<matched-element start="372" stop="358" score="12.1975" pvalue="4.74e-05">
+<sequence>AACGAAAAAAGAAGA</sequence>
+<mem:qvalue>0.0486</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1013100.1" name="PBANKA_1013100.1">
+<matched-element start="284" stop="298" score="11.9506" pvalue="5.21e-05">
+<sequence>AAAATGGCAAAATTA</sequence>
+<mem:qvalue>0.0511</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1015900.1" name="PBANKA_1015900.1">
+<matched-element start="763" stop="777" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1016000.1" name="PBANKA_1016000.1">
+<matched-element start="163" stop="149" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="952" stop="966" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="953" stop="967" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="955" stop="969" score="12.3457" pvalue="4.09e-05">
+<sequence>AAAAAAAAAAAAAGG</sequence>
+<mem:qvalue>0.0452</mem:qvalue>
+</matched-element>
+<matched-element start="954" stop="968" score="10.9877" pvalue="8.75e-05">
+<sequence>AAAAAAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1016400.1" name="PBANKA_1016400.1">
+<matched-element start="804" stop="818" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="809" stop="823" score="11.8519" pvalue="5.58e-05">
+<sequence>AAAAAAAAGAAATAA</sequence>
+<mem:qvalue>0.052</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1017100.1" name="PBANKA_1017100.1">
+<matched-element start="196" stop="210" score="13.7284" pvalue="1.34e-05">
+<sequence>AAAAGAGAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="513" stop="527" score="11.4938" pvalue="6.7e-05">
+<sequence>AGAATAAAAAACTAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1017200.1" name="PBANKA_1017200.1">
+<matched-element start="794" stop="808" score="15.5926" pvalue="1.49e-06">
+<sequence>AAAGAGGAAAACTAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1019200.1" name="PBANKA_1019200.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1020700.1" name="PBANKA_1020700.1">
+<matched-element start="217" stop="231" score="13.5802" pvalue="1.71e-05">
+<sequence>AAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1023000.1" name="PBANKA_1023000.1">
+<matched-element start="439" stop="425" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="440" stop="426" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="438" stop="424" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="557" stop="571" score="12.4321" pvalue="3.9e-05">
+<sequence>GAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0444</mem:qvalue>
+</matched-element>
+<matched-element start="447" stop="433" score="10.8519" pvalue="9.57e-05">
+<sequence>AAAGCAAAAAAAAGA</sequence>
+<mem:qvalue>0.0598</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1023600.1" name="PBANKA_1023600.1">
+<matched-element start="342" stop="356" score="16.1235" pvalue="6.15e-07">
+<sequence>AAAAGGAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="341" stop="355" score="13.2222" pvalue="2.18e-05">
+<sequence>AAAAAGGAAAAAAAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="351" stop="365" score="11.679" pvalue="5.99e-05">
+<sequence>AAAAGAAAAAAATTG</sequence>
+<mem:qvalue>0.0543</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1025100.1" name="PBANKA_1025100.1">
+<matched-element start="418" stop="404" score="11.0864" pvalue="8.39e-05">
+<sequence>GAAATAAAAAACTTA</sequence>
+<mem:qvalue>0.0578</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1025500.1" name="PBANKA_1025500.1">
+<matched-element start="645" stop="631" score="11.1605" pvalue="8.11e-05">
+<sequence>AAAATGAAATAATAA</sequence>
+<mem:qvalue>0.0573</mem:qvalue>
+</matched-element>
+<matched-element start="75" stop="89" score="10.9506" pvalue="8.91e-05">
+<sequence>AAAGAAAAAAACATA</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1026200.1" name="PBANKA_1026200.1">
+<matched-element start="480" stop="466" score="15.0617" pvalue="3.42e-06">
+<sequence>AAAATGAAAAACAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1027900.1" name="PBANKA_1027900.1">
+<matched-element start="498" stop="484" score="15.3333" pvalue="2.73e-06">
+<sequence>AAAAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="935" stop="949" score="13.7037" pvalue="1.4e-05">
+<sequence>AAAGTGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="732" stop="746" score="13.6173" pvalue="1.56e-05">
+<sequence>GAAAGGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="501" stop="487" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="502" stop="488" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="503" stop="489" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="504" stop="490" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="942" stop="956" score="12.358" pvalue="4.07e-05">
+<sequence>AAAAAAAAAAAATAG</sequence>
+<mem:qvalue>0.0451</mem:qvalue>
+</matched-element>
+<matched-element start="731" stop="745" score="11.9136" pvalue="5.35e-05">
+<sequence>GGAAAGGAAAAAAAA</sequence>
+<mem:qvalue>0.0517</mem:qvalue>
+</matched-element>
+<matched-element start="941" stop="955" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="32" stop="18" score="11.1111" pvalue="8.31e-05">
+<sequence>AAAAAAAAATAATGA</sequence>
+<mem:qvalue>0.0576</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1030300.1" name="PBANKA_1030300.1">
+<matched-element start="726" stop="712" score="13.5802" pvalue="1.71e-05">
+<sequence>AAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="432" stop="446" score="12.8642" pvalue="2.83e-05">
+<sequence>GAAATGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="471" stop="457" score="11.037" pvalue="8.58e-05">
+<sequence>AACAGAAAAAAAAAG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1035300.1" name="PBANKA_1035300.1">
+<matched-element start="968" stop="982" score="17.1358" pvalue="1.51e-07">
+<sequence>AAAAAGAAAAAATGA</sequence>
+<mem:qvalue>0.0176</mem:qvalue>
+</matched-element>
+<matched-element start="914" stop="928" score="12.8272" pvalue="2.92e-05">
+<sequence>GAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="688" stop="702" score="12.6543" pvalue="3.21e-05">
+<sequence>AAAAGAAAAAACAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1103200.1" name="PBANKA_1103200.1">
+<matched-element start="425" stop="439" score="12.642" pvalue="3.26e-05">
+<sequence>AAAATAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1103300.1" name="PBANKA_1103300.1">
+<matched-element start="657" stop="671" score="14.3951" pvalue="6.87e-06">
+<sequence>AAAAAAGAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="751" stop="765" score="13.5556" pvalue="1.75e-05">
+<sequence>AGAAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="873" stop="887" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="874" stop="888" score="12.2963" pvalue="4.31e-05">
+<sequence>AAAGAAAAAAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="556" stop="570" score="11.8148" pvalue="5.67e-05">
+<sequence>AAAGGGGAAAAAAAT</sequence>
+<mem:qvalue>0.0523</mem:qvalue>
+</matched-element>
+<matched-element start="877" stop="891" score="11.4568" pvalue="6.89e-05">
+<sequence>GAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="881" stop="895" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAAAAAAAAACATA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+<matched-element start="876" stop="890" score="10.8272" pvalue="9.69e-05">
+<sequence>AGAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1104400.1" name="PBANKA_1104400.1">
+<matched-element start="889" stop="875" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="942" stop="956" score="12.7407" pvalue="3.01e-05">
+<sequence>AAAAGGAAAAACAGT</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="214" stop="200" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1104900.1" name="PBANKA_1104900.1">
+<matched-element start="567" stop="553" score="15.3333" pvalue="2.73e-06">
+<sequence>AAAAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="543" stop="529" score="12.321" pvalue="4.16e-05">
+<sequence>AGAGAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0455</mem:qvalue>
+</matched-element>
+<matched-element start="450" stop="464" score="12.2099" pvalue="4.69e-05">
+<sequence>AAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0483</mem:qvalue>
+</matched-element>
+<matched-element start="882" stop="896" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAATAAAGAAATAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="546" stop="532" score="11.2716" pvalue="7.47e-05">
+<sequence>AAAAGAGAGAAAAAA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1108600.1" name="PBANKA_1108600.1">
+<matched-element start="733" stop="747" score="14.7531" pvalue="4.6e-06">
+<sequence>AAAAGAGAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="731" stop="745" score="10.9136" pvalue="9.07e-05">
+<sequence>AAAAAAGAGAAAAAA</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+<matched-element start="680" stop="694" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1110500.1" name="PBANKA_1110500.1">
+<matched-element start="772" stop="786" score="13.7284" pvalue="1.34e-05">
+<sequence>AAAGTGAAAAACTTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="872" stop="858" score="11.0247" pvalue="8.64e-05">
+<sequence>AAAGAAGAAAAATAT</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1112300.1" name="PBANKA_1112300.1">
+<matched-element start="488" stop="474" score="13.2716" pvalue="2.11e-05">
+<sequence>AACATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1112500.1" name="PBANKA_1112500.1">
+<matched-element start="937" stop="923" score="14.0123" pvalue="1.04e-05">
+<sequence>AAAATGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="721" stop="707" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1112900.1" name="PBANKA_1112900.1">
+<matched-element start="515" stop="501" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAATAAAAAAAATA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1113500.1" name="PBANKA_1113500.1">
+<matched-element start="517" stop="531" score="15.2222" pvalue="2.78e-06">
+<sequence>AACAGGGAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="6" stop="20" score="13.3704" pvalue="1.91e-05">
+<sequence>AAAAAGAAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="985" stop="999" score="13.0741" pvalue="2.3e-05">
+<sequence>AAAAAGAACAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1113900.1" name="PBANKA_1113900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1119700.1" name="PBANKA_1119700.1">
+<matched-element start="697" stop="683" score="15.7778" pvalue="1.2e-06">
+<sequence>AAAAAGAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="550" stop="564" score="12.2963" pvalue="4.31e-05">
+<sequence>AACAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="511" stop="497" score="12.2099" pvalue="4.69e-05">
+<sequence>AAAATGAAAAGCTGT</sequence>
+<mem:qvalue>0.0483</mem:qvalue>
+</matched-element>
+<matched-element start="698" stop="684" score="12" pvalue="5.07e-05">
+<sequence>AAAAAAGAAAAAATA</sequence>
+<mem:qvalue>0.0503</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1120800.1" name="PBANKA_1120800.1">
+<matched-element start="494" stop="480" score="12.5926" pvalue="3.52e-05">
+<sequence>GGAAAGAAAAAATGG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="626" stop="612" score="11.4815" pvalue="6.77e-05">
+<sequence>AAAAAAAACAGATGA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="407" stop="421" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAATAAAGAAATAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1123500.1" name="PBANKA_1123500.1">
+<matched-element start="73" stop="59" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="74" stop="60" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="76" stop="62" score="11.4568" pvalue="6.89e-05">
+<sequence>GAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1126200.1" name="PBANKA_1126200.1">
+<matched-element start="532" stop="546" score="10.9136" pvalue="9.07e-05">
+<sequence>AAAACAAAAAAATGG</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1133500.1" name="PBANKA_1133500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1133700.1" name="PBANKA_1133700.1">
+<matched-element start="42" stop="56" score="11.7037" pvalue="5.91e-05">
+<sequence>AAAAAGAACAAAAAA</sequence>
+<mem:qvalue>0.0537</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1134100.1" name="PBANKA_1134100.1">
+<matched-element start="238" stop="224" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="236" stop="222" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="235" stop="221" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1138000.1" name="PBANKA_1138000.1">
+<matched-element start="434" stop="448" score="12.1235" pvalue="4.83e-05">
+<sequence>AAAAAGGAACACTAA</sequence>
+<mem:qvalue>0.0492</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1138200.1" name="PBANKA_1138200.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1143500.1" name="PBANKA_1143500.1">
+<matched-element start="99" stop="113" score="13.1235" pvalue="2.27e-05">
+<sequence>AAAAAGAAAAAATTG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1215100.1" name="PBANKA_1215100.1">
+<matched-element start="570" stop="584" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="571" stop="585" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="572" stop="586" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="452" stop="466" score="11.9877" pvalue="5.12e-05">
+<sequence>AACAAAAAAAACAAA</sequence>
+<mem:qvalue>0.0507</mem:qvalue>
+</matched-element>
+<matched-element start="715" stop="701" score="11.2963" pvalue="7.35e-05">
+<sequence>AACATAGAAAAAATA</sequence>
+<mem:qvalue>0.0555</mem:qvalue>
+</matched-element>
+<matched-element start="44" stop="30" score="11.1481" pvalue="8.23e-05">
+<sequence>AAAAAAACAAAATAA</sequence>
+<mem:qvalue>0.0574</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1216600.1" name="PBANKA_1216600.1">
+<matched-element start="348" stop="334" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="349" stop="335" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="350" stop="336" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="351" stop="337" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="352" stop="338" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="353" stop="339" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="354" stop="340" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="355" stop="341" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="356" stop="342" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="357" stop="343" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="358" stop="344" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="359" stop="345" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="360" stop="346" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="361" stop="347" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1218500.1" name="PBANKA_1218500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1221600.1" name="PBANKA_1221600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1222100.1" name="PBANKA_1222100.1">
+<matched-element start="750" stop="764" score="12.7531" pvalue="3e-05">
+<sequence>AACGAGAAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1224000.1" name="PBANKA_1224000.1">
+<matched-element start="501" stop="515" score="15.3827" pvalue="2.28e-06">
+<sequence>AAAATGAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="422" stop="408" score="14.5432" pvalue="5.58e-06">
+<sequence>AAAGGGGAAAAATGT</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="378" stop="364" score="13.6667" pvalue="1.51e-05">
+<sequence>AAAATGAAAAAATGT</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1224500.1" name="PBANKA_1224500.1">
+<matched-element start="134" stop="148" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="135" stop="149" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="136" stop="150" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="137" stop="151" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="138" stop="152" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="140" stop="154" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="133" stop="147" score="11.4568" pvalue="6.89e-05">
+<sequence>GAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="342" stop="356" score="10.8025" pvalue="9.77e-05">
+<sequence>AAAGAAAAATAATGA</sequence>
+<mem:qvalue>0.0602</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1226000.1" name="PBANKA_1226000.1">
+<matched-element start="881" stop="895" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="882" stop="896" score="12.2963" pvalue="4.31e-05">
+<sequence>AAAGAAAAAAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="884" stop="898" score="10.8272" pvalue="9.69e-05">
+<sequence>AGAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1227900.1" name="PBANKA_1227900.1">
+<matched-element start="549" stop="535" score="14.0123" pvalue="1.04e-05">
+<sequence>AAAATGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="142" stop="128" score="13.0617" pvalue="2.36e-05">
+<sequence>AACAAAGAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="99" stop="85" score="12.8642" pvalue="2.83e-05">
+<sequence>GAAATGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="349" stop="335" score="11.3704" pvalue="7.08e-05">
+<sequence>AAAATGGAAAAAAAT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1230300.1" name="PBANKA_1230300.1">
+<matched-element start="285" stop="271" score="10.9877" pvalue="8.75e-05">
+<sequence>AACATAGAAAACATA</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1234300.1" name="PBANKA_1234300.1">
+<matched-element start="343" stop="329" score="11.0988" pvalue="8.32e-05">
+<sequence>AAAAAGGAGAAAAAG</sequence>
+<mem:qvalue>0.0576</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1234500.1" name="PBANKA_1234500.1">
+<matched-element start="709" stop="723" score="11.3333" pvalue="7.22e-05">
+<sequence>AAAAAAGAAAAATAT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="443" stop="429" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1237600.1" name="PBANKA_1237600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1242000.1" name="PBANKA_1242000.1">
+<matched-element start="208" stop="194" score="11.1111" pvalue="8.31e-05">
+<sequence>GAAAAAAAAAAATGT</sequence>
+<mem:qvalue>0.0576</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1242300.1" name="PBANKA_1242300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1243600.1" name="PBANKA_1243600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1300700.1" name="PBANKA_1300700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1312200.1" name="PBANKA_1312200.1">
+<matched-element start="263" stop="249" score="11.1481" pvalue="8.23e-05">
+<sequence>GAAGAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0574</mem:qvalue>
+</matched-element>
+<matched-element start="475" stop="489" score="11.0864" pvalue="8.39e-05">
+<sequence>AAAATGGATAAATAA</sequence>
+<mem:qvalue>0.0578</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1312300.1" name="PBANKA_1312300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1314300.1" name="PBANKA_1314300.1">
+<matched-element start="658" stop="672" score="15.3827" pvalue="2.28e-06">
+<sequence>AAAATGAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="488" stop="474" score="14.6049" pvalue="5.5e-06">
+<sequence>AACGGGGACAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="638" stop="652" score="13.321" pvalue="1.96e-05">
+<sequence>AAAATAAAAAAATGG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="435" stop="421" score="11.4938" pvalue="6.7e-05">
+<sequence>AGCATAAAAAAATAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1325300.1" name="PBANKA_1325300.1">
+<matched-element start="810" stop="824" score="14.3457" pvalue="7.25e-06">
+<sequence>AAAATGAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="282" stop="268" score="13.0617" pvalue="2.36e-05">
+<sequence>AACAAAGAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="545" stop="559" score="11.2593" pvalue="7.61e-05">
+<sequence>AACAAAAAAAAAATA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1329300.1" name="PBANKA_1329300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1329500.1" name="PBANKA_1329500.1">
+<matched-element start="509" stop="523" score="13.6914" pvalue="1.42e-05">
+<sequence>AAAAAGGAAAGAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="993" stop="979" score="10.8519" pvalue="9.57e-05">
+<sequence>AAAGCAAAAAAAAGA</sequence>
+<mem:qvalue>0.0598</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1332100.1" name="PBANKA_1332100.1">
+<matched-element start="314" stop="300" score="10.9383" pvalue="9e-05">
+<sequence>AAAATGAAAAAAAAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1333300.1" name="PBANKA_1333300.1">
+<matched-element start="593" stop="607" score="12.5556" pvalue="3.58e-05">
+<sequence>AGAAGAAAAAAATAA</sequence>
+<mem:qvalue>0.0411</mem:qvalue>
+</matched-element>
+<matched-element start="181" stop="167" score="12.4198" pvalue="3.93e-05">
+<sequence>AAAGTGGAAAAAAGT</sequence>
+<mem:qvalue>0.0444</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1335500.1" name="PBANKA_1335500.1">
+<matched-element start="772" stop="758" score="14" pvalue="1.06e-05">
+<sequence>AAAAGGAAGAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="480" stop="466" score="11.7037" pvalue="5.91e-05">
+<sequence>GGCATAAAAAAATGA</sequence>
+<mem:qvalue>0.0537</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1341100.1" name="PBANKA_1341100.1">
+<matched-element start="967" stop="981" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="687" stop="673" score="13.2593" pvalue="2.17e-05">
+<sequence>GAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="966" stop="980" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="968" stop="982" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="692" stop="678" score="12.8642" pvalue="2.83e-05">
+<sequence>AAAATGAAAAGAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="686" stop="672" score="11.3457" pvalue="7.15e-05">
+<sequence>AAAAGAAAAAAAAAG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="751" stop="737" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1341800.1" name="PBANKA_1341800.1">
+<matched-element start="720" stop="734" score="12.2963" pvalue="4.31e-05">
+<sequence>AAAAAAAAAAACAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1344300.1" name="PBANKA_1344300.1">
+<matched-element start="132" stop="118" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="819" stop="805" score="12.5432" pvalue="3.71e-05">
+<sequence>AAAATAAAAAAATTA</sequence>
+<mem:qvalue>0.0424</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1345200.1" name="PBANKA_1345200.1">
+<matched-element start="463" stop="477" score="12.284" pvalue="4.32e-05">
+<sequence>AAAAAGAAGAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="642" stop="656" score="11.8025" pvalue="5.72e-05">
+<sequence>GAAATGAAGAACTAA</sequence>
+<mem:qvalue>0.0526</mem:qvalue>
+</matched-element>
+<matched-element start="458" stop="472" score="11.2716" pvalue="7.47e-05">
+<sequence>GAAATAAAAAGAAGA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+<matched-element start="556" stop="570" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1346600.1" name="PBANKA_1346600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1347400.1" name="PBANKA_1347400.1">
+<matched-element start="448" stop="462" score="16.3086" pvalue="3.96e-07">
+<sequence>AAAAGGGAAAAATGG</sequence>
+<mem:qvalue>0.0329</mem:qvalue>
+</matched-element>
+<matched-element start="421" stop="435" score="15.8765" pvalue="7.43e-07">
+<sequence>AAAAGGAAAAAATGG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="456" stop="470" score="15.4938" pvalue="1.61e-06">
+<sequence>AAAATGGAAAACAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="412" stop="426" score="14.6296" pvalue="5.41e-06">
+<sequence>AAAGGGGAAAAAAGG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="963" stop="949" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="439" stop="453" score="13.7531" pvalue="1.32e-05">
+<sequence>AAAATGAAAAAAAGG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="686" stop="672" score="12.7284" pvalue="3.04e-05">
+<sequence>AAAAAAGAAAACAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="966" stop="952" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="159" stop="145" score="12.4198" pvalue="3.93e-05">
+<sequence>GAAATAAAAAAAAGA</sequence>
+<mem:qvalue>0.0444</mem:qvalue>
+</matched-element>
+<matched-element start="420" stop="434" score="12.1852" pvalue="4.75e-05">
+<sequence>AAAAAGGAAAAAATG</sequence>
+<mem:qvalue>0.0486</mem:qvalue>
+</matched-element>
+<matched-element start="964" stop="950" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="429" stop="443" score="11.3704" pvalue="7.08e-05">
+<sequence>AAAATGGAAAAAAAT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="867" stop="853" score="11.1605" pvalue="8.11e-05">
+<sequence>AAAAAGAAGAGCTTA</sequence>
+<mem:qvalue>0.0573</mem:qvalue>
+</matched-element>
+<matched-element start="115" stop="101" score="10.8519" pvalue="9.57e-05">
+<sequence>AAAAAAGAAAGAATA</sequence>
+<mem:qvalue>0.0598</mem:qvalue>
+</matched-element>
+<matched-element start="811" stop="797" score="10.7778" pvalue="9.83e-05">
+<sequence>AAAGGGGAAAAAATT</sequence>
+<mem:qvalue>0.0605</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1347500.1" name="PBANKA_1347500.1">
+<matched-element start="700" stop="714" score="14.5185" pvalue="5.65e-06">
+<sequence>AAAAGGAAAAAATAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="699" stop="713" score="13.8025" pvalue="1.27e-05">
+<sequence>AAAAAGGAAAAAATA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="246" stop="232" score="12.9877" pvalue="2.45e-05">
+<sequence>AAAATGGCAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="219" stop="205" score="11.3704" pvalue="7.08e-05">
+<sequence>AAAATGGCAAAATAG</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1347600.1" name="PBANKA_1347600.1">
+<matched-element start="480" stop="466" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="483" stop="469" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="484" stop="470" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="485" stop="471" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="481" stop="467" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1347900.1" name="PBANKA_1347900.1">
+<matched-element start="975" stop="961" score="11.9012" pvalue="5.45e-05">
+<sequence>AACATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1348500.1" name="PBANKA_1348500.1">
+<matched-element start="696" stop="682" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="457" stop="471" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="695" stop="681" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="697" stop="683" score="11.8889" pvalue="5.51e-05">
+<sequence>GAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="503" stop="517" score="11.716" pvalue="5.88e-05">
+<sequence>GAAAGAACAAAATGA</sequence>
+<mem:qvalue>0.0537</mem:qvalue>
+</matched-element>
+<matched-element start="456" stop="470" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="802" stop="788" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="807" stop="793" score="11.0617" pvalue="8.48e-05">
+<sequence>GAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0582</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1351000.1" name="PBANKA_1351000.1">
+<matched-element start="258" stop="244" score="13.7407" pvalue="1.32e-05">
+<sequence>AAAAGGGCAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="602" stop="588" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="972" stop="958" score="11.5802" pvalue="6.33e-05">
+<sequence>AGCGAAAAAAAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1352400.1" name="PBANKA_1352400.1">
+<matched-element start="819" stop="833" score="12.358" pvalue="4.07e-05">
+<sequence>AAAAAAAAAAAATAG</sequence>
+<mem:qvalue>0.0451</mem:qvalue>
+</matched-element>
+<matched-element start="199" stop="213" score="11.5062" pvalue="6.65e-05">
+<sequence>AAAAGAAAAAGCAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1353700.1" name="PBANKA_1353700.1">
+<matched-element start="246" stop="260" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="245" stop="259" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="247" stop="261" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="241" stop="255" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1354400.1" name="PBANKA_1354400.1">
+<matched-element start="203" stop="217" score="15.7778" pvalue="1.2e-06">
+<sequence>AAAAAGAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="160" stop="174" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="189" stop="203" score="14.4074" pvalue="6.8e-06">
+<sequence>AAAAAGAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="152" stop="166" score="14.321" pvalue="7.77e-06">
+<sequence>AAAAGAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="172" stop="186" score="14.321" pvalue="7.77e-06">
+<sequence>AAAAGAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="181" stop="195" score="14.321" pvalue="7.77e-06">
+<sequence>AAAAGAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="50" stop="64" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="195" stop="209" score="13.963" pvalue="1.21e-05">
+<sequence>AAAAAAAAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="159" stop="173" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="170" stop="184" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="179" stop="193" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="188" stop="202" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="161" stop="175" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="190" stop="204" score="12.963" pvalue="2.59e-05">
+<sequence>AAAAGAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="151" stop="165" score="12.7901" pvalue="2.96e-05">
+<sequence>AAAAAGAAAAAAAAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="171" stop="185" score="12.7901" pvalue="2.96e-05">
+<sequence>AAAAAGAAAAAAAAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="180" stop="194" score="12.7901" pvalue="2.96e-05">
+<sequence>AAAAAGAAAAAAAAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="191" stop="205" score="12.2963" pvalue="4.31e-05">
+<sequence>AAAGAAAAAAAAAAA</sequence>
+<mem:qvalue>0.046</mem:qvalue>
+</matched-element>
+<matched-element start="132" stop="146" score="12.2099" pvalue="4.69e-05">
+<sequence>AAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0483</mem:qvalue>
+</matched-element>
+<matched-element start="202" stop="216" score="12" pvalue="5.07e-05">
+<sequence>AAAAAAGAAAAAATA</sequence>
+<mem:qvalue>0.0503</mem:qvalue>
+</matched-element>
+<matched-element start="49" stop="63" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="166" stop="180" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="198" stop="212" score="11.4568" pvalue="6.89e-05">
+<sequence>AAAAAAAAAAGAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="193" stop="207" score="10.8272" pvalue="9.69e-05">
+<sequence>AGAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1358300.1" name="PBANKA_1358300.1">
+<matched-element start="983" stop="997" score="11.1605" pvalue="8.11e-05">
+<sequence>AGAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0573</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1401300.1" name="PBANKA_1401300.1">
+<matched-element start="473" stop="487" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAACAAAAAAATAA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1402500.1" name="PBANKA_1402500.1">
+<matched-element start="42" stop="28" score="11.8889" pvalue="5.51e-05">
+<sequence>AGAGAAAAAAAATAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1405500.1" name="PBANKA_1405500.1">
+<matched-element start="481" stop="495" score="11.2469" pvalue="7.68e-05">
+<sequence>GACAAGAAAAAATAT</sequence>
+<mem:qvalue>0.0561</mem:qvalue>
+</matched-element>
+<matched-element start="514" stop="528" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAATAAAAAAAATA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1406800.1" name="PBANKA_1406800.1">
+<matched-element start="778" stop="792" score="12.2099" pvalue="4.69e-05">
+<sequence>AAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0483</mem:qvalue>
+</matched-element>
+<matched-element start="769" stop="783" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAGAAAAAAAAATA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1409200.1" name="PBANKA_1409200.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1417600.1" name="PBANKA_1417600.1">
+<matched-element start="560" stop="546" score="15.0988" pvalue="3.06e-06">
+<sequence>AAAAGGAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="448" stop="434" score="14.9383" pvalue="4.04e-06">
+<sequence>AAAATAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1422700.1" name="PBANKA_1422700.1">
+<matched-element start="236" stop="222" score="10.8642" pvalue="9.47e-05">
+<sequence>AAAGTAAAAAAAATA</sequence>
+<mem:qvalue>0.0596</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1423600.1" name="PBANKA_1423600.1">
+<matched-element start="322" stop="336" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="323" stop="337" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="547" stop="561" score="11.8889" pvalue="5.51e-05">
+<sequence>AGCAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="659" stop="673" score="11.1852" pvalue="7.83e-05">
+<sequence>AAAATAGCAAAATAA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1424200.1" name="PBANKA_1424200.1">
+<matched-element start="783" stop="797" score="10.8642" pvalue="9.47e-05">
+<sequence>AAAGTAAAAAAAATA</sequence>
+<mem:qvalue>0.0596</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1424300.1" name="PBANKA_1424300.1">
+<matched-element start="214" stop="228" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="213" stop="227" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="211" stop="225" score="11.4568" pvalue="6.89e-05">
+<sequence>GAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="321" stop="307" score="11.3086" pvalue="7.3e-05">
+<sequence>AAAATGAACAAAAAA</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1432800.1" name="PBANKA_1432800.1">
+<matched-element start="350" stop="336" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="334" stop="320" score="12.2099" pvalue="4.69e-05">
+<sequence>AAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0483</mem:qvalue>
+</matched-element>
+<matched-element start="351" stop="337" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="604" stop="618" score="11.0123" pvalue="8.68e-05">
+<sequence>AACAAAAAAAAATTG</sequence>
+<mem:qvalue>0.0585</mem:qvalue>
+</matched-element>
+<matched-element start="715" stop="729" score="10.8642" pvalue="9.47e-05">
+<sequence>AAAATAAAAAACATA</sequence>
+<mem:qvalue>0.0596</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1433800.1" name="PBANKA_1433800.1">
+<matched-element start="516" stop="502" score="13.7284" pvalue="1.34e-05">
+<sequence>AAAAGAGAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="525" stop="511" score="13.2469" pvalue="2.18e-05">
+<sequence>GAAAAAGAAAAAAGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="496" stop="482" score="11.8519" pvalue="5.58e-05">
+<sequence>AAAAAAAAGAAATAA</sequence>
+<mem:qvalue>0.052</mem:qvalue>
+</matched-element>
+<matched-element start="493" stop="479" score="11.5556" pvalue="6.53e-05">
+<sequence>AAAAAGAAATAATAA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="224" stop="238" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAACAAAAAAATAA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1434200.1" name="PBANKA_1434200.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1438300.1" name="PBANKA_1438300.1">
+<matched-element start="986" stop="1000" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="987" stop="1001" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="870" stop="884" score="11.3086" pvalue="7.3e-05">
+<sequence>AAAAGGGAATAATTA</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1440800.1" name="PBANKA_1440800.1">
+<matched-element start="970" stop="956" score="11.5556" pvalue="6.53e-05">
+<sequence>GAAAAGAAAAAATAT</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1441500.1" name="PBANKA_1441500.1">
+<matched-element start="105" stop="119" score="11.8148" pvalue="5.67e-05">
+<sequence>AAAAGAAAAAGAAAA</sequence>
+<mem:qvalue>0.0523</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1442300.1" name="PBANKA_1442300.1">
+<matched-element start="319" stop="305" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="316" stop="302" score="12.6296" pvalue="3.37e-05">
+<sequence>AAAGAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="318" stop="304" score="11.3333" pvalue="7.22e-05">
+<sequence>AAAAAGAAAAAAAAT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1446700.1" name="PBANKA_1446700.1">
+<matched-element start="245" stop="231" score="15.3333" pvalue="2.73e-06">
+<sequence>AAAAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="985" stop="971" score="13.358" pvalue="1.94e-05">
+<sequence>AACAAAAAAAACTAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="812" stop="826" score="11.5679" pvalue="6.46e-05">
+<sequence>AAAAAAAAAAAAATA</sequence>
+<mem:qvalue>0.0546</mem:qvalue>
+</matched-element>
+<matched-element start="813" stop="827" score="10.9012" pvalue="9.21e-05">
+<sequence>AAAAAAAAAAAATAT</sequence>
+<mem:qvalue>0.0589</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1448200.1" name="PBANKA_1448200.1">
+<matched-element start="358" stop="344" score="13.5802" pvalue="1.71e-05">
+<sequence>AAAATAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="986" stop="1000" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="987" stop="1001" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="985" stop="999" score="11.4568" pvalue="6.89e-05">
+<sequence>GAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0547</mem:qvalue>
+</matched-element>
+<matched-element start="984" stop="998" score="10.8272" pvalue="9.69e-05">
+<sequence>AGAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1450900.1" name="PBANKA_1450900.1">
+<matched-element start="453" stop="467" score="15.3333" pvalue="2.73e-06">
+<sequence>AAAAAAAAAAAATGA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="595" stop="581" score="14.0864" pvalue="9.13e-06">
+<sequence>AAAAAGGAGAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="420" stop="406" score="12.8272" pvalue="2.92e-05">
+<sequence>AAAATGGAAAAAAAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="448" stop="462" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="449" stop="463" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="450" stop="464" score="12.6049" pvalue="3.52e-05">
+<sequence>AAAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1451000.1" name="PBANKA_1451000.1">
+<matched-element start="875" stop="861" score="12.7284" pvalue="3.04e-05">
+<sequence>AAAATGAAAAAATTG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1452300.1" name="PBANKA_1452300.1">
+<matched-element start="38" stop="52" score="12.2099" pvalue="4.69e-05">
+<sequence>AAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0483</mem:qvalue>
+</matched-element>
+<matched-element start="89" stop="103" score="10.8642" pvalue="9.47e-05">
+<sequence>AAAATAAAAAACATA</sequence>
+<mem:qvalue>0.0596</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1456100.1" name="PBANKA_1456100.1">
+<matched-element start="907" stop="921" score="13.2593" pvalue="2.17e-05">
+<sequence>AAAAAGAAAAGAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="150" stop="164" score="12.716" pvalue="3.05e-05">
+<sequence>AAAAGAAAAAAATAG</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="911" stop="925" score="12.6296" pvalue="3.37e-05">
+<sequence>AGAAAAGAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="397" stop="411" score="10.8765" pvalue="9.33e-05">
+<sequence>AAAATAAACAAATAA</sequence>
+<mem:qvalue>0.0591</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1456500.1" name="PBANKA_1456500.1">
+<matched-element start="496" stop="482" score="15.1605" pvalue="2.94e-06">
+<sequence>AACAAGAAAAACTAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="541" stop="555" score="14.1358" pvalue="8.54e-06">
+<sequence>AAAGTGGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="551" stop="565" score="13.037" pvalue="2.4e-05">
+<sequence>AAAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="831" stop="817" score="11.9259" pvalue="5.3e-05">
+<sequence>AAAAGAAAAAAAATA</sequence>
+<mem:qvalue>0.0516</mem:qvalue>
+</matched-element>
+<matched-element start="552" stop="566" score="11.3333" pvalue="7.22e-05">
+<sequence>AAAAAGAAAAAAAAT</sequence>
+<mem:qvalue>0.0554</mem:qvalue>
+</matched-element>
+<matched-element start="833" stop="819" score="11.2593" pvalue="7.61e-05">
+<sequence>AGAAAAGAAAAAAAA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1457300.1" name="PBANKA_1457300.1">
+<matched-element start="462" stop="476" score="15.0988" pvalue="3.06e-06">
+<sequence>AAAAGGAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="730" stop="716" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="184" stop="198" score="12.321" pvalue="4.16e-05">
+<sequence>AGCAAAGAAAAATAA</sequence>
+<mem:qvalue>0.0455</mem:qvalue>
+</matched-element>
+<matched-element start="733" stop="719" score="10.8272" pvalue="9.69e-05">
+<sequence>AGAAAAAAAAAAAAA</sequence>
+<mem:qvalue>0.06</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1458000.1" name="PBANKA_1458000.1">
+<matched-element start="60" stop="46" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="387" stop="401" score="12.9383" pvalue="2.75e-05">
+<sequence>AAAAAAAAAAAATTA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="177" stop="191" score="12.358" pvalue="4.07e-05">
+<sequence>AAAGTGAAAAACATA</sequence>
+<mem:qvalue>0.0451</mem:qvalue>
+</matched-element>
+<matched-element start="618" stop="604" score="11.9012" pvalue="5.45e-05">
+<sequence>AAAGGAAAGAAATAA</sequence>
+<mem:qvalue>0.0519</mem:qvalue>
+</matched-element>
+<matched-element start="681" stop="667" score="11.2593" pvalue="7.61e-05">
+<sequence>AAAGAAAAAAAAATA</sequence>
+<mem:qvalue>0.056</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1460200.1" name="PBANKA_1460200.1">
+<matched-element start="551" stop="537" score="15.7778" pvalue="1.2e-06">
+<sequence>AAAAAGAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="898" stop="912" score="13.9753" pvalue="1.18e-05">
+<sequence>AAAAAAAAAAAATAA</sequence>
+<mem:qvalue>0.0405</mem:qvalue>
+</matched-element>
+<matched-element start="552" stop="538" score="12" pvalue="5.07e-05">
+<sequence>AAAAAAGAAAAAATA</sequence>
+<mem:qvalue>0.0503</mem:qvalue>
+</matched-element>
+<matched-element start="543" stop="529" score="11.1728" pvalue="8.01e-05">
+<sequence>AAAATAAAAAAAATA</sequence>
+<mem:qvalue>0.057</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1460600.1" name="PBANKA_1460600.1">
+<matched-element start="980" stop="966" score="11.0617" pvalue="8.48e-05">
+<sequence>GAAATAAAAAAAAAA</sequence>
+<mem:qvalue>0.0582</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1463000.1" name="PBANKA_1463000.1">
+<matched-element start="181" stop="195" score="10.7531" pvalue="9.96e-05">
+<sequence>AAAATAACAAAATAA</sequence>
+<mem:qvalue>0.0611</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1463100.1" name="PBANKA_1463100.1">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+</cis-element-search>

@@ -1,0 +1,1014 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.5.7 (Release date: Wed Jun 19 13:59:04 2024 -0700)
+
+For further information on how to interpret these results please access https://meme-suite.org/meme.
+To get a copy of the MEME Suite software please access https://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to
+discover motifs in biopolymers",
+Proceedings of the Second International Conference on Intelligent Systems
+for Molecular Biology, pp. 28-36, AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= meme_chip_out/Cluster3.Sub5/seqs-centered
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+PBANKA_1011100.1         1.0000    100  PBANKA_1012500.1         1.0000    100  
+PBANKA_1013700.1         1.0000    100  PBANKA_1014300.1         1.0000    100  
+PBANKA_1014900.1         1.0000    100  PBANKA_1016300.1         1.0000    100  
+PBANKA_1018400.1         1.0000    100  PBANKA_1018600.1         1.0000    100  
+PBANKA_1019400.1         1.0000    100  PBANKA_1022000.1         1.0000    100  
+PBANKA_1023200.1         1.0000    100  PBANKA_1024000.1         1.0000    100  
+PBANKA_1026300.1         1.0000    100  PBANKA_1027800.1         1.0000    100  
+PBANKA_1028300.1         1.0000    100  PBANKA_1028400.1         1.0000    100  
+PBANKA_1028600.1         1.0000    100  PBANKA_1035100.1         1.0000    100  
+PBANKA_1036500.1         1.0000    100  PBANKA_1102900.1         1.0000    100  
+PBANKA_1103100.1         1.0000    100  PBANKA_1105700.1         1.0000    100  
+PBANKA_1105800.1         1.0000    100  PBANKA_1108100.1         1.0000    100  
+PBANKA_1111900.1         1.0000    100  PBANKA_1113000.1         1.0000    100  
+PBANKA_1117100.1         1.0000    100  PBANKA_1118600.1         1.0000    100  
+PBANKA_1120000.1         1.0000    100  PBANKA_1122000.1         1.0000    100  
+PBANKA_1124100.1         1.0000    100  PBANKA_1132600.1         1.0000    100  
+PBANKA_1134500.1         1.0000    100  PBANKA_1141400.1         1.0000    100  
+PBANKA_1142300.1         1.0000    100  PBANKA_1203400.1         1.0000    100  
+PBANKA_1205200.1         1.0000    100  PBANKA_1210700.1         1.0000    100  
+PBANKA_1215800.1         1.0000    100  PBANKA_1216500.1         1.0000    100  
+PBANKA_1222700.1         1.0000    100  PBANKA_1222800.1         1.0000    100  
+PBANKA_1223500.1         1.0000    100  PBANKA_1223600.1         1.0000    100  
+PBANKA_1226300.1         1.0000    100  PBANKA_1226500.1         1.0000    100  
+PBANKA_1228100.1         1.0000    100  PBANKA_1228300.1         1.0000    100  
+PBANKA_1234000.1         1.0000    100  PBANKA_1234100.1         1.0000    100  
+PBANKA_1234200.1         1.0000    100  PBANKA_1235600.1         1.0000    100  
+PBANKA_1238200.1         1.0000    100  PBANKA_1240200.1         1.0000    100  
+PBANKA_1240600.1         1.0000    100  PBANKA_1302400.1         1.0000    100  
+PBANKA_1307700.1         1.0000    100  PBANKA_1308600.1         1.0000    100  
+PBANKA_1311600.1         1.0000    100  PBANKA_1312500.1         1.0000    100  
+PBANKA_1313400.1         1.0000    100  PBANKA_1315600.1         1.0000    100  
+PBANKA_1323700.1         1.0000    100  PBANKA_1325000.1         1.0000    100  
+PBANKA_1329800.1         1.0000    100  PBANKA_1331200.1         1.0000    100  
+PBANKA_1333800.1         1.0000    100  PBANKA_1337200.1         1.0000    100  
+PBANKA_1339200.1         1.0000    100  PBANKA_1341900.1         1.0000    100  
+PBANKA_1343300.1         1.0000    100  PBANKA_1345000.1         1.0000    100  
+PBANKA_1345300.1         1.0000    100  PBANKA_1348400.1         1.0000    100  
+PBANKA_1349900.1         1.0000    100  PBANKA_1352000.1         1.0000    100  
+PBANKA_1353100.1         1.0000    100  PBANKA_1357800.1         1.0000    100  
+PBANKA_1358600.1         1.0000    100  PBANKA_1361200.1         1.0000    100  
+PBANKA_1362400.1         1.0000    100  PBANKA_1363300.1         1.0000    100  
+PBANKA_1364200.1         1.0000    100  PBANKA_1400600.1         1.0000    100  
+PBANKA_1402200.1         1.0000    100  PBANKA_1405200.1         1.0000    100  
+PBANKA_1406100.1         1.0000    100  PBANKA_1407700.1         1.0000    100  
+PBANKA_1410400.1         1.0000    100  PBANKA_1415000.1         1.0000    100  
+PBANKA_1415500.1         1.0000    100  PBANKA_1416100.1         1.0000    100  
+PBANKA_1418300.1         1.0000    100  PBANKA_1423500.1         1.0000    100  
+PBANKA_1425100.1         1.0000    100  PBANKA_1427000.1         1.0000    100  
+PBANKA_1427100.1         1.0000    100  PBANKA_1428800.1         1.0000    100  
+PBANKA_1429700.1         1.0000    100  PBANKA_1430100.1         1.0000    100  
+PBANKA_1436200.1         1.0000    100  PBANKA_1439900.1         1.0000    100  
+PBANKA_1440700.1         1.0000    100  PBANKA_1443400.1         1.0000    100  
+PBANKA_1447100.1         1.0000    100  PBANKA_1451600.1         1.0000    100  
+PBANKA_1457500.1         1.0000    100  PBANKA_1458100.1         1.0000    100  
+PBANKA_1462200.1         1.0000    100  PBANKA_1463500.1         1.0000    100  
+PBANKA_1010800.1         1.0000    100  PBANKA_1012400.1         1.0000    100  
+PBANKA_1012800.1         1.0000    100  PBANKA_1013100.1         1.0000    100  
+PBANKA_1015900.1         1.0000    100  PBANKA_1016000.1         1.0000    100  
+PBANKA_1016400.1         1.0000    100  PBANKA_1017100.1         1.0000    100  
+PBANKA_1017200.1         1.0000    100  PBANKA_1019200.1         1.0000    100  
+PBANKA_1020700.1         1.0000    100  PBANKA_1023000.1         1.0000    100  
+PBANKA_1023600.1         1.0000    100  PBANKA_1025100.1         1.0000    100  
+PBANKA_1025500.1         1.0000    100  PBANKA_1026200.1         1.0000    100  
+PBANKA_1027900.1         1.0000    100  PBANKA_1030300.1         1.0000    100  
+PBANKA_1035300.1         1.0000    100  PBANKA_1103200.1         1.0000    100  
+PBANKA_1103300.1         1.0000    100  PBANKA_1104400.1         1.0000    100  
+PBANKA_1104900.1         1.0000    100  PBANKA_1108600.1         1.0000    100  
+PBANKA_1110500.1         1.0000    100  PBANKA_1112300.1         1.0000    100  
+PBANKA_1112500.1         1.0000    100  PBANKA_1112900.1         1.0000    100  
+PBANKA_1113500.1         1.0000    100  PBANKA_1113900.1         1.0000    100  
+PBANKA_1119700.1         1.0000    100  PBANKA_1120800.1         1.0000    100  
+PBANKA_1123500.1         1.0000    100  PBANKA_1126200.1         1.0000    100  
+PBANKA_1133500.1         1.0000    100  PBANKA_1133700.1         1.0000    100  
+PBANKA_1134100.1         1.0000    100  PBANKA_1138000.1         1.0000    100  
+PBANKA_1138200.1         1.0000    100  PBANKA_1143500.1         1.0000    100  
+PBANKA_1215100.1         1.0000    100  PBANKA_1216600.1         1.0000    100  
+PBANKA_1218500.1         1.0000    100  PBANKA_1221600.1         1.0000    100  
+PBANKA_1222100.1         1.0000    100  PBANKA_1224000.1         1.0000    100  
+PBANKA_1224500.1         1.0000    100  PBANKA_1226000.1         1.0000    100  
+PBANKA_1227900.1         1.0000    100  PBANKA_1230300.1         1.0000    100  
+PBANKA_1234300.1         1.0000    100  PBANKA_1234500.1         1.0000    100  
+PBANKA_1237600.1         1.0000    100  PBANKA_1242000.1         1.0000    100  
+PBANKA_1242300.1         1.0000    100  PBANKA_1243600.1         1.0000    100  
+PBANKA_1300700.1         1.0000    100  PBANKA_1312200.1         1.0000    100  
+PBANKA_1312300.1         1.0000    100  PBANKA_1314300.1         1.0000    100  
+PBANKA_1325300.1         1.0000    100  PBANKA_1329300.1         1.0000    100  
+PBANKA_1329500.1         1.0000    100  PBANKA_1332100.1         1.0000    100  
+PBANKA_1333300.1         1.0000    100  PBANKA_1335500.1         1.0000    100  
+PBANKA_1341100.1         1.0000    100  PBANKA_1341800.1         1.0000    100  
+PBANKA_1344300.1         1.0000    100  PBANKA_1345200.1         1.0000    100  
+PBANKA_1346600.1         1.0000    100  PBANKA_1347400.1         1.0000    100  
+PBANKA_1347500.1         1.0000    100  PBANKA_1347600.1         1.0000    100  
+PBANKA_1347900.1         1.0000    100  PBANKA_1348500.1         1.0000    100  
+PBANKA_1351000.1         1.0000    100  PBANKA_1352400.1         1.0000    100  
+PBANKA_1353700.1         1.0000    100  PBANKA_1354400.1         1.0000    100  
+PBANKA_1358300.1         1.0000    100  PBANKA_1401300.1         1.0000    100  
+PBANKA_1402500.1         1.0000    100  PBANKA_1405500.1         1.0000    100  
+PBANKA_1406800.1         1.0000    100  PBANKA_1409200.1         1.0000    100  
+PBANKA_1417600.1         1.0000    100  PBANKA_1422700.1         1.0000    100  
+PBANKA_1423600.1         1.0000    100  PBANKA_1424200.1         1.0000    100  
+PBANKA_1424300.1         1.0000    100  PBANKA_1432800.1         1.0000    100  
+PBANKA_1433800.1         1.0000    100  PBANKA_1434200.1         1.0000    100  
+PBANKA_1438300.1         1.0000    100  PBANKA_1440800.1         1.0000    100  
+PBANKA_1441500.1         1.0000    100  PBANKA_1442300.1         1.0000    100  
+PBANKA_1446700.1         1.0000    100  PBANKA_1448200.1         1.0000    100  
+PBANKA_1450900.1         1.0000    100  PBANKA_1451000.1         1.0000    100  
+PBANKA_1452300.1         1.0000    100  PBANKA_1456100.1         1.0000    100  
+PBANKA_1456500.1         1.0000    100  PBANKA_1457300.1         1.0000    100  
+PBANKA_1458000.1         1.0000    100  PBANKA_1460200.1         1.0000    100  
+PBANKA_1460600.1         1.0000    100  PBANKA_1463000.1         1.0000    100  
+PBANKA_1463100.1         1.0000    100  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme meme_chip_out/Cluster3.Sub5/seqs-centered -oc meme_chip_out/Cluster3.Sub5/meme_out -mod zoops -nmotifs 3 -minw 6 -maxw 15 -bfile meme_chip_out/Cluster3.Sub5/background -dna -seed 0 -searchsize 100000 -time 2919 -revcomp -nostatus 
+
+model:  mod=         zoops    nmotifs=         3    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: + -
+width:  minw=            6    maxw=           15
+nsites: minsites=        2    maxsites=      221    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           22100    N=             221
+sample: seed=            0    hsfrac=          0
+        searchsize=  22100    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.404 C 0.096 G 0.096 T 0.404 
+Background letter frequencies (from file meme_chip_out/Cluster3.Sub5/background):
+A 0.402 C 0.0977 G 0.0977 T 0.402 
+Background model order: 2
+********************************************************************************
+
+
+********************************************************************************
+MOTIF GTNWGYGC MEME-1	width =   8  sites =  18  llr = 194  E-value = 1.4e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif GTNWGYGC MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  :234::::
+pos.-specific     C  ::32:4:a
+probability       G  a:2:a:a:
+matrix            T  :834:6::
+
+         bits    3.4 *   * **
+                 3.0 *   * **
+                 2.7 *   * **
+                 2.3 *   * **
+Relative         2.0 *   * **
+Entropy          1.7 *   * **
+(15.5 bits)      1.3 *   * **
+                 1.0 *   ****
+                 0.7 **  ****
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           GTATGTGC
+consensus             ACA C  
+sequence               T     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GTNWGYGC MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value              Site
+-------------            ------  ----- ---------            --------
+PBANKA_1423600.1             +      1  1.81e-06          . GTACGCGC ATATATGTAT
+PBANKA_1443400.1             +     44  1.81e-06 ATATGGATAC GTCTGTGC TCATATAATT
+PBANKA_1333300.1             +     15  2.38e-06 AAAAATTTCC GTCAGTGC ATAAAAATAT
+PBANKA_1349900.1             +     18  2.38e-06 AACATCTTAA GTCAGTGC TGAGAATAAA
+PBANKA_1133700.1             +     58  2.56e-06 GCATGTAAAG GACTGCGC CATACTTACG
+PBANKA_1353700.1             +     20  4.43e-06 ATATCTGTAT GTATGCGC GTATTTCCAA
+PBANKA_1013100.1             +     84  4.43e-06 GCCCTTAAAA GTTTGCGC CTACTTTAT 
+PBANKA_1361200.1             -     40  4.43e-06 AAATATATAT GTGTGTGC GAAAATGATG
+PBANKA_1110500.1             +     57  6.17e-06 ATTTATTATA GTAAGCGC ATTATTACCG
+PBANKA_1025500.1             +     78  6.17e-06 ATTACGTACA GTTAGCGC AACGAGTATT
+PBANKA_1023600.1             +     72  6.17e-06 TATATATTTT GTAAGCGC TTTAAATGCC
+PBANKA_1016000.1             +     59  7.61e-06 GCTGAATTTT GTTCGTGC ATACTTTAAA
+PBANKA_1222100.1             +     93  8.75e-06 CCAAAATTCT GACTGTGC           
+PBANKA_1343300.1             -     61  8.75e-06 TGTATACCAA GAGCGTGC CTTAAAATTA
+PBANKA_1406800.1             +     53  1.41e-05 CTCCTATGTA GTTTGTGC TTACAAATTA
+PBANKA_1410400.1             -     17  1.41e-05 AACTATGCAT GTATGTGC TTTCATTTAT
+PBANKA_1022000.1             -     32  1.88e-05 GCTTATAAAG GTTAGTGC ATATGAATAT
+PBANKA_1108600.1             +     17  2.23e-05 CCTTAAAACA GAGAGTGC CGTTTGAGCT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GTNWGYGC MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+PBANKA_1423600.1                  1.8e-06  [+1]_92
+PBANKA_1443400.1                  1.8e-06  43_[+1]_49
+PBANKA_1333300.1                  2.4e-06  14_[+1]_78
+PBANKA_1349900.1                  2.4e-06  17_[+1]_75
+PBANKA_1133700.1                  2.6e-06  57_[+1]_35
+PBANKA_1353700.1                  4.4e-06  19_[+1]_73
+PBANKA_1013100.1                  4.4e-06  83_[+1]_9
+PBANKA_1361200.1                  4.4e-06  39_[-1]_53
+PBANKA_1110500.1                  6.2e-06  56_[+1]_36
+PBANKA_1025500.1                  6.2e-06  77_[+1]_15
+PBANKA_1023600.1                  6.2e-06  71_[+1]_21
+PBANKA_1016000.1                  7.6e-06  58_[+1]_34
+PBANKA_1222100.1                  8.7e-06  92_[+1]
+PBANKA_1343300.1                  8.7e-06  60_[-1]_32
+PBANKA_1406800.1                  1.4e-05  52_[+1]_40
+PBANKA_1410400.1                  1.4e-05  16_[-1]_76
+PBANKA_1022000.1                  1.9e-05  31_[-1]_61
+PBANKA_1108600.1                  2.2e-05  16_[+1]_76
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GTNWGYGC MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF GTNWGYGC width=8 seqs=18
+PBANKA_1423600.1         (    1) GTACGCGC  1 
+PBANKA_1443400.1         (   44) GTCTGTGC  1 
+PBANKA_1333300.1         (   15) GTCAGTGC  1 
+PBANKA_1349900.1         (   18) GTCAGTGC  1 
+PBANKA_1133700.1         (   58) GACTGCGC  1 
+PBANKA_1353700.1         (   20) GTATGCGC  1 
+PBANKA_1013100.1         (   84) GTTTGCGC  1 
+PBANKA_1361200.1         (   40) GTGTGTGC  1 
+PBANKA_1110500.1         (   57) GTAAGCGC  1 
+PBANKA_1025500.1         (   78) GTTAGCGC  1 
+PBANKA_1023600.1         (   72) GTAAGCGC  1 
+PBANKA_1016000.1         (   59) GTTCGTGC  1 
+PBANKA_1222100.1         (   93) GACTGTGC  1 
+PBANKA_1343300.1         (   61) GAGCGTGC  1 
+PBANKA_1406800.1         (   53) GTTTGTGC  1 
+PBANKA_1410400.1         (   17) GTATGTGC  1 
+PBANKA_1022000.1         (   32) GTTAGTGC  1 
+PBANKA_1108600.1         (   17) GAGAGTGC  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GTNWGYGC MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 20553 bayes= 10.2903 E= 1.4e-002 
+ -1081  -1081    336  -1081 
+   -86  -1081  -1081     95 
+   -53    151     77    -53 
+    -5     77  -1081     14 
+ -1081  -1081    336  -1081 
+ -1081    199  -1081     60 
+ -1081  -1081    336  -1081 
+ -1081    336  -1081  -1081 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GTNWGYGC MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 18 E= 1.4e-002 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.222222  0.000000  0.000000  0.777778 
+ 0.277778  0.277778  0.166667  0.277778 
+ 0.388889  0.166667  0.000000  0.444444 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.388889  0.000000  0.611111 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GTNWGYGC MEME-1 regular expression
+--------------------------------------------------------------------------------
+G[TA][ACT][TA]G[TC]GC
+--------------------------------------------------------------------------------
+
+
+
+
+Time 26.04 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF AAAAWRAAAAAATRA MEME-2	width =  15  sites =  61  llr = 549  E-value = 3.8e-008
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif AAAAWRAAAAAATRA MEME-2 Description
+--------------------------------------------------------------------------------
+Simplified        A  9988558a9998358
+pos.-specific     C  ::2::::::::2:::
+probability       G  11:2152:::1::31
+matrix            T  ::::4:::::::721
+
+         bits    3.4                
+                 3.0                
+                 2.7                
+                 2.3                
+Relative         2.0                
+Entropy          1.7                
+(13.0 bits)      1.3      *         
+                 1.0 **** *** ***   
+                 0.7 **** *******  *
+                 0.3 **** **********
+                 0.0 ---------------
+
+Multilevel           AAAAAAAAAAAATAA
+consensus                TGG     AG 
+sequence                          T 
+                                    
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAAAWRAAAAAATRA MEME-2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value                 Site    
+-------------            ------  ----- ---------            ---------------
+PBANKA_1423500.1             +     29  2.18e-07 TTCTTATAAA AAAGTGGAAAAATGA AAATAAAAAA
+PBANKA_1132600.1             -     13  1.82e-06 ATGTGATAAC AAAGAGAAAAAATAA ATAAAAGGTG
+PBANKA_1013700.1             +     33  1.82e-06 CTTCATTTTT AAAGAGAAAAAATAA AATAGATATA
+PBANKA_1450900.1             +      3  2.63e-06         AA AAAAAAAAAAAATGA ACACCTGGCA
+PBANKA_1347400.1             +      6  2.63e-06      AGGGA AAAATGGAAAACAGA GACTTTTTCT
+PBANKA_1224000.1             +     51  2.63e-06 AAGGGGGGGG AAAATGAAAAAATAA GAAAAAATAT
+PBANKA_1027900.1             -     34  2.63e-06 AATTAAAAAA AAAAAAAAAAAATGA TTGTAGAATA
+PBANKA_1415000.1             +     46  2.63e-06 TTGTTTTGCC AAAAAGGAGAAATGA AAAGAATATA
+PBANKA_1456500.1             -     32  2.82e-06 TGTAATTGAT AACAAGAAAAACTAA GATTAATAAA
+PBANKA_1113500.1             +     67  3.49e-06 AATCAATGAT AACAGGGAAAAATTA CAAGTGTGGA
+PBANKA_1457300.1             +     12  4.00e-06 AAGAAAAATA AAAAGGAAAAAATTA TCAATGTAAA
+PBANKA_1026200.1             -     16  4.00e-06 TAAAATTGCG AAAATGAAAAACAGA AAGGGGTTAC
+PBANKA_1314300.1             -     24  5.99e-06 TTACAACTTA AACGGGGACAAATGA CGATAGATTA
+PBANKA_1226500.1             +     78  5.99e-06 AGGAGAGAAA AAAAGGAAAAAATAG TCCATATT  
+PBANKA_1210700.1             -     18  5.99e-06 AAATGTAAAA AAAAGAAAAAGATGA AACGTCAATA
+PBANKA_1345300.1             -     30  7.35e-06 TATTATAACA AAAAAGAAAAAAAAA TATTTATAAG
+PBANKA_1337200.1             +     11  7.35e-06 TAATAATAAT AAAAGGAAAAAATGT ATATAATTAT
+PBANKA_1347600.1             -     16  1.09e-05 TTTCCAAAAA AAAAAAAAAAAATAA ATATGTTATA
+PBANKA_1439900.1             +     53  1.09e-05 AATTTAAAAC AAAAAAAAAAAATAA TATCATTCCC
+PBANKA_1205200.1             -     23  1.09e-05 ATCCGATAAG AAAAAAAAAAAATAA TGTGTAAATA
+PBANKA_1105800.1             -     10  1.09e-05 ATAAAAAATT AAAGTGGAAAAAAAA ATAAATAAT 
+PBANKA_1019400.1             +      4  1.09e-05        ATT AAAAAAAAAAAATAA TACATATAAT
+PBANKA_1227900.1             -     85  1.24e-05          A AAAATGAAAAAAAAA TATAAATAGA
+PBANKA_1433800.1             -     52  1.66e-05 GGAAAAAGAA AAAAGAGAAAAATTA TGCAAAAAAA
+PBANKA_1329500.1             +     59  1.66e-05 TTTCTTACTT AAAAAGGAAAGAAAA CATTATTTTT
+PBANKA_1112300.1             -     24  2.01e-05 TAAAGATAAT AACATAAAAAAATAA ATAATAATAT
+PBANKA_1427000.1             -     84  2.01e-05         CA AAAGTAAAAAAATAA AAATTATATA
+PBANKA_1238200.1             -     73  2.01e-05 AAAAATGCTG AAAAAAGAAAAATTA AATTGGAATA
+PBANKA_1315600.1             +     14  2.21e-05 AAAGTTAATG AAAAAGAAAAAAATA TTTTAAATTA
+PBANKA_1308600.1             +     29  2.40e-05 TAAGGCACCA AAAAAAGAAAAAAAA TGCCTTCATA
+PBANKA_1228100.1             -     47  2.40e-05 AATATGAAAT AAAAAGAAAAAATTG GAGCATTTCA
+PBANKA_1458100.1             +     61  2.82e-05 AATATGGTAT AAAAAAAAAAAATTA TATATGTTTA
+PBANKA_1222700.1             -     86  2.82e-05          . AAAATAGAAAAATTA GATAACGATG
+PBANKA_1124100.1             -     63  2.82e-05 AATTTATATA AAAAAAAAAAAATTA CATTTTAACC
+PBANKA_1120800.1             -     30  3.53e-05 AATATAGTGG GGAAAGAAAAAATGG GAAAAAATCA
+PBANKA_1104900.1             -     79  4.33e-05    ACGAAAA AGAGAGAAAAAAAAA TAGTATAAAT
+PBANKA_1119700.1             -     47  4.78e-05 GCAAGTTTTT AAAATGAAAAGCTGT AAATTTTTTT
+PBANKA_1215100.1             +      2  5.08e-05          A AACAAAAAAAACAAA AAAAAACAAA
+PBANKA_1329800.1             -     82  5.51e-05       AAAA AAAGTAAAAAAAAAA ATACATAAAA
+PBANKA_1302400.1             +     13  5.51e-05 GTGTTTCAAT GAAATGAAAAGATTA CAATTAATAT
+PBANKA_1335500.1             -     16  5.89e-05 ACCAAAAATT GGCATAAAAAAATGA GGAAAATATA
+PBANKA_1348500.1             +     53  6.31e-05 AATTTATTTG GAAAGAACAAAATGA AGGAAATAAA
+PBANKA_1017100.1             +     63  6.31e-05 TATAATATTA AGAATAAAAAACTAA AAGATAAAAG
+PBANKA_1405500.1             +     31  7.45e-05 TAATTATTTT GACAAGAAAAAATAT ATAATGAAAG
+PBANKA_1401300.1             +     23  7.45e-05 AAAAAAAATA AAAACAAAAAAATAA AAAATAATAC
+PBANKA_1105700.1             +     70  7.45e-05 TATGTATTAA AAAGTAAAAAACTGT ATATATATAT
+PBANKA_1345200.1             +      8  8.13e-05    TCAAAAA GAAATAAAAAGAAGA AAAAATTATC
+PBANKA_1312200.1             +     25  8.13e-05 ATTATGGAGT AAAATGGATAAATAA TTTTCATCTT
+PBANKA_1364200.1             -     50  8.13e-05 TGCAGCTTAA AAAAAGGAGAGCAAA GGGCTTTGAA
+PBANKA_1036500.1             -     50  8.13e-05 TGAATTTTTT AAAAAAACAAAATAA TAATATATAA
+PBANKA_1460200.1             -     79  8.91e-05    AAAAGAA AAAATAAAAAAAATA TTATATTTAT
+PBANKA_1112900.1             -     51  8.91e-05 AAATATTATG AAAATAAAAAAAATA TTTTTTTTAA
+PBANKA_1030300.1             -      7  8.91e-05 ATTCAAAAAA AACAGAAAAAAAAAG AAATGT    
+PBANKA_1027800.1             -     39  9.50e-05 ATGATATAAC AACAAAAAATAATGA AGCTTCTTGG
+PBANKA_1402500.1             -     10  1.03e-04 ATTAAGAAAA AAAATAAAATAATGA CAATAATAA 
+PBANKA_1221600.1             -     43  1.03e-04 TGTATAAAAA AACAAAAAAAAATAT TAAAAATGCA
+PBANKA_1138000.1             +     39  1.03e-04 ATAATAAAAA AAAGTAAAACACTGA GTAAAAATAA
+PBANKA_1344300.1             +     30  1.30e-04 AAAATATGCA AAAAAAAACAAATTA TGAGGATCTA
+PBANKA_1230300.1             +     75  1.38e-04 TTTGCATAAT AAAATGGATAAATTA TATTTGCCAA
+PBANKA_1422700.1             +     39  1.49e-04 TTTAAAAAAT AAAAAAAAATAATAA CATTAATCCT
+PBANKA_1427100.1             -      4  1.90e-04 TTTATAAAAT AAAAAGGAGAACAAT CAA       
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAAAWRAAAAAATRA MEME-2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+PBANKA_1423500.1                  2.2e-07  28_[+2]_57
+PBANKA_1132600.1                  1.8e-06  12_[-2]_73
+PBANKA_1013700.1                  1.8e-06  32_[+2]_53
+PBANKA_1450900.1                  2.6e-06  2_[+2]_83
+PBANKA_1347400.1                  2.6e-06  5_[+2]_80
+PBANKA_1224000.1                  2.6e-06  50_[+2]_35
+PBANKA_1027900.1                  2.6e-06  33_[-2]_52
+PBANKA_1415000.1                  2.6e-06  45_[+2]_40
+PBANKA_1456500.1                  2.8e-06  31_[-2]_54
+PBANKA_1113500.1                  3.5e-06  66_[+2]_19
+PBANKA_1457300.1                    4e-06  11_[+2]_74
+PBANKA_1026200.1                    4e-06  15_[-2]_70
+PBANKA_1314300.1                    6e-06  23_[-2]_62
+PBANKA_1226500.1                    6e-06  77_[+2]_8
+PBANKA_1210700.1                    6e-06  17_[-2]_68
+PBANKA_1345300.1                  7.4e-06  29_[-2]_56
+PBANKA_1337200.1                  7.4e-06  10_[+2]_75
+PBANKA_1347600.1                  1.1e-05  15_[-2]_70
+PBANKA_1439900.1                  1.1e-05  52_[+2]_33
+PBANKA_1205200.1                  1.1e-05  22_[-2]_63
+PBANKA_1105800.1                  1.1e-05  9_[-2]_76
+PBANKA_1019400.1                  1.1e-05  3_[+2]_82
+PBANKA_1227900.1                  1.2e-05  84_[-2]_1
+PBANKA_1433800.1                  1.7e-05  51_[-2]_34
+PBANKA_1329500.1                  1.7e-05  58_[+2]_27
+PBANKA_1112300.1                    2e-05  23_[-2]_62
+PBANKA_1427000.1                    2e-05  83_[-2]_2
+PBANKA_1238200.1                    2e-05  72_[-2]_13
+PBANKA_1315600.1                  2.2e-05  13_[+2]_72
+PBANKA_1308600.1                  2.4e-05  28_[+2]_57
+PBANKA_1228100.1                  2.4e-05  46_[-2]_39
+PBANKA_1458100.1                  2.8e-05  60_[+2]_25
+PBANKA_1222700.1                  2.8e-05  85_[-2]
+PBANKA_1124100.1                  2.8e-05  62_[-2]_23
+PBANKA_1120800.1                  3.5e-05  29_[-2]_56
+PBANKA_1104900.1                  4.3e-05  78_[-2]_7
+PBANKA_1119700.1                  4.8e-05  46_[-2]_39
+PBANKA_1215100.1                  5.1e-05  1_[+2]_84
+PBANKA_1329800.1                  5.5e-05  81_[-2]_4
+PBANKA_1302400.1                  5.5e-05  12_[+2]_73
+PBANKA_1335500.1                  5.9e-05  15_[-2]_70
+PBANKA_1348500.1                  6.3e-05  52_[+2]_33
+PBANKA_1017100.1                  6.3e-05  62_[+2]_23
+PBANKA_1405500.1                  7.5e-05  30_[+2]_55
+PBANKA_1401300.1                  7.5e-05  22_[+2]_63
+PBANKA_1105700.1                  7.5e-05  69_[+2]_16
+PBANKA_1345200.1                  8.1e-05  7_[+2]_78
+PBANKA_1312200.1                  8.1e-05  24_[+2]_61
+PBANKA_1364200.1                  8.1e-05  49_[-2]_36
+PBANKA_1036500.1                  8.1e-05  49_[-2]_36
+PBANKA_1460200.1                  8.9e-05  78_[-2]_7
+PBANKA_1112900.1                  8.9e-05  50_[-2]_35
+PBANKA_1030300.1                  8.9e-05  6_[-2]_79
+PBANKA_1027800.1                  9.5e-05  38_[-2]_47
+PBANKA_1402500.1                   0.0001  9_[-2]_76
+PBANKA_1221600.1                   0.0001  42_[-2]_43
+PBANKA_1138000.1                   0.0001  38_[+2]_47
+PBANKA_1344300.1                  0.00013  29_[+2]_56
+PBANKA_1230300.1                  0.00014  74_[+2]_11
+PBANKA_1422700.1                  0.00015  38_[+2]_47
+PBANKA_1427100.1                  0.00019  3_[-2]_82
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAAAWRAAAAAATRA MEME-2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF AAAAWRAAAAAATRA width=15 seqs=61
+PBANKA_1423500.1         (   29) AAAGTGGAAAAATGA  1 
+PBANKA_1132600.1         (   13) AAAGAGAAAAAATAA  1 
+PBANKA_1013700.1         (   33) AAAGAGAAAAAATAA  1 
+PBANKA_1450900.1         (    3) AAAAAAAAAAAATGA  1 
+PBANKA_1347400.1         (    6) AAAATGGAAAACAGA  1 
+PBANKA_1224000.1         (   51) AAAATGAAAAAATAA  1 
+PBANKA_1027900.1         (   34) AAAAAAAAAAAATGA  1 
+PBANKA_1415000.1         (   46) AAAAAGGAGAAATGA  1 
+PBANKA_1456500.1         (   32) AACAAGAAAAACTAA  1 
+PBANKA_1113500.1         (   67) AACAGGGAAAAATTA  1 
+PBANKA_1457300.1         (   12) AAAAGGAAAAAATTA  1 
+PBANKA_1026200.1         (   16) AAAATGAAAAACAGA  1 
+PBANKA_1314300.1         (   24) AACGGGGACAAATGA  1 
+PBANKA_1226500.1         (   78) AAAAGGAAAAAATAG  1 
+PBANKA_1210700.1         (   18) AAAAGAAAAAGATGA  1 
+PBANKA_1345300.1         (   30) AAAAAGAAAAAAAAA  1 
+PBANKA_1337200.1         (   11) AAAAGGAAAAAATGT  1 
+PBANKA_1347600.1         (   16) AAAAAAAAAAAATAA  1 
+PBANKA_1439900.1         (   53) AAAAAAAAAAAATAA  1 
+PBANKA_1205200.1         (   23) AAAAAAAAAAAATAA  1 
+PBANKA_1105800.1         (   10) AAAGTGGAAAAAAAA  1 
+PBANKA_1019400.1         (    4) AAAAAAAAAAAATAA  1 
+PBANKA_1227900.1         (   85) AAAATGAAAAAAAAA  1 
+PBANKA_1433800.1         (   52) AAAAGAGAAAAATTA  1 
+PBANKA_1329500.1         (   59) AAAAAGGAAAGAAAA  1 
+PBANKA_1112300.1         (   24) AACATAAAAAAATAA  1 
+PBANKA_1427000.1         (   84) AAAGTAAAAAAATAA  1 
+PBANKA_1238200.1         (   73) AAAAAAGAAAAATTA  1 
+PBANKA_1315600.1         (   14) AAAAAGAAAAAAATA  1 
+PBANKA_1308600.1         (   29) AAAAAAGAAAAAAAA  1 
+PBANKA_1228100.1         (   47) AAAAAGAAAAAATTG  1 
+PBANKA_1458100.1         (   61) AAAAAAAAAAAATTA  1 
+PBANKA_1222700.1         (   86) AAAATAGAAAAATTA  1 
+PBANKA_1124100.1         (   63) AAAAAAAAAAAATTA  1 
+PBANKA_1120800.1         (   30) GGAAAGAAAAAATGG  1 
+PBANKA_1104900.1         (   79) AGAGAGAAAAAAAAA  1 
+PBANKA_1119700.1         (   47) AAAATGAAAAGCTGT  1 
+PBANKA_1215100.1         (    2) AACAAAAAAAACAAA  1 
+PBANKA_1329800.1         (   82) AAAGTAAAAAAAAAA  1 
+PBANKA_1302400.1         (   13) GAAATGAAAAGATTA  1 
+PBANKA_1335500.1         (   16) GGCATAAAAAAATGA  1 
+PBANKA_1348500.1         (   53) GAAAGAACAAAATGA  1 
+PBANKA_1017100.1         (   63) AGAATAAAAAACTAA  1 
+PBANKA_1405500.1         (   31) GACAAGAAAAAATAT  1 
+PBANKA_1401300.1         (   23) AAAACAAAAAAATAA  1 
+PBANKA_1105700.1         (   70) AAAGTAAAAAACTGT  1 
+PBANKA_1345200.1         (    8) GAAATAAAAAGAAGA  1 
+PBANKA_1312200.1         (   25) AAAATGGATAAATAA  1 
+PBANKA_1364200.1         (   50) AAAAAGGAGAGCAAA  1 
+PBANKA_1036500.1         (   50) AAAAAAACAAAATAA  1 
+PBANKA_1460200.1         (   79) AAAATAAAAAAAATA  1 
+PBANKA_1112900.1         (   51) AAAATAAAAAAAATA  1 
+PBANKA_1030300.1         (    7) AACAGAAAAAAAAAG  1 
+PBANKA_1027800.1         (   39) AACAAAAAATAATGA  1 
+PBANKA_1402500.1         (   10) AAAATAAAATAATGA  1 
+PBANKA_1221600.1         (   43) AACAAAAAAAAATAT  1 
+PBANKA_1138000.1         (   39) AAAGTAAAACACTGA  1 
+PBANKA_1344300.1         (   30) AAAAAAAACAAATTA  1 
+PBANKA_1230300.1         (   75) AAAATGGATAAATTA  1 
+PBANKA_1422700.1         (   39) AAAAAAAAATAATAA  1 
+PBANKA_1427100.1         (    4) AAAAAGGAGAACAAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAAAWRAAAAAATRA MEME-2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 15 n= 19006 bayes= 8.97098 E= 3.8e-008 
+   116  -1257      1  -1257 
+   122  -1257    -57  -1257 
+   106     75  -1257  -1257 
+   106  -1257     75  -1257 
+    24   -257     59    -16 
+    43  -1257    223  -1257 
+    91  -1257    133  -1257 
+   127   -157  -1257  -1257 
+   114   -157    -99   -361 
+   122   -257  -1257   -303 
+   116  -1257      1  -1257 
+   106     75  -1257  -1257 
+   -53  -1257  -1257     84 
+    24  -1257    159    -81 
+   106  -1257    -57   -203 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAAAWRAAAAAATRA MEME-2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 15 nsites= 61 E= 3.8e-008 
+ 0.901639  0.000000  0.098361  0.000000 
+ 0.934426  0.000000  0.065574  0.000000 
+ 0.836066  0.163934  0.000000  0.000000 
+ 0.836066  0.000000  0.163934  0.000000 
+ 0.475410  0.016393  0.147541  0.360656 
+ 0.540984  0.000000  0.459016  0.000000 
+ 0.754098  0.000000  0.245902  0.000000 
+ 0.967213  0.032787  0.000000  0.000000 
+ 0.885246  0.032787  0.049180  0.032787 
+ 0.934426  0.016393  0.000000  0.049180 
+ 0.901639  0.000000  0.098361  0.000000 
+ 0.836066  0.163934  0.000000  0.000000 
+ 0.278689  0.000000  0.000000  0.721311 
+ 0.475410  0.000000  0.295082  0.229508 
+ 0.836066  0.000000  0.065574  0.098361 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAAAWRAAAAAATRA MEME-2 regular expression
+--------------------------------------------------------------------------------
+AAAA[AT][AG][AG]AAAAA[TA][AGT]A
+--------------------------------------------------------------------------------
+
+
+
+
+Time 54.65 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF GSGKGY MEME-3	width =   6  sites =  19  llr = 193  E-value = 3.8e-002
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif GSGKGY MEME-3 Description
+--------------------------------------------------------------------------------
+Simplified        A  ::::::
+pos.-specific     C  :5:::4
+probability       G  a5a4a1
+matrix            T  :::6:5
+
+         bits    3.4 * * * 
+                 3.0 * * * 
+                 2.7 * * * 
+                 2.3 *** * 
+Relative         2.0 *** * 
+Entropy          1.7 *** * 
+(14.6 bits)      1.3 ***** 
+                 1.0 ******
+                 0.7 ******
+                 0.3 ******
+                 0.0 ------
+
+Multilevel           GCGTGT
+consensus             G G C
+sequence                   
+                           
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GSGKGY MEME-3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name            Strand  Start   P-value             Site 
+-------------            ------  ----- ---------            ------
+PBANKA_1226000.1             +     41  1.74e-06 TTGATATTAT GGGGGC AGCATTTTCA
+PBANKA_1143500.1             -     65  1.74e-06 TTATTCCTTT GGGGGC GTAACGGTTT
+PBANKA_1142300.1             +     20  1.74e-06 AAATATAATA GGGGGC ATTTCATTAT
+PBANKA_1440800.1             +     54  5.32e-06 GGAGTAGAGG GCGTGC TGAACGTTTG
+PBANKA_1023600.1             +     95  5.32e-06 ATGCCACATG GCGTGC           
+PBANKA_1343300.1             -      8  5.32e-06 TATACTTAAA GCGTGC TCATAAT   
+PBANKA_1325000.1             -     26  5.32e-06 TATTTGTTTT GCGTGC CATTTATATA
+PBANKA_1118600.1             -      5  5.32e-06 TATAATATAT GCGTGC AATT      
+PBANKA_1103100.1             -     38  1.25e-05 GTTCGTATTT GCGGGT TTAATATATT
+PBANKA_1018400.1             -     71  1.25e-05 TGGTTTTTGA GCGGGT TAGTGAAAAA
+PBANKA_1035300.1             -     17  1.69e-05 AATACCTTTG GGGGGT TTATAACATC
+PBANKA_1117100.1             +     53  1.69e-05 GTTTTTACAA GCGGGG TGGAGGAAAA
+PBANKA_1224000.1             +     43  1.78e-05 TATTAAATAA GGGGGG GGAAAATGAA
+PBANKA_1345300.1             +     77  3.25e-05 AAAAATAAGC GCGTGT ATGTTTTTAT
+PBANKA_1302400.1             +      1  3.25e-05          . GCGTGT TTCAATGAAA
+PBANKA_1457300.1             -     37  5.08e-05 TATAAATCAA GGGTGT TTTACATTGA
+PBANKA_1329500.1             -     35  5.08e-05 AAAATATATT GGGTGT AAAACTTTAT
+PBANKA_1406100.1             +     77  5.08e-05 TTCTCCAATT GGGTGT ATTCACTTGC
+PBANKA_1337200.1             -     38  5.08e-05 TGGTAAAATG GGGTGT ATATAATTAT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GSGKGY MEME-3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+PBANKA_1226000.1                  1.7e-06  40_[+3]_54
+PBANKA_1143500.1                  1.7e-06  64_[-3]_30
+PBANKA_1142300.1                  1.7e-06  19_[+3]_75
+PBANKA_1440800.1                  5.3e-06  53_[+3]_41
+PBANKA_1023600.1                  5.3e-06  94_[+3]
+PBANKA_1343300.1                  5.3e-06  7_[-3]_87
+PBANKA_1325000.1                  5.3e-06  25_[-3]_69
+PBANKA_1118600.1                  5.3e-06  4_[-3]_90
+PBANKA_1103100.1                  1.2e-05  37_[-3]_57
+PBANKA_1018400.1                  1.2e-05  70_[-3]_24
+PBANKA_1035300.1                  1.7e-05  16_[-3]_78
+PBANKA_1117100.1                  1.7e-05  52_[+3]_42
+PBANKA_1224000.1                  1.8e-05  42_[+3]_52
+PBANKA_1345300.1                  3.3e-05  76_[+3]_18
+PBANKA_1302400.1                  3.3e-05  [+3]_94
+PBANKA_1457300.1                  5.1e-05  36_[-3]_58
+PBANKA_1329500.1                  5.1e-05  34_[-3]_60
+PBANKA_1406100.1                  5.1e-05  76_[+3]_18
+PBANKA_1337200.1                  5.1e-05  37_[-3]_57
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GSGKGY MEME-3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF GSGKGY width=6 seqs=19
+PBANKA_1226000.1         (   41) GGGGGC  1 
+PBANKA_1143500.1         (   65) GGGGGC  1 
+PBANKA_1142300.1         (   20) GGGGGC  1 
+PBANKA_1440800.1         (   54) GCGTGC  1 
+PBANKA_1023600.1         (   95) GCGTGC  1 
+PBANKA_1343300.1         (    8) GCGTGC  1 
+PBANKA_1325000.1         (   26) GCGTGC  1 
+PBANKA_1118600.1         (    5) GCGTGC  1 
+PBANKA_1103100.1         (   38) GCGGGT  1 
+PBANKA_1018400.1         (   71) GCGGGT  1 
+PBANKA_1035300.1         (   17) GGGGGT  1 
+PBANKA_1117100.1         (   53) GCGGGG  1 
+PBANKA_1224000.1         (   43) GGGGGG  1 
+PBANKA_1345300.1         (   77) GCGTGT  1 
+PBANKA_1302400.1         (    1) GCGTGT  1 
+PBANKA_1457300.1         (   37) GGGTGT  1 
+PBANKA_1329500.1         (   35) GGGTGT  1 
+PBANKA_1406100.1         (   77) GGGTGT  1 
+PBANKA_1337200.1         (   38) GGGTGT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GSGKGY MEME-3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 6 n= 20995 bayes= 11.0066 E= 3.8e-002 
+ -1089  -1089    336  -1089 
+ -1089    243    228  -1089 
+ -1089  -1089    336  -1089 
+ -1089  -1089    211     52 
+ -1089  -1089    336  -1089 
+ -1089    211     11     24 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GSGKGY MEME-3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 6 nsites= 19 E= 3.8e-002 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.526316  0.473684  0.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.421053  0.578947 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.421053  0.105263  0.473684 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif GSGKGY MEME-3 regular expression
+--------------------------------------------------------------------------------
+G[CG]G[TG]G[TC]
+--------------------------------------------------------------------------------
+
+
+
+
+Time 77.40 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+PBANKA_1011100.1                 2.85e-01  100
+PBANKA_1012500.1                 9.39e-01  100
+PBANKA_1013700.1                 2.66e-03  32_[+2(1.82e-06)]_53
+PBANKA_1014300.1                 2.49e-02  50_[+3(7.05e-05)]_44
+PBANKA_1014900.1                 2.37e-01  100
+PBANKA_1016300.1                 2.02e-01  100
+PBANKA_1018400.1                 2.42e-03  70_[-3(1.25e-05)]_24
+PBANKA_1018600.1                 2.33e-01  100
+PBANKA_1019400.1                 2.54e-02  3_[+2(1.09e-05)]_82
+PBANKA_1022000.1                 1.91e-02  31_[-1(1.88e-05)]_61
+PBANKA_1023200.1                 6.08e-01  100
+PBANKA_1024000.1                 8.56e-01  100
+PBANKA_1026300.1                 3.46e-01  100
+PBANKA_1027800.1                 8.05e-02  38_[-2(9.50e-05)]_47
+PBANKA_1028300.1                 6.34e-01  100
+PBANKA_1028400.1                 3.09e-01  100
+PBANKA_1028600.1                 2.76e-01  100
+PBANKA_1035100.1                 8.81e-01  100
+PBANKA_1036500.1                 1.78e-01  49_[-2(8.13e-05)]_36
+PBANKA_1102900.1                 4.55e-02  100
+PBANKA_1103100.1                 5.12e-03  37_[-3(1.25e-05)]_57
+PBANKA_1105700.1                 8.88e-02  [-2(2.82e-05)]_54_[+2(7.45e-05)]_16
+PBANKA_1105800.1                 7.59e-03  9_[-2(1.09e-05)]_55_[-2(3.53e-05)]_\
+    6
+PBANKA_1108100.1                 3.71e-01  100
+PBANKA_1111900.1                 1.38e-01  100
+PBANKA_1113000.1                 8.70e-02  100
+PBANKA_1117100.1                 8.58e-03  52_[+3(1.69e-05)]_42
+PBANKA_1118600.1                 1.16e-03  4_[-3(5.32e-06)]_90
+PBANKA_1120000.1                 2.78e-01  100
+PBANKA_1122000.1                 2.34e-01  100
+PBANKA_1124100.1                 8.98e-03  62_[-2(2.82e-05)]_23
+PBANKA_1132600.1                 5.48e-03  12_[-2(1.82e-06)]_73
+PBANKA_1134500.1                 7.23e-01  100
+PBANKA_1141400.1                 5.79e-01  100
+PBANKA_1142300.1                 6.29e-03  19_[+3(1.74e-06)]_75
+PBANKA_1203400.1                 7.75e-02  100
+PBANKA_1205200.1                 4.19e-02  22_[-2(1.09e-05)]_63
+PBANKA_1210700.1                 1.25e-02  17_[-2(5.99e-06)]_68
+PBANKA_1215800.1                 3.07e-01  100
+PBANKA_1216500.1                 3.09e-01  100
+PBANKA_1222700.1                 1.60e-02  85_[-2(2.82e-05)]
+PBANKA_1222800.1                 4.45e-02  100
+PBANKA_1223500.1                 1.46e-02  8_[-1(4.02e-05)]_84
+PBANKA_1223600.1                 4.10e-01  100
+PBANKA_1226300.1                 1.67e-01  100
+PBANKA_1226500.1                 4.84e-04  77_[+2(5.99e-06)]_8
+PBANKA_1228100.1                 2.93e-02  46_[-2(2.40e-05)]_39
+PBANKA_1228300.1                 2.75e-01  100
+PBANKA_1234000.1                 2.68e-01  100
+PBANKA_1234100.1                 1.77e-02  100
+PBANKA_1234200.1                 6.02e-01  100
+PBANKA_1235600.1                 7.98e-02  100
+PBANKA_1238200.1                 3.28e-02  72_[-2(2.01e-05)]_13
+PBANKA_1240200.1                 9.59e-01  100
+PBANKA_1240600.1                 9.57e-02  100
+PBANKA_1302400.1                 2.68e-03  [+3(3.25e-05)]_6_[+2(5.51e-05)]_73
+PBANKA_1307700.1                 4.62e-01  100
+PBANKA_1308600.1                 5.17e-03  28_[+2(2.40e-05)]_57
+PBANKA_1311600.1                 8.30e-01  100
+PBANKA_1312500.1                 4.04e-02  100
+PBANKA_1313400.1                 6.06e-02  100
+PBANKA_1315600.1                 7.69e-02  13_[+2(2.21e-05)]_72
+PBANKA_1323700.1                 2.76e-01  100
+PBANKA_1325000.1                 4.39e-04  25_[-3(5.32e-06)]_69
+PBANKA_1329800.1                 3.91e-02  81_[-2(5.51e-05)]_4
+PBANKA_1331200.1                 3.08e-01  100
+PBANKA_1333800.1                 8.81e-01  100
+PBANKA_1337200.1                 9.18e-04  10_[+2(7.35e-06)]_12_[-3(5.08e-05)]_\
+    57
+PBANKA_1339200.1                 5.62e-01  100
+PBANKA_1341900.1                 9.85e-01  100
+PBANKA_1343300.1                 3.57e-05  7_[-3(5.32e-06)]_47_[-3(5.32e-06)]_\
+    34
+PBANKA_1345000.1                 6.00e-01  100
+PBANKA_1345300.1                 5.12e-05  29_[-2(7.35e-06)]_32_[+3(3.25e-05)]_\
+    18
+PBANKA_1348400.1                 4.25e-01  100
+PBANKA_1349900.1                 2.20e-04  17_[+1(2.38e-06)]_75
+PBANKA_1352000.1                 3.48e-01  100
+PBANKA_1353100.1                 4.04e-01  100
+PBANKA_1357800.1                 2.22e-01  100
+PBANKA_1358600.1                 2.97e-01  100
+PBANKA_1361200.1                 1.31e-03  39_[-1(4.43e-06)]_53
+PBANKA_1362400.1                 4.27e-01  100
+PBANKA_1363300.1                 9.71e-01  100
+PBANKA_1364200.1                 9.65e-05  34_[-1(2.82e-05)]_7_[-2(8.13e-05)]_\
+    18_[+3(6.24e-05)]_12
+PBANKA_1400600.1                 1.72e-01  100
+PBANKA_1402200.1                 7.93e-01  100
+PBANKA_1405200.1                 7.02e-01  100
+PBANKA_1406100.1                 2.00e-02  76_[+3(5.08e-05)]_18
+PBANKA_1407700.1                 7.83e-01  100
+PBANKA_1410400.1                 1.51e-02  16_[-1(1.41e-05)]_76
+PBANKA_1415000.1                 4.73e-03  45_[+2(2.63e-06)]_40
+PBANKA_1415500.1                 4.52e-02  100
+PBANKA_1416100.1                 7.06e-01  100
+PBANKA_1418300.1                 6.57e-01  100
+PBANKA_1423500.1                 1.18e-04  28_[+2(2.18e-07)]_57
+PBANKA_1425100.1                 8.16e-01  100
+PBANKA_1427000.1                 2.31e-03  83_[-2(2.01e-05)]_2
+PBANKA_1427100.1                 2.32e-02  100
+PBANKA_1428800.1                 9.84e-01  100
+PBANKA_1429700.1                 4.20e-01  100
+PBANKA_1430100.1                 1.75e-01  53_[+3(7.05e-05)]_41
+PBANKA_1436200.1                 5.06e-01  100
+PBANKA_1439900.1                 3.02e-02  52_[+2(1.09e-05)]_33
+PBANKA_1440700.1                 5.50e-01  100
+PBANKA_1443400.1                 7.10e-03  43_[+1(1.81e-06)]_49
+PBANKA_1447100.1                 4.49e-01  100
+PBANKA_1451600.1                 1.41e-01  100
+PBANKA_1457500.1                 3.20e-01  100
+PBANKA_1458100.1                 1.63e-02  60_[+2(2.82e-05)]_25
+PBANKA_1462200.1                 1.16e-01  100
+PBANKA_1463500.1                 3.30e-01  100
+PBANKA_1010800.1                 6.50e-01  100
+PBANKA_1012400.1                 9.91e-02  100
+PBANKA_1012800.1                 1.15e-01  100
+PBANKA_1013100.1                 6.02e-03  83_[+1(4.43e-06)]_9
+PBANKA_1015900.1                 1.69e-01  100
+PBANKA_1016000.1                 4.27e-03  58_[+1(7.61e-06)]_34
+PBANKA_1016400.1                 6.03e-01  100
+PBANKA_1017100.1                 5.64e-02  62_[+2(6.31e-05)]_23
+PBANKA_1017200.1                 8.16e-01  100
+PBANKA_1019200.1                 9.64e-01  100
+PBANKA_1020700.1                 2.09e-01  100
+PBANKA_1023000.1                 6.54e-01  100
+PBANKA_1023600.1                 6.17e-05  71_[+1(6.17e-06)]_15_[+3(5.32e-06)]
+PBANKA_1025100.1                 5.19e-01  100
+PBANKA_1025500.1                 2.06e-02  77_[+1(6.17e-06)]_15
+PBANKA_1026200.1                 2.98e-03  15_[-2(4.00e-06)]_70
+PBANKA_1027900.1                 1.14e-02  33_[-2(2.63e-06)]_52
+PBANKA_1030300.1                 9.09e-02  6_[-2(8.91e-05)]_79
+PBANKA_1035300.1                 5.92e-02  16_[-3(1.69e-05)]_55_[+3(7.05e-05)]_\
+    17
+PBANKA_1103200.1                 8.32e-01  100
+PBANKA_1103300.1                 7.76e-01  100
+PBANKA_1104400.1                 6.69e-02  100
+PBANKA_1104900.1                 9.77e-02  78_[-2(4.33e-05)]_7
+PBANKA_1108600.1                 5.73e-03  16_[+1(2.23e-05)]_1_[+1(6.92e-05)]_\
+    67
+PBANKA_1110500.1                 6.96e-03  56_[+1(6.17e-06)]_36
+PBANKA_1112300.1                 5.14e-02  23_[-2(2.01e-05)]_62
+PBANKA_1112500.1                 3.27e-01  100
+PBANKA_1112900.1                 5.03e-02  50_[-2(8.91e-05)]_35
+PBANKA_1113500.1                 9.27e-04  66_[+2(3.49e-06)]_19
+PBANKA_1113900.1                 2.37e-01  100
+PBANKA_1119700.1                 9.49e-02  46_[-2(4.78e-05)]_39
+PBANKA_1120800.1                 1.16e-02  29_[-2(3.53e-05)]_56
+PBANKA_1123500.1                 4.12e-01  100
+PBANKA_1126200.1                 1.84e-01  81_[+2(8.91e-05)]_4
+PBANKA_1133500.1                 6.00e-01  100
+PBANKA_1133700.1                 7.04e-04  57_[+1(2.56e-06)]_35
+PBANKA_1134100.1                 2.91e-01  100
+PBANKA_1138000.1                 1.32e-02  100
+PBANKA_1138200.1                 9.10e-01  100
+PBANKA_1143500.1                 2.11e-03  64_[-3(1.74e-06)]_30
+PBANKA_1215100.1                 2.27e-02  1_[+2(5.08e-05)]_84
+PBANKA_1216600.1                 1.22e-01  100
+PBANKA_1218500.1                 8.00e-01  100
+PBANKA_1221600.1                 4.91e-02  100
+PBANKA_1222100.1                 1.12e-02  92_[+1(8.75e-06)]
+PBANKA_1224000.1                 5.49e-05  42_[+3(1.78e-05)]_2_[+2(2.63e-06)]_\
+    35
+PBANKA_1224500.1                 3.03e-01  100
+PBANKA_1226000.1                 1.56e-03  40_[+3(1.74e-06)]_54
+PBANKA_1227900.1                 4.53e-02  84_[-2(1.24e-05)]_1
+PBANKA_1230300.1                 8.11e-02  100
+PBANKA_1234300.1                 9.06e-02  100
+PBANKA_1234500.1                 4.71e-01  100
+PBANKA_1237600.1                 6.92e-01  100
+PBANKA_1242000.1                 1.46e-01  100
+PBANKA_1242300.1                 6.93e-01  100
+PBANKA_1243600.1                 1.03e-01  100
+PBANKA_1300700.1                 8.46e-01  100
+PBANKA_1312200.1                 3.83e-02  24_[+2(8.13e-05)]_61
+PBANKA_1312300.1                 4.79e-01  100
+PBANKA_1314300.1                 5.03e-04  23_[-2(5.99e-06)]_62
+PBANKA_1325300.1                 4.34e-01  100
+PBANKA_1329300.1                 8.81e-01  100
+PBANKA_1329500.1                 1.18e-03  34_[-3(5.08e-05)]_18_[+2(1.66e-05)]_\
+    27
+PBANKA_1332100.1                 5.81e-01  100
+PBANKA_1333300.1                 2.70e-03  14_[+1(2.38e-06)]_78
+PBANKA_1335500.1                 5.46e-02  15_[-2(5.89e-05)]_70
+PBANKA_1341100.1                 2.01e-01  100
+PBANKA_1341800.1                 1.00e+00  100
+PBANKA_1344300.1                 2.00e-01  100
+PBANKA_1345200.1                 2.85e-02  12_[+2(4.78e-05)]_73
+PBANKA_1346600.1                 5.93e-01  100
+PBANKA_1347400.1                 7.59e-06  5_[+2(2.63e-06)]_10_[-1(3.86e-05)]_\
+    62
+PBANKA_1347500.1                 6.38e-01  100
+PBANKA_1347600.1                 3.85e-02  15_[-2(1.09e-05)]_70
+PBANKA_1347900.1                 3.33e-01  100
+PBANKA_1348500.1                 1.65e-02  6_[+2(1.09e-05)]_31_[+2(6.31e-05)]_\
+    33
+PBANKA_1351000.1                 2.65e-02  100
+PBANKA_1352400.1                 9.77e-01  100
+PBANKA_1353700.1                 6.00e-04  19_[+1(4.43e-06)]_73
+PBANKA_1354400.1                 9.83e-01  100
+PBANKA_1358300.1                 1.89e-01  100
+PBANKA_1401300.1                 6.00e-02  22_[+2(7.45e-05)]_63
+PBANKA_1402500.1                 2.99e-02  100
+PBANKA_1405500.1                 3.20e-02  30_[+2(7.45e-05)]_18_[+2(8.91e-05)]_\
+    22
+PBANKA_1406800.1                 9.93e-04  52_[+1(1.41e-05)]_40
+PBANKA_1409200.1                 9.02e-01  100
+PBANKA_1417600.1                 3.66e-01  100
+PBANKA_1422700.1                 7.50e-02  100
+PBANKA_1423600.1                 7.83e-04  [+1(1.81e-06)]_92
+PBANKA_1424200.1                 2.06e-01  100
+PBANKA_1424300.1                 1.33e-01  100
+PBANKA_1432800.1                 8.05e-01  100
+PBANKA_1433800.1                 5.57e-02  31_[-2(5.51e-05)]_5_[-2(1.66e-05)]_\
+    34
+PBANKA_1434200.1                 3.49e-01  100
+PBANKA_1438300.1                 4.41e-01  100
+PBANKA_1440800.1                 5.39e-04  53_[+3(5.32e-06)]_16_[-3(5.08e-05)]_\
+    19
+PBANKA_1441500.1                 7.27e-01  100
+PBANKA_1442300.1                 8.05e-01  100
+PBANKA_1446700.1                 9.38e-01  100
+PBANKA_1448200.1                 2.63e-01  100
+PBANKA_1450900.1                 2.40e-03  2_[+2(2.63e-06)]_83
+PBANKA_1451000.1                 4.85e-01  100
+PBANKA_1452300.1                 3.43e-01  100
+PBANKA_1456100.1                 9.93e-01  100
+PBANKA_1456500.1                 1.26e-02  31_[-2(2.82e-06)]_54
+PBANKA_1457300.1                 2.51e-04  11_[+2(4.00e-06)]_10_[-3(5.08e-05)]_\
+    58
+PBANKA_1458000.1                 8.78e-01  100
+PBANKA_1460200.1                 8.12e-03  [-3(7.05e-05)]_72_[-2(8.91e-05)]_7
+PBANKA_1460600.1                 4.85e-01  100
+PBANKA_1463000.1                 8.49e-03  [+1(8.79e-05)]_37_[-1(5.04e-05)]_47
+PBANKA_1463100.1                 8.95e-01  100
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (3) found.
+********************************************************************************
+
+CPU: Nitro-AN515-51
+
+********************************************************************************

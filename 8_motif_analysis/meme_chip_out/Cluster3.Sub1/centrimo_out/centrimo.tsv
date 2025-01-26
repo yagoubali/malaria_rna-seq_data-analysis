@@ -1,0 +1,7 @@
+db_index	motif_id	motif_alt_id	consensus	E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	p-value	mult_tests
+   1	TAYATATATGY	MEME-1	TAYATATATGY	8.8e-1	   1.6e-3	          -6.47	         0.0	     75.0	        991	          23	        105	  0.07568	3.1e-6	       495
+   2	3-AAWTATAWAYATAT	STREME-3	AAWTATAWAYATAT	1.2e0	   2.2e-3	          -6.13	         0.0	     96.0	        988	          26	        100	  0.09717	4.4e-6	       493
+
+# CentriMo (Local Motif Enrichment Analysis): Version 5.5.7 compiled on Jan 23 2025 at 10:16:13
+# The format of this file is described at https://meme-suite.org/meme/doc/centrimo-output-format.html.
+# centrimo -seqlen 1001 -verbosity 1 -oc meme_chip_out/Cluster3.Sub1/centrimo_out -bfile meme_chip_out/Cluster3.Sub1/background -score 5.0 -ethresh 10.0 meme_chip_out/Cluster3.Sub1/Cluster3.Sub1.fasta meme_chip_out/Cluster3.Sub1/meme_out/meme.xml meme_chip_out/Cluster3.Sub1/streme_out/streme.xml /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/prodoric_2021.9.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/collectf.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/regtransbase.meme

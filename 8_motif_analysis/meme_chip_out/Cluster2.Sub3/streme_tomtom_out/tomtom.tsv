@@ -1,0 +1,9 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+1-AATAAAAAAAAAAAA	MX000372	1	0.000811538	0.452838	0.441827	15	AATAAAAAAAAAAAA	TAATAAAAAATTTAAACA	-
+1-AATAAAAAAAAAAAA	MX000103	-2	0.00113805	0.635031	0.441827	8	AATAAAAAAAAAAAA	TGAAAAAA	+
+1-AATAAAAAAAAAAAA	MX000362	0	0.00118816	0.662991	0.441827	13	AATAAAAAAAAAAAA	AATTAAAAAAATA	-
+1-AATAAAAAAAAAAAA	NagQ_a_b_g_Proteobacteria	0	0.00162024	0.904093	0.451876	15	AATAAAAAAAAAAAA	AATACCAAAAAAATACCA	-
+
+# Tomtom (Motif Comparison Tool): Version 5.5.7 compiled on Jan 23 2025 at 10:16:31
+# The format of this file is described at https://meme-suite.org/meme/doc/tomtom-output-format.html.
+# tomtom -verbosity 1 -oc meme_chip_out/Cluster2.Sub3/streme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_chip_out/Cluster2.Sub3/streme_out/streme.xml /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/prodoric_2021.9.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/collectf.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/regtransbase.meme

@@ -1,0 +1,13 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	streme.xml	5-WTYASTRAW	STREME-5	WTYASTRAW	0	0	.	.	.	3.72e+00	94	8	2	5	6.71e-02	4.65e-01
+streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	streme.xml	1-AAATAAATAAAAAAW	STREME-1	AAATAAATAAAAAAW	0	0	.	.	.	6.53e+00	33	5	3	59	1.72e-01	8.16e-01
+streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	streme.xml	3-AMTATGT	STREME-3	AMTATGT	0	0	.	.	.	7.39e+00	7	4	2	19	2.48e-01	9.23e-01
+streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	streme.xml	2-AAATAATTT	STREME-2	AAATAATTT	0	0	.	.	.	7.67e+00	32	6	2	21	2.98e-01	9.59e-01
+streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	meme.xml	GCCSGT	MEME-2	GCCSGT	0	0	.	.	.	8.00e+00	17	1	1	4	6.31e-01	1.00e+00
+streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	0	0	.	.	.	8.00e+00	89	1	1	5	7.12e-01	1.00e+00
+streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	meme.xml	TGCGCWCG	MEME-3	TGCGCWCG	0	0	.	.	.	8.00e+00	21	0	1	5	7.12e-01	1.00e+00
+streme.xml	4-CAACTATAAAA	STREME-4	CAACTATAAAA	meme.xml	DGCGCC	MEME-1	DGCGCC	0	0	meme.xml	TGCGCWCG	MEME-3	8.00e+00	23	1	1	15	9.75e-01	1.00e+00
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.5.7 compiled on Jan 23 2025 at 10:16:28
+# The format of this file is described at https://meme-suite.org/meme/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc meme_chip_out/Cluster2.Sub1/spamo_out_4 -bgfile meme_chip_out/Cluster2.Sub1/background -keepprimary -primary 4-CAACTATAAAA meme_chip_out/Cluster2.Sub1/Cluster2.Sub1.fasta meme_chip_out/Cluster2.Sub1/streme_out/streme.xml meme_chip_out/Cluster2.Sub1/meme_out/meme.xml meme_chip_out/Cluster2.Sub1/streme_out/streme.xml

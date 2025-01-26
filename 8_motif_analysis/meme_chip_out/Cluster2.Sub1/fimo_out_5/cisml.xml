@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Document definition -->
+<!-- http://zlab.bu.edu/~phaverty/SupplementalData/CisML/cisml.dtd -->
+<!DOCTYPE cis-element-search[
+<!ELEMENT cis-element-search (program-name, parameters, (pattern | multi-pattern-scan)*)>
+<!ELEMENT program-name (#PCDATA)>
+<!ELEMENT parameters (
+  pattern-file, 
+  sequence-file, 
+  background-seq-file?,
+  pattern-pvalue-cutoff?,
+  sequence-pvalue-cutoff?,
+  site-pvalue-cutoff?,
+  sequence-filtering,
+  ANY*
+ )>
+<!ELEMENT command-line (#PCDATA)>
+<!ELEMENT pattern-file (#PCDATA)>
+<!ELEMENT sequence-file (#PCDATA)>
+<!ELEMENT background-seq-file (#PCDATA)>
+<!ELEMENT pattern-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-pvalue-cutoff (#PCDATA)>
+<!ELEMENT site-pvalue-cutoff (#PCDATA)>
+<!ELEMENT sequence-filtering EMPTY>
+<!ELEMENT multi-pattern-scan (pattern+, ANY*)>
+<!ELEMENT pattern (scanned-sequence+, ANY*)>
+<!ELEMENT scanned-sequence (matched-element*, ANY*)>
+<!ELEMENT matched-element (sequence)>
+<!ELEMENT sequence (#PCDATA)>
+<!ATTLIST cis-element-search
+xmlns:xsi CDATA #IMPLIED
+xmlns:mem CDATA #IMPLIED
+xsi:schemaLocation CDATA #IMPLIED
+>
+<!ATTLIST sequence-filtering
+on-off CDATA #REQUIRED
+type CDATA #IMPLIED
+>
+<!ATTLIST multi-pattern-scan
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+>
+<!ATTLIST pattern
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+pvalue CDATA #IMPLIED
+score CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST scanned-sequence
+accession CDATA #REQUIRED
+name CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+length CDATA #IMPLIED
+db CDATA #IMPLIED
+lsid CDATA #IMPLIED
+>
+<!ATTLIST matched-element
+start CDATA #REQUIRED
+stop CDATA #REQUIRED
+score CDATA #IMPLIED
+pvalue CDATA #IMPLIED
+clusterid CDATA #IMPLIED
+>
+
+]>
+<cis-element-search
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zlab.bu.edu/schema/cisml cisml.xsd"
+  xmlns="http://zlab.bu.edu/schema/cisml"
+  xmlns:mem="http://noble.gs.washington.edu/meme"
+>
+<program-name>fimo</program-name>
+<parameters>
+<command-line>fimo --verbosity 1 --oc meme_chip_out/Cluster2.Sub1/fimo_out_5 --bgfile meme_chip_out/Cluster2.Sub1/background --motif 5-WTYASTRAW meme_chip_out/Cluster2.Sub1/streme_out/streme.xml meme_chip_out/Cluster2.Sub1/Cluster2.Sub1.fasta</command-line>
+<pattern-file>meme_chip_out/Cluster2.Sub1/streme_out/streme.xml</pattern-file>
+<sequence-file>meme_chip_out/Cluster2.Sub1/Cluster2.Sub1.fasta</sequence-file>
+<site-pvalue-cutoff>0.0001</site-pvalue-cutoff>
+<sequence-filtering on-off="off"/>
+</parameters>
+<pattern accession="5-WTYASTRAW" name="STREME-5">
+<scanned-sequence accession="PBANKA_0814900.1" name="PBANKA_0814900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0815000.1" name="PBANKA_0815000.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0815200.1" name="PBANKA_0815200.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0815600.1" name="PBANKA_0815600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0815900.1" name="PBANKA_0815900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0816600.1" name="PBANKA_0816600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0816900.1" name="PBANKA_0816900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0818900.1" name="PBANKA_0818900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0820800.1" name="PBANKA_0820800.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0822500.1" name="PBANKA_0822500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0822700.1" name="PBANKA_0822700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0823100.1" name="PBANKA_0823100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0825000.1" name="PBANKA_0825000.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0825400.1" name="PBANKA_0825400.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0827300.1" name="PBANKA_0827300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0827500.1" name="PBANKA_0827500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0828100.1" name="PBANKA_0828100.1">
+<matched-element start="333" stop="341" score="9.94393" pvalue="4.61e-05">
+<sequence>ACCACTGAA</sequence>
+<mem:qvalue>1</mem:qvalue>
+</matched-element>
+<matched-element start="341" stop="333" score="9.94393" pvalue="4.61e-05">
+<sequence>TTCAGTGGT</sequence>
+<mem:qvalue>1</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0829100.1" name="PBANKA_0829100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0831300.1" name="PBANKA_0831300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0833400.1" name="PBANKA_0833400.1">
+<matched-element start="984" stop="992" score="11.0467" pvalue="2.33e-05">
+<sequence>TTCACTGAT</sequence>
+<mem:qvalue>1</mem:qvalue>
+</matched-element>
+<matched-element start="992" stop="984" score="11.0467" pvalue="2.33e-05">
+<sequence>ATCAGTGAA</sequence>
+<mem:qvalue>1</mem:qvalue>
+</matched-element>
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0834900.1" name="PBANKA_0834900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0903400.1" name="PBANKA_0903400.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0904700.1" name="PBANKA_0904700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0907900.1" name="PBANKA_0907900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0912100.1" name="PBANKA_0912100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0913700.1" name="PBANKA_0913700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0915600.1" name="PBANKA_0915600.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0918000.1" name="PBANKA_0918000.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0920100.1" name="PBANKA_0920100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0920900.1" name="PBANKA_0920900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0921700.1" name="PBANKA_0921700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0921800.1" name="PBANKA_0921800.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0922100.1" name="PBANKA_0922100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0923500.1" name="PBANKA_0923500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0924300.1" name="PBANKA_0924300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0927900.1" name="PBANKA_0927900.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0928100.1" name="PBANKA_0928100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0928200.1" name="PBANKA_0928200.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0928700.1" name="PBANKA_0928700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0930300.1" name="PBANKA_0930300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0931100.1" name="PBANKA_0931100.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0932500.1" name="PBANKA_0932500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0935300.1" name="PBANKA_0935300.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0935500.1" name="PBANKA_0935500.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0940700.1" name="PBANKA_0940700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_0942800.1" name="PBANKA_0942800.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1005700.1" name="PBANKA_1005700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1006700.1" name="PBANKA_1006700.1">
+</scanned-sequence>
+<scanned-sequence accession="PBANKA_1007200.1" name="PBANKA_1007200.1">
+</scanned-sequence>
+<mem:has-qvalues>yes</mem:has-qvalues>
+</pattern>
+</cis-element-search>

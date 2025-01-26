@@ -1,0 +1,1819 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="fimo.tsv""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="fimo.gff""><b>Results in GFF3 Format</b></a></td>
+<td bgcolor="#00FFFF" id="best_site"><a href="best_site.narrowPeak""><b>Best Site per Sequence</b></a></td>
+<script>
+var new_icon_src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAQCAMAAAAyEe/dAAAACVBMVEX//wAAAAD////s2cV/AAAAdUlEQVQYlXVRBxLAIAhL+P+jC2HZhXcBZEWEldDsZcLIcAhHWWnK8SDcWQhMFUHdAQ1CqQ5+CWPmlHojl+nCJNRtzu4qRc3IUzmTVpXYK0nox0z0PI1stgchdK7lEv7ekhvalw8WW547Gyzedt/2/gLx8WXjXF/1AYFriNAWAAAAAElFTkSuQmCC";
+var new_icon = document.createElement("img");
+new_icon.src = new_icon_src;
+new_icon.alt = "NEW";
+const elem = document.getElementById("best_site");
+elem.appendChild(document.createTextNode("  "));
+elem.appendChild(new_icon);
+</script>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.5.7, (Release date: Wed Jun 19 13:59:04 2024 -0700)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="https://meme-suite.org/meme/doc/fimo-output-format.html">https://meme-suite.org/meme/doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="https://meme-suite.org">https://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE meme_chip_out/Cluster2.Sub5/Cluster2.Sub5.fasta
+  <br />
+  Database contains 89 sequences, 89089 residues
+</p>
+<p>
+  MOTIFS meme_chip_out/Cluster2.Sub5/streme_out/streme.xml (DNA)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">1-AAAAAAAATAAAWAA</td>
+        <td style="text-align:right;padding-left: 1em;">15</td>
+        <td style="text-align:left;padding-left: 1em;">AAAAAAAATAAAAAA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">2-AAATAAAATA</td>
+        <td style="text-align:right;padding-left: 1em;">10</td>
+        <td style="text-align:left;padding-left: 1em;">AAATAAAATA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">3-TAAATAATWAT</td>
+        <td style="text-align:right;padding-left: 1em;">11</td>
+        <td style="text-align:left;padding-left: 1em;">TAAATAATAAT</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (meme_chip_out/Cluster2.Sub5/background):
+<br/>
+
+A 0.401 C 0.099 G 0.099 T 0.401 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 147 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0823600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">918</td>
+      <td style="text-align:left;">932</td>
+      <td style="text-align:left;">2.76e-07</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0921900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">40</td>
+      <td style="text-align:left;">54</td>
+      <td style="text-align:left;">1.4e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">250</td>
+      <td style="text-align:left;">264</td>
+      <td style="text-align:left;">1.4e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0938300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">425</td>
+      <td style="text-align:left;">439</td>
+      <td style="text-align:left;">1.4e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0914500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">487</td>
+      <td style="text-align:left;">501</td>
+      <td style="text-align:left;">1.4e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0817000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">962</td>
+      <td style="text-align:left;">976</td>
+      <td style="text-align:left;">1.4e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0914400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">383</td>
+      <td style="text-align:left;">397</td>
+      <td style="text-align:left;">2.58e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0827100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">465</td>
+      <td style="text-align:left;">479</td>
+      <td style="text-align:left;">2.58e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0833200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">513</td>
+      <td style="text-align:left;">527</td>
+      <td style="text-align:left;">2.58e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0906700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">618</td>
+      <td style="text-align:left;">632</td>
+      <td style="text-align:left;">2.58e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">644</td>
+      <td style="text-align:left;">658</td>
+      <td style="text-align:left;">2.58e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0829300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">461</td>
+      <td style="text-align:left;">475</td>
+      <td style="text-align:left;">2.86e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0829300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">979</td>
+      <td style="text-align:left;">993</td>
+      <td style="text-align:left;">2.86e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0829300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">493</td>
+      <td style="text-align:left;">507</td>
+      <td style="text-align:left;">3.14e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0833600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">499</td>
+      <td style="text-align:left;">513</td>
+      <td style="text-align:left;">3.14e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0916000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">804</td>
+      <td style="text-align:left;">818</td>
+      <td style="text-align:left;">3.14e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0823000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">451</td>
+      <td style="text-align:left;">465</td>
+      <td style="text-align:left;">3.82e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0816000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">501</td>
+      <td style="text-align:left;">515</td>
+      <td style="text-align:left;">3.82e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAAAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0931500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">520</td>
+      <td style="text-align:left;">534</td>
+      <td style="text-align:left;">3.82e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0936900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">876</td>
+      <td style="text-align:left;">890</td>
+      <td style="text-align:left;">3.82e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0815100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">966</td>
+      <td style="text-align:left;">980</td>
+      <td style="text-align:left;">3.82e-06</td>
+      <td style="text-align:left;">0.0308</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0835400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">782</td>
+      <td style="text-align:left;">796</td>
+      <td style="text-align:left;">4.41e-06</td>
+      <td style="text-align:left;">0.032</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAATAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0931500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">126</td>
+      <td style="text-align:left;">140</td>
+      <td style="text-align:left;">4.54e-06</td>
+      <td style="text-align:left;">0.032</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0833200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">675</td>
+      <td style="text-align:left;">689</td>
+      <td style="text-align:left;">4.54e-06</td>
+      <td style="text-align:left;">0.032</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0818100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">421</td>
+      <td style="text-align:left;">435</td>
+      <td style="text-align:left;">5.02e-06</td>
+      <td style="text-align:left;">0.032</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATACAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0939500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">506</td>
+      <td style="text-align:left;">520</td>
+      <td style="text-align:left;">5.02e-06</td>
+      <td style="text-align:left;">0.032</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATACAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0832900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">481</td>
+      <td style="text-align:left;">495</td>
+      <td style="text-align:left;">5.47e-06</td>
+      <td style="text-align:left;">0.032</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGCAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0821100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">754</td>
+      <td style="text-align:left;">768</td>
+      <td style="text-align:left;">5.47e-06</td>
+      <td style="text-align:left;">0.032</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGCAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1001600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">811</td>
+      <td style="text-align:left;">825</td>
+      <td style="text-align:left;">5.47e-06</td>
+      <td style="text-align:left;">0.032</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGCAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1003400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">481</td>
+      <td style="text-align:left;">495</td>
+      <td style="text-align:left;">6.78e-06</td>
+      <td style="text-align:left;">0.0371</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAGAGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0832900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">19</td>
+      <td style="text-align:left;">33</td>
+      <td style="text-align:left;">6.79e-06</td>
+      <td style="text-align:left;">0.0371</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGGCAGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0817200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">37</td>
+      <td style="text-align:left;">51</td>
+      <td style="text-align:left;">9.16e-06</td>
+      <td style="text-align:left;">0.0443</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0921900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">49</td>
+      <td style="text-align:left;">63</td>
+      <td style="text-align:left;">9.16e-06</td>
+      <td style="text-align:left;">0.0443</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0816000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">272</td>
+      <td style="text-align:left;">286</td>
+      <td style="text-align:left;">9.16e-06</td>
+      <td style="text-align:left;">0.0443</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0816000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">922</td>
+      <td style="text-align:left;">936</td>
+      <td style="text-align:left;">9.16e-06</td>
+      <td style="text-align:left;">0.0443</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0815100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">50</td>
+      <td style="text-align:left;">64</td>
+      <td style="text-align:left;">9.71e-06</td>
+      <td style="text-align:left;">0.0457</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAGAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0821600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">481</td>
+      <td style="text-align:left;">495</td>
+      <td style="text-align:left;">1.21e-05</td>
+      <td style="text-align:left;">0.0541</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAATTAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0937800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">984</td>
+      <td style="text-align:left;">998</td>
+      <td style="text-align:left;">1.21e-05</td>
+      <td style="text-align:left;">0.0541</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0915800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">787</td>
+      <td style="text-align:left;">801</td>
+      <td style="text-align:left;">1.3e-05</td>
+      <td style="text-align:left;">0.0551</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0915800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">805</td>
+      <td style="text-align:left;">819</td>
+      <td style="text-align:left;">1.3e-05</td>
+      <td style="text-align:left;">0.0551</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0937300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">286</td>
+      <td style="text-align:left;">300</td>
+      <td style="text-align:left;">1.45e-05</td>
+      <td style="text-align:left;">0.06</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGGATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0904100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">186</td>
+      <td style="text-align:left;">200</td>
+      <td style="text-align:left;">1.79e-05</td>
+      <td style="text-align:left;">0.0618</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0825600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">228</td>
+      <td style="text-align:left;">242</td>
+      <td style="text-align:left;">1.79e-05</td>
+      <td style="text-align:left;">0.0618</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1007700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">287</td>
+      <td style="text-align:left;">301</td>
+      <td style="text-align:left;">1.79e-05</td>
+      <td style="text-align:left;">0.0618</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0821100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">520</td>
+      <td style="text-align:left;">534</td>
+      <td style="text-align:left;">1.79e-05</td>
+      <td style="text-align:left;">0.0618</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0941100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">557</td>
+      <td style="text-align:left;">571</td>
+      <td style="text-align:left;">1.79e-05</td>
+      <td style="text-align:left;">0.0618</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0938300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">569</td>
+      <td style="text-align:left;">583</td>
+      <td style="text-align:left;">1.79e-05</td>
+      <td style="text-align:left;">0.0618</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0937500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">908</td>
+      <td style="text-align:left;">922</td>
+      <td style="text-align:left;">1.79e-05</td>
+      <td style="text-align:left;">0.0618</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0929300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">976</td>
+      <td style="text-align:left;">990</td>
+      <td style="text-align:left;">1.79e-05</td>
+      <td style="text-align:left;">0.0618</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0924400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">370</td>
+      <td style="text-align:left;">384</td>
+      <td style="text-align:left;">2.15e-05</td>
+      <td style="text-align:left;">0.07</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1001000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">498</td>
+      <td style="text-align:left;">512</td>
+      <td style="text-align:left;">2.15e-05</td>
+      <td style="text-align:left;">0.07</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAATTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0916000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">818</td>
+      <td style="text-align:left;">832</td>
+      <td style="text-align:left;">2.15e-05</td>
+      <td style="text-align:left;">0.07</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0936400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">545</td>
+      <td style="text-align:left;">559</td>
+      <td style="text-align:left;">2.28e-05</td>
+      <td style="text-align:left;">0.0728</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0833600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">248</td>
+      <td style="text-align:left;">262</td>
+      <td style="text-align:left;">2.39e-05</td>
+      <td style="text-align:left;">0.0749</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0831900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">431</td>
+      <td style="text-align:left;">445</td>
+      <td style="text-align:left;">2.48e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGAATTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0936900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">505</td>
+      <td style="text-align:left;">519</td>
+      <td style="text-align:left;">2.62e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAAATAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0823600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">872</td>
+      <td style="text-align:left;">886</td>
+      <td style="text-align:left;">2.62e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAATTAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0816000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">946</td>
+      <td style="text-align:left;">960</td>
+      <td style="text-align:left;">2.62e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAAATAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0825100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">168</td>
+      <td style="text-align:left;">182</td>
+      <td style="text-align:left;">2.66e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGGGAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0814300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">377</td>
+      <td style="text-align:left;">391</td>
+      <td style="text-align:left;">2.7e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGAAAGTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0924400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">6</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">2.91e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAAAATG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0829300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">460</td>
+      <td style="text-align:left;">474</td>
+      <td style="text-align:left;">2.91e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0921900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">499</td>
+      <td style="text-align:left;">513</td>
+      <td style="text-align:left;">2.91e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0818100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">852</td>
+      <td style="text-align:left;">866</td>
+      <td style="text-align:left;">2.91e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0829300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">978</td>
+      <td style="text-align:left;">992</td>
+      <td style="text-align:left;">2.91e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">575</td>
+      <td style="text-align:left;">589</td>
+      <td style="text-align:left;">2.93e-05</td>
+      <td style="text-align:left;">0.0752</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTGAAGAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0936400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">544</td>
+      <td style="text-align:left;">558</td>
+      <td style="text-align:left;">3.15e-05</td>
+      <td style="text-align:left;">0.0776</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">687</td>
+      <td style="text-align:left;">701</td>
+      <td style="text-align:left;">3.15e-05</td>
+      <td style="text-align:left;">0.0776</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATAAATAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0939600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">187</td>
+      <td style="text-align:left;">201</td>
+      <td style="text-align:left;">3.21e-05</td>
+      <td style="text-align:left;">0.0776</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAAGGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1004300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">418</td>
+      <td style="text-align:left;">432</td>
+      <td style="text-align:left;">3.21e-05</td>
+      <td style="text-align:left;">0.0776</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATGAAAAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0823000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">716</td>
+      <td style="text-align:left;">730</td>
+      <td style="text-align:left;">3.36e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATACAGTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0828700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">641</td>
+      <td style="text-align:left;">655</td>
+      <td style="text-align:left;">3.47e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATACAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0928900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">491</td>
+      <td style="text-align:left;">505</td>
+      <td style="text-align:left;">3.54e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAATAAAGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">513</td>
+      <td style="text-align:left;">527</td>
+      <td style="text-align:left;">3.54e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATAAAATAAAGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0833600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">624</td>
+      <td style="text-align:left;">638</td>
+      <td style="text-align:left;">3.62e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATACATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0823600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">984</td>
+      <td style="text-align:left;">998</td>
+      <td style="text-align:left;">3.62e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATACATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0904100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">667</td>
+      <td style="text-align:left;">681</td>
+      <td style="text-align:left;">3.65e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGAAAATG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0943600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">323</td>
+      <td style="text-align:left;">337</td>
+      <td style="text-align:left;">3.68e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATGCAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0823000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">844</td>
+      <td style="text-align:left;">858</td>
+      <td style="text-align:left;">3.68e-05</td>
+      <td style="text-align:left;">0.0788</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGCCAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0918300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">756</td>
+      <td style="text-align:left;">770</td>
+      <td style="text-align:left;">3.91e-05</td>
+      <td style="text-align:left;">0.0818</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0825100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">819</td>
+      <td style="text-align:left;">833</td>
+      <td style="text-align:left;">3.91e-05</td>
+      <td style="text-align:left;">0.0818</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATAAAATAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0942900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">894</td>
+      <td style="text-align:left;">908</td>
+      <td style="text-align:left;">4.1e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATCATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0914400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">113</td>
+      <td style="text-align:left;">127</td>
+      <td style="text-align:left;">4.32e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0827200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">179</td>
+      <td style="text-align:left;">193</td>
+      <td style="text-align:left;">4.32e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0815100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">673</td>
+      <td style="text-align:left;">687</td>
+      <td style="text-align:left;">4.32e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0943600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">689</td>
+      <td style="text-align:left;">703</td>
+      <td style="text-align:left;">4.32e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0938300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">718</td>
+      <td style="text-align:left;">732</td>
+      <td style="text-align:left;">4.32e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0827100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">71</td>
+      <td style="text-align:left;">85</td>
+      <td style="text-align:left;">4.47e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0921900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">338</td>
+      <td style="text-align:left;">352</td>
+      <td style="text-align:left;">4.47e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0831900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">447</td>
+      <td style="text-align:left;">461</td>
+      <td style="text-align:left;">4.47e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">700</td>
+      <td style="text-align:left;">714</td>
+      <td style="text-align:left;">4.47e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0943600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">866</td>
+      <td style="text-align:left;">880</td>
+      <td style="text-align:left;">4.47e-05</td>
+      <td style="text-align:left;">0.0824</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0924400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">1</td>
+      <td style="text-align:left;">15</td>
+      <td style="text-align:left;">4.53e-05</td>
+      <td style="text-align:left;">0.0825</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATAAAATGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0934300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">484</td>
+      <td style="text-align:left;">498</td>
+      <td style="text-align:left;">4.78e-05</td>
+      <td style="text-align:left;">0.0861</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAATTAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0832200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">488</td>
+      <td style="text-align:left;">502</td>
+      <td style="text-align:left;">4.93e-05</td>
+      <td style="text-align:left;">0.0877</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATGATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0831900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">625</td>
+      <td style="text-align:left;">639</td>
+      <td style="text-align:left;">4.97e-05</td>
+      <td style="text-align:left;">0.0877</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATGGTAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0924400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">416</td>
+      <td style="text-align:left;">430</td>
+      <td style="text-align:left;">5.17e-05</td>
+      <td style="text-align:left;">0.0904</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAATGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0834600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">500</td>
+      <td style="text-align:left;">514</td>
+      <td style="text-align:left;">5.31e-05</td>
+      <td style="text-align:left;">0.0906</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATCAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0939500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">828</td>
+      <td style="text-align:left;">842</td>
+      <td style="text-align:left;">5.31e-05</td>
+      <td style="text-align:left;">0.0906</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATGCAGAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0939600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">830</td>
+      <td style="text-align:left;">844</td>
+      <td style="text-align:left;">5.35e-05</td>
+      <td style="text-align:left;">0.0906</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAAGAAAGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0921900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">52</td>
+      <td style="text-align:left;">66</td>
+      <td style="text-align:left;">6.06e-05</td>
+      <td style="text-align:left;">0.096</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0917000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">64</td>
+      <td style="text-align:left;">78</td>
+      <td style="text-align:left;">6.06e-05</td>
+      <td style="text-align:left;">0.096</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0825600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">314</td>
+      <td style="text-align:left;">328</td>
+      <td style="text-align:left;">6.06e-05</td>
+      <td style="text-align:left;">0.096</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0938300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">625</td>
+      <td style="text-align:left;">639</td>
+      <td style="text-align:left;">6.06e-05</td>
+      <td style="text-align:left;">0.096</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1010200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">710</td>
+      <td style="text-align:left;">724</td>
+      <td style="text-align:left;">6.06e-05</td>
+      <td style="text-align:left;">0.096</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAATATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0936900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">901</td>
+      <td style="text-align:left;">915</td>
+      <td style="text-align:left;">6.06e-05</td>
+      <td style="text-align:left;">0.096</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0821600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">968</td>
+      <td style="text-align:left;">982</td>
+      <td style="text-align:left;">6.06e-05</td>
+      <td style="text-align:left;">0.096</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0914500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">290</td>
+      <td style="text-align:left;">304</td>
+      <td style="text-align:left;">6.4e-05</td>
+      <td style="text-align:left;">0.0985</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAAGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0827200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">337</td>
+      <td style="text-align:left;">351</td>
+      <td style="text-align:left;">6.4e-05</td>
+      <td style="text-align:left;">0.0985</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAAGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0943600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">680</td>
+      <td style="text-align:left;">694</td>
+      <td style="text-align:left;">6.4e-05</td>
+      <td style="text-align:left;">0.0985</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATAAAATAAAAAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0913000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">287</td>
+      <td style="text-align:left;">301</td>
+      <td style="text-align:left;">7.07e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAATTAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0921900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">335</td>
+      <td style="text-align:left;">349</td>
+      <td style="text-align:left;">7.07e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAATAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">697</td>
+      <td style="text-align:left;">711</td>
+      <td style="text-align:left;">7.07e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAATAATAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1001000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">736</td>
+      <td style="text-align:left;">750</td>
+      <td style="text-align:left;">7.07e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAATTTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0923300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">797</td>
+      <td style="text-align:left;">811</td>
+      <td style="text-align:left;">7.17e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAGATTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0936600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">545</td>
+      <td style="text-align:left;">559</td>
+      <td style="text-align:left;">7.39e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAATAATGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0904100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">590</td>
+      <td style="text-align:left;">604</td>
+      <td style="text-align:left;">7.39e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATGAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0936900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">706</td>
+      <td style="text-align:left;">720</td>
+      <td style="text-align:left;">7.39e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATGAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0828800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">813</td>
+      <td style="text-align:left;">827</td>
+      <td style="text-align:left;">7.39e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATGAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1001600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">679</td>
+      <td style="text-align:left;">693</td>
+      <td style="text-align:left;">7.5e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAAGAAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0825100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">326</td>
+      <td style="text-align:left;">340</td>
+      <td style="text-align:left;">7.53e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGCGAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0823600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">13</td>
+      <td style="text-align:left;">27</td>
+      <td style="text-align:left;">7.58e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAAGAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0831200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">315</td>
+      <td style="text-align:left;">329</td>
+      <td style="text-align:left;">7.69e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAAGGAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1001600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">413</td>
+      <td style="text-align:left;">427</td>
+      <td style="text-align:left;">7.89e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAAGCAATAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0814000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">512</td>
+      <td style="text-align:left;">526</td>
+      <td style="text-align:left;">8e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATAATAATTAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0914400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">363</td>
+      <td style="text-align:left;">377</td>
+      <td style="text-align:left;">8.33e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0939200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">368</td>
+      <td style="text-align:left;">382</td>
+      <td style="text-align:left;">8.33e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0937300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">442</td>
+      <td style="text-align:left;">456</td>
+      <td style="text-align:left;">8.33e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0834800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">497</td>
+      <td style="text-align:left;">511</td>
+      <td style="text-align:left;">8.33e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1010200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">500</td>
+      <td style="text-align:left;">514</td>
+      <td style="text-align:left;">8.33e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAATTAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0904100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">699</td>
+      <td style="text-align:left;">713</td>
+      <td style="text-align:left;">8.33e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0916000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">942</td>
+      <td style="text-align:left;">956</td>
+      <td style="text-align:left;">8.33e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0832900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">966</td>
+      <td style="text-align:left;">980</td>
+      <td style="text-align:left;">8.33e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0942900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">561</td>
+      <td style="text-align:left;">575</td>
+      <td style="text-align:left;">8.43e-05</td>
+      <td style="text-align:left;">0.107</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAATTGAAGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0830900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">483</td>
+      <td style="text-align:left;">497</td>
+      <td style="text-align:left;">8.79e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATTAAATTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">739</td>
+      <td style="text-align:left;">753</td>
+      <td style="text-align:left;">8.88e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAAAAATAATGAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1007700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">340</td>
+      <td style="text-align:left;">354</td>
+      <td style="text-align:left;">9.03e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGCAAATA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0832900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">482</td>
+      <td style="text-align:left;">496</td>
+      <td style="text-align:left;">9.03e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGCAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_1001600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">810</td>
+      <td style="text-align:left;">824</td>
+      <td style="text-align:left;">9.03e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGCAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0831200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">119</td>
+      <td style="text-align:left;">133</td>
+      <td style="text-align:left;">9.08e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAAAAATACAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0819100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">279</td>
+      <td style="text-align:left;">293</td>
+      <td style="text-align:left;">9.44e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAATAATATG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0827200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">326</td>
+      <td style="text-align:left;">340</td>
+      <td style="text-align:left;">9.44e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATATGAAAAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0902900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">490</td>
+      <td style="text-align:left;">504</td>
+      <td style="text-align:left;">9.44e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAATATTAAAAAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0829300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">492</td>
+      <td style="text-align:left;">506</td>
+      <td style="text-align:left;">9.44e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0833600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">498</td>
+      <td style="text-align:left;">512</td>
+      <td style="text-align:left;">9.44e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0916000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">803</td>
+      <td style="text-align:left;">817</td>
+      <td style="text-align:left;">9.44e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAATGAATAAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-AAAAAAAATAAAWAA</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">PBANKA_0825100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">932</td>
+      <td style="text-align:left;">946</td>
+      <td style="text-align:left;">9.58e-05</td>
+      <td style="text-align:left;">0.11</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAAAAAAGCAATTA</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+fimo --verbosity 1 --oc meme_chip_out/Cluster2.Sub5/fimo_out_1 --bgfile meme_chip_out/Cluster2.Sub5/background --motif 1-AAAAAAAATAAAWAA meme_chip_out/Cluster2.Sub5/streme_out/streme.xml meme_chip_out/Cluster2.Sub5/Cluster2.Sub5.fasta
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = meme_chip_out/Cluster2.Sub5/fimo_out_1</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = meme_chip_out/Cluster2.Sub5/streme_out/streme.xml</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = meme_chip_out/Cluster2.Sub5/Cluster2.Sub5.fasta</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = meme_chip_out/Cluster2.Sub5/background</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = DNA</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = true</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

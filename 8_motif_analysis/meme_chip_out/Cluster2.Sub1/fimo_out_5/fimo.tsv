@@ -1,0 +1,9 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+5-WTYASTRAW	STREME-5	PBANKA_0833400.1	984	992	+	11.0467	2.33e-05	1	TTCACTGAT
+5-WTYASTRAW	STREME-5	PBANKA_0833400.1	984	992	-	11.0467	2.33e-05	1	ATCAGTGAA
+5-WTYASTRAW	STREME-5	PBANKA_0828100.1	333	341	+	9.94393	4.61e-05	1	ACCACTGAA
+5-WTYASTRAW	STREME-5	PBANKA_0828100.1	333	341	-	9.94393	4.61e-05	1	TTCAGTGGT
+
+# FIMO (Find Individual Motif Occurrences): Version 5.5.7 compiled on Jan 23 2025 at 10:16:15
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html#tsv_results.
+# fimo --verbosity 1 --oc meme_chip_out/Cluster2.Sub1/fimo_out_5 --bgfile meme_chip_out/Cluster2.Sub1/background --motif 5-WTYASTRAW meme_chip_out/Cluster2.Sub1/streme_out/streme.xml meme_chip_out/Cluster2.Sub1/Cluster2.Sub1.fasta

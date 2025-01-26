@@ -1,0 +1,116 @@
+<STREME version="5.5.7" release="Wed Jun 19 13:59:04 2024 -0700">
+  <model>
+    <command_line>streme --verbosity 1 --oc meme_chip_out/Cluster3.Sub1/streme_out -dna --seed 0 --p meme_chip_out/Cluster3.Sub1/seqs-centered --minw 6 --maxw 15 --time 6192 --order 2 --thresh 0.05 --align center --totallength 4000000</command_line>
+    <train_positives count="95" positions="9500" maxlen="100" file="meme_chip_out/Cluster3.Sub1/seqs-centered"/>
+    <train_negatives count="95" positions="9500" from="shuffled"/>
+    <test_positives count="10" positions="1000"/>
+    <test_negatives count="10" positions="1000"/>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <sequence_db A="0.402" C="0.0978" G="0.0978" T="0.402"/>
+    <background_frequencies source="--negatives--" order="2">
+      <alphabet_array>
+        <value letter_id="A">0.402</value>
+        <value letter_id="C">0.0978</value>
+        <value letter_id="G">0.0978</value>
+        <value letter_id="T">0.402</value>
+      </alphabet_array>
+    </background_frequencies>
+    <stop thresh_type="pvalue" thresh="0.05" time="6192"/>
+    <objfun>Differential Enrichment</objfun>
+    <test>Fisher Exact Test</test>
+    <minw>6</minw>
+    <maxw>15</maxw>
+    <kmer>3</kmer>
+    <hofract>0.1</hofract>
+    <neval>25</neval>
+    <nref>4</nref>
+    <niter>20</niter>
+    <patience>3</patience>
+    <seed>0</seed>
+    <notrim>no</notrim>
+    <useer>no</useer>
+    <minscore>0</minscore>
+    <ignore_depth>5</ignore_depth>
+    <nsubsets>1</nsubsets>
+    <min_pal_ratio>0.85</min_pal_ratio>
+    <max_pal_ed>5</max_pal_ed>
+    <cand>no</cand>
+    <experimental>no</experimental>
+    <totallength>4000000</totallength>
+    <align>center</align>
+    <host>Nitro-AN515-51</host>
+  </model>
+  <motifs>
+    <motif id="1-CCAWYC" alt="STREME-1" width="6" initial_width="6" seed="CCATTC" score_threshold="8.59376" npassing="24" train_pos_count="20" train_neg_count="4" train_log_pvalue="-3.43308" train_pvalue="3.7e-004" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="4" test_neg_count="0" test_log_pvalue="-1.36307" test_pvalue="4.3e-002" test_log_evalue="-0.761014" test_evalue="1.7e-001" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="1.4" total_sites="20" site_distr=" 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 1 1 0 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1" max_sites="2" site_hist=" 0 18 2">
+      <pos A="0.00310769" C="0.993029" G="0.000755828" T="0.00310769"/>
+      <pos A="0.00310769" C="0.863816" G="0.000755828" T="0.13232"/>
+      <pos A="0.736546" C="0.000755828" G="0.259591" T="0.00310769"/>
+      <pos A="0.316745" C="0.000755828" G="0.107875" T="0.574624"/>
+      <pos A="0.241092" C="0.268964" G="0.000755828" T="0.489188"/>
+      <pos A="0.00310769" C="0.993029" G="0.000755828" T="0.00310769"/>
+    </motif>
+    <motif id="2-AGGAAWTAA" alt="STREME-2" width="9" initial_width="13" seed="AGGAAATAA" score_threshold="9.58908" npassing="18" train_pos_count="16" train_neg_count="1" train_log_pvalue="-4.12716" train_pvalue="7.5e-005" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="2" test_neg_count="2" test_log_pvalue="-0.149367" test_pvalue="7.1e-001" test_log_evalue="0.452693" test_evalue="2.8e+000" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="2.6" total_sites="16" site_distr=" 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0" max_sites="2" site_hist=" 0 15 1">
+      <pos A="0.809195" C="0.000872456" G="0.0626967" T="0.127236"/>
+      <pos A="0.127709" C="0.000872456" G="0.867831" T="0.00358722"/>
+      <pos A="0.00358722" C="0.000872456" G="0.74371" T="0.251831"/>
+      <pos A="0.994668" C="0.000872456" G="0.000872456" T="0.00358722"/>
+      <pos A="0.871019" C="0.124521" G="0.000872456" T="0.00358722"/>
+      <pos A="0.437303" C="0.000872456" G="0.0626967" T="0.499128"/>
+      <pos A="0.00358722" C="0.0626967" G="0.0626967" T="0.871019"/>
+      <pos A="0.994668" C="0.000872456" G="0.000872456" T="0.00358722"/>
+      <pos A="0.932844" C="0.0626967" G="0.000872456" T="0.00358722"/>
+    </motif>
+    <motif id="3-AAWTATAWAYATAT" alt="STREME-3" width="14" initial_width="14" seed="AAATATATACATAT" score_threshold="8.65572" npassing="22" train_pos_count="21" train_neg_count="0" train_log_pvalue="-6.86101" train_pvalue="1.4e-007" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="1" test_neg_count="1" test_log_pvalue="-0.117386" test_pvalue="7.6e-001" test_log_evalue="0.484674" test_evalue="3.1e+000" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="1.0" total_sites="21" site_distr=" 3 0 0 0 1 0 1 0 0 0 2 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 0 0" max_sites="2" site_hist=" 0 20 1">
+      <pos A="0.99572" C="0.000700275" G="0.000700275" T="0.00287927"/>
+      <pos A="0.747605" C="0.000700275" G="0.248816" T="0.00287927"/>
+      <pos A="0.598736" C="0.000700275" G="0.000700275" T="0.399864"/>
+      <pos A="0.00287927" C="0.000700275" G="0.000700275" T="0.99572"/>
+      <pos A="0.99572" C="0.000700275" G="0.000700275" T="0.00287927"/>
+      <pos A="0.00287927" C="0.298439" G="0.000700275" T="0.697982"/>
+      <pos A="0.99572" C="0.000700275" G="0.000700275" T="0.00287927"/>
+      <pos A="0.350241" C="0.000700275" G="0.0503233" T="0.598736"/>
+      <pos A="0.99572" C="0.000700275" G="0.000700275" T="0.00287927"/>
+      <pos A="0.00287927" C="0.447688" G="0.0999464" T="0.449487"/>
+      <pos A="0.99572" C="0.000700275" G="0.000700275" T="0.00287927"/>
+      <pos A="0.102125" C="0.0503233" G="0.000700275" T="0.846851"/>
+      <pos A="0.747605" C="0.000700275" G="0.000700275" T="0.250995"/>
+      <pos A="0.00287927" C="0.199192" G="0.000700275" T="0.797228"/>
+    </motif>
+    <motif id="4-AAAWAWAAWAAWAAW" alt="STREME-4" width="15" initial_width="11" seed="AAATATAAAAATAAT" score_threshold="8.60463" npassing="38" train_pos_count="38" train_neg_count="7" train_log_pvalue="-7.21945" train_pvalue="6.0e-008" train_dtc="-1.0" train_bernoulli="-1" test_pos_count="0" test_neg_count="1" test_log_pvalue="0" test_pvalue="1.0e+000" test_log_evalue="0.60206" test_evalue="4.0e+000" test_dtc="-1.0" test_bernoulli="-1" is_palindromic="no" elapsed_time="0.5" total_sites="38" site_distr=" 1 1 2 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 2 1 0 0 0 1 0 0 0 0 0 0 1 1 0 1 0 2 0 0 1 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 0 2 2 0 2 0 0 0 0 0 0 1 0 1 1 0 1 2 0" max_sites="8" site_hist=" 0 29 7 0 0 0 1 0 1">
+      <pos A="0.997851" C="0.000351615" G="0.000351615" T="0.00144571"/>
+      <pos A="0.997851" C="0.000351615" G="0.000351615" T="0.00144571"/>
+      <pos A="0.997851" C="0.000351615" G="0.000351615" T="0.00144571"/>
+      <pos A="0.623917" C="0.000351615" G="0.000351615" T="0.37538"/>
+      <pos A="0.997851" C="0.000351615" G="0.000351615" T="0.00144571"/>
+      <pos A="0.349839" C="0.000351615" G="0.149849" T="0.499961"/>
+      <pos A="0.997851" C="0.000351615" G="0.000351615" T="0.00144571"/>
+      <pos A="0.823438" C="0.000351615" G="0.174765" T="0.00144571"/>
+      <pos A="0.524252" C="0.124933" G="0.0751002" T="0.275715"/>
+      <pos A="0.898186" C="0.0252678" G="0.000351615" T="0.0761943"/>
+      <pos A="0.948019" C="0.000351615" G="0.0252678" T="0.0263619"/>
+      <pos A="0.4145" C="0.124933" G="0.000351615" T="0.460215"/>
+      <pos A="0.773605" C="0.000351615" G="0.124933" T="0.101111"/>
+      <pos A="0.923102" C="0.000351615" G="0.0252678" T="0.0512781"/>
+      <pos A="0.399481" C="0.199681" G="0.000351615" T="0.400486"/>
+    </motif>
+  </motifs>
+  <reason_for_stopping>Stopped because 3 consecutive motifs exceeded the p-value threshold (0.05).</reason_for_stopping>
+  <run_time cpu="2.65"/>
+</STREME>

@@ -1,0 +1,11 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+meme.xml	CAWWTGSSCKC	MEME-2	CAWWTGSSCKC	streme.xml	1-CCATCCTT	STREME-1	CCATCCTT	0	0	.	.	.	3.30e+00	94	8	3	24	8.48e-02	5.50e-01
+meme.xml	CAWWTGSSCKC	MEME-2	CAWWTGSSCKC	streme.xml	3-AAAATAAAAAATAT	STREME-3	AAAATAAAAAATAT	0	0	.	.	.	4.60e+00	129	4	5	212	1.49e-01	7.67e-01
+meme.xml	CAWWTGSSCKC	MEME-2	CAWWTGSSCKC	meme.xml	AAAAAAAWAAWAAA	MEME-1	AAAAAAAWAAWAAA	0	0	.	.	.	4.69e+00	58	1	4	250	1.55e-01	7.81e-01
+meme.xml	CAWWTGSSCKC	MEME-2	CAWWTGSSCKC	streme.xml	2-GGAAAACA	STREME-2	GGAAAACA	0	0	.	.	.	5.76e+00	41	0	2	42	3.02e-01	9.61e-01
+meme.xml	CAWWTGSSCKC	MEME-2	CAWWTGSSCKC	meme.xml	MMMWGYATTTCCCYM	MEME-3	MMMWGYATTTCCCYM	0	0	.	.	.	6.00e+00	23	3	1	6	7.75e-01	1.00e+00
+meme.xml	CAWWTGSSCKC	MEME-2	CAWWTGSSCKC	meme.xml	CAWWTGSSCKC	MEME-2	CAWWTGSSCKC	0	0	.	.	.	6.00e+00	14	3	1	7	8.25e-01	1.00e+00
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.5.7 compiled on Jan 23 2025 at 10:16:28
+# The format of this file is described at https://meme-suite.org/meme/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc meme_chip_out/Cluster1.Sub3/spamo_out_2 -bgfile meme_chip_out/Cluster1.Sub3/background -keepprimary -primary CAWWTGSSCKC meme_chip_out/Cluster1.Sub3/Cluster1.Sub3.fasta meme_chip_out/Cluster1.Sub3/meme_out/meme.xml meme_chip_out/Cluster1.Sub3/meme_out/meme.xml meme_chip_out/Cluster1.Sub3/streme_out/streme.xml

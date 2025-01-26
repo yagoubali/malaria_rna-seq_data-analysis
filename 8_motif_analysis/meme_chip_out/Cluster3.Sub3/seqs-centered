@@ -1,0 +1,726 @@
+>PBANKA_1012600.1  | Plasmodium berghei ANKA | importin, putative | PbANKA_10_v3, forward strand, 578768 to 579768 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATACATGATTAGTAAAACTATGTACGAATTAAAACTTAAATTTATGCCTTCTAAAATACCTGAATTTAATAGCCAATTTGACATTTTGGAGGATAAAAA
+>PBANKA_1012700.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_10_v3, reverse strand, 589356 to 590356 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTAAAGCATATTGTGTATTTTTAAATGCTTTGTGAATAAGCATACGGATATATATATATATGCATGTATATATTTATTACATATACGCCACTGCCCAA
+>PBANKA_1014400.1  | Plasmodium berghei ANKA | acid phosphatase, putative | PbANKA_10_v3, forward strand, 632605 to 633605 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAAATTTAAATTTAATAAAAAAATATAATTTTTGATGAAAAGTTGTTTATATCATTAATTCATGTGATTTTTCCATAAAATCTCTACATATGTAATTTAT
+>PBANKA_1014700.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_10_v3, forward strand, 646308 to 647308 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATACATGATATCAATACAAATAACTAAATCACACATACTCCTTATATAATAAGGGAAATTATCACAAAACGCCAAATAAAAAATTGATAAACTATTGCGT
+>PBANKA_1018500.1  | Plasmodium berghei ANKA | BTF3 transcription factor BTF3, putative | PbANKA_10_v3, forward strand, 781789 to 782789 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATGTTACAGCATTATTATTGTTTTTTAATGACTATACGTACAATATAATATATTGTACATGTTTGTACATATTTATATAAATATATGCACATATTATTA
+>PBANKA_1018700.1  | Plasmodium berghei ANKA | protein HGH1, putative | PbANKA_10_v3, forward strand, 786049 to 787049 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATTTTTGGGGGATGAAAAAAAAGCAAAAAAAAGGACAGCATTGGGGGGTTTAATATATTCCTAGTTATGGCGGTGGTCTTATTATGTTGTTATTTTC
+>PBANKA_1019500.1  | Plasmodium berghei ANKA | 60S ribosomal protein L5, putative | PbANKA_10_v3, forward strand, 809030 to 810030 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GAATAATTATATACTTTTATCCATTTAATAGGAATATATTTTTATTATATTATATATATATGTAATTTATATTCATACATTATTTATTGTGAAAAATAAG
+>PBANKA_1020200.1  | Plasmodium berghei ANKA | CYP52 peptidyl-prolyl cis-trans isomerase, putative | PbANKA_10_v3, reverse strand, 846092 to 847092 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATCTGTATATTTTGTTACATTTTTGAATCATTTTACTTATTTTTAATTATAAAAAAATATATTTTTTTTTTGAATTGTTTTTTCATAGGCTTTAAATTT
+>PBANKA_1020900.1  | Plasmodium berghei ANKA | HRD1 ERAD-associated E3 ubiquitin-protein ligase HRD1, putative | PbANKA_10_v3, reverse strand, 867931 to 868931 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAAATATGAAATAAAATATTTTGCAAGTATTATAATATTAAAAAAAAAAAAATAATATATAAGAATAATTACATATTTATTATCGTTCTTGCAACGCTTG
+>PBANKA_1021000.1  | Plasmodium berghei ANKA | nucleolar RNA-associated protein, putative | PbANKA_10_v3, reverse strand, 873029 to 874029 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATCAAGTTTTTATTTCAATATTTTCTTTAATTAATAAGAAATACTAATATACTTATTTTATCTACAATAATATGCATCCGCTAACGACAGCAAATAATAA
+>PBANKA_1022500.1  | Plasmodium berghei ANKA | P113 surface protein P113 | PbANKA_10_v3, reverse strand, 905118 to 906118 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATATATTAATTGTTGATAATTTTATATATGCAATTTTGTTGTACAATTTTGTGGAATTTATTTGTAAAGGATTAATAAAGATCGTCAAATTTTGACGA
+>PBANKA_1023400.1  | Plasmodium berghei ANKA | GR glutathione reductase, putative | PbANKA_10_v3, forward strand, 935065 to 936065 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAATTTATTTGTAAAGAAAATAGATACTTTTATGTAAAATACTTAAATGTACTTAGTATTGTGAATGTTTTTTTCGCTGGAAATTAATAAAAAAAAAAT
+>PBANKA_1025200.1  | Plasmodium berghei ANKA | CBF5 H/ACA ribonucleoprotein complex subunit 4, putative | PbANKA_10_v3, forward strand, 1021185 to 1022185 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATAAATTGAAAAAAAAAATATATAAACAGGAATTAAATTTTTTCTATAAGGGAAAAATATATGGAAGTAATATATAACAAAATACAAGGGGAAAACAAG
+>PBANKA_1027100.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_10_v3, forward strand, 1108187 to 1109187 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATAGCAAATAAAATGAATAACAAATGAAATAAATAACAAATAAAATAAATAACATATAAGATATGCTGAAACATATGTGGGCTTGAATTTTTTGTGTAT
+>PBANKA_1029300.1  | Plasmodium berghei ANKA | 30S ribosomal protein S9, putative | PbANKA_10_v3, forward strand, 1187847 to 1188847 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTTTTTAATATTTAAATTTTTTATGTAATAATTTGAAAAAAAAAAAATAAATATAATTTATATTCTATACATATTTTAAAATTAGTAACAGTTGCT
+>PBANKA_1030200.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_10_v3, forward strand, 1216124 to 1217124 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTAATATTTTTCTTCTACGCTTTTTCATTTAGATTATATGTATATAATTTTCTTAATTTAGTCAACCTTATCAAATTGTCGTTAAAATCGTTTTTTTA
+>PBANKA_1032600.1  | Plasmodium berghei ANKA | CDS cytidine diphosphate-diacylglycerol synthase, putative | PbANKA_10_v3, reverse strand, 1321595 to 1322595 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATATGAAAATTATTCATGGTTATGTAAATATTATAACCATTAAATTATTTAACGAGTTATTTAATTAAATATAATTTTTCTTATTATGTAAACTATTAT
+>PBANKA_1036400.1  | Plasmodium berghei ANKA | BOP1 ribosome biogenesis protein BOP1, putative | PbANKA_10_v3, forward strand, 1476776 to 1477776 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TCCTAATAAAATTTCGTGGAAAAAAAATTAATGTAACATATATTAGTAAAAATAATTATGAGGTTAATCAAGTATGCATATAATATCATCAATATTTGTA
+>PBANKA_1037000.1  | Plasmodium berghei ANKA | BET5 trafficking protein particle complex subunit 1, putative | PbANKA_10_v3, reverse strand, 1499561 to 1500561 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTTTAAGAGTAAATTTTTTTTAAAATATATTTTATTATATAAGCTCTGCGCAATATATAGTAACACTTCCTTTTTCCTTTTATTTCATTTTTTTCCAC
+>PBANKA_1039500.1  | Plasmodium berghei ANKA | zinc finger protein, putative | PbANKA_10_v3, forward strand, 1577256 to 1578256 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACATATATGTTTTGTATATATGCGTTCATTTTTATATAAAAGTTAAAGAAACCTTTGTAGCCTTATGGGGGATAATTTTGCTCTCAAAAAATGGAATAAT
+>PBANKA_1039600.1  | Plasmodium berghei ANKA | RPN6 26S proteasome regulatory subunit RPN6, putative | PbANKA_10_v3, forward strand, 1580362 to 1581362 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATAAAGGGAATGTATTTTGCTGTGACACAAATATTATTTTTACCATACAATAAACCCTGTTTTAGCTGCTTATGAAAAACAAAAACACATTCAATTTTT
+>PBANKA_1102000.1  | Plasmodium berghei ANKA | MPV17 protein Mpv17, putative | PbANKA_11_v3, forward strand, 104976 to 105976 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATATATTTTTATTCAATTAATTATTTTCTATATATTAATATTTAATAAGGATAAAAATACAAACTTTGTAAATTATATATTTTTTTCTTCTTTTTATGT
+>PBANKA_1106500.1  | Plasmodium berghei ANKA | ROM4 rhomboid protease ROM4 | PbANKA_11_v3, reverse strand, 261009 to 262009 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAGGAATAATTATTTTTTTTATGTATTCATGAGAGAGTGTACATGATCACAGTTCGTCTTTGTTTTTTTTGTGCAATGTAATATATTTAATATATTTTTT
+>PBANKA_1106700.1  | Plasmodium berghei ANKA | RPL4 60S ribosomal protein L4, putative | PbANKA_11_v3, reverse strand, 265321 to 266321 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACAATAAACTCCTTTTGAGAAATAAAAAAGAAAAGGTAAGTATTTATAACATGCATAGATTTTTTTCGAAGTTTTTAACAATGTAGAAATGAGAATAATA
+>PBANKA_1107200.1  | Plasmodium berghei ANKA | CAF40 protein CAF40, putative | PbANKA_11_v3, forward strand, 279818 to 280818 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATATCAAAACAAAGTAACAATTGAAAAAAATGGTGTACAAAATTGTACAAAAAAATGAGCAAAATTTATAAAATATAAAAAAAACATAAAATACATAA
+>PBANKA_1109300.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_11_v3, reverse strand, 366322 to 367322 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAAGAACATAAATTTTAATAAATATAGAAAGACTATAGTTGATTTTTTTATCCACTGTGAATGTTAAACAAAGCTAATCACAAGTGGAGTGAAGAAAA
+>PBANKA_1111600.1  | Plasmodium berghei ANKA | prefoldin subunit 6, putative | PbANKA_11_v3, forward strand, 471921 to 472921 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTTTTTTTGTTTCTTTTTAAACTTACCATCTTTACGGATAACAATTTGTGAAAAATTAAGAAAAAAAATAATAAATAAGCAATATAATAACAAAATAAAG
+>PBANKA_1113400.1  | Plasmodium berghei ANKA | PSOP12 secreted ookinete protein | PbANKA_11_v3, forward strand, 520969 to 521969 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CCCAAGCGTGTGCAATGTAAATACATGCTTATATAAATAATAATAATTTTTTCAGTCATTATCAGCTTGTAAATAGGAAAAAAAAAAAATAGTTACATTT
+>PBANKA_1117700.1  | Plasmodium berghei ANKA | MDH malate dehydrogenase, putative | PbANKA_11_v3, forward strand, 663976 to 664976 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GGCCTGAATAATATTTTATTCATTTTTTTACATTTATTTGATTTTAAAGTGCATATGTTTTTAATTAAAACGATTTATGAATAAAGGAATAAATAGATAT
+>PBANKA_1118000.1  | Plasmodium berghei ANKA | heptatricopeptide repeat-containing protein, putative | PbANKA_11_v3, reverse strand, 673312 to 674312 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATATATACACAAAAATCAACAATATAATTAAATATATCAAAATGAATAAAAAATATTTTGAACTATTGAAACAAGGGAAGTTTGATTTTTTTTCTATA
+>PBANKA_1120100.1  | Plasmodium berghei ANKA | tetratricopeptide repeat protein, putative | PbANKA_11_v3, reverse strand, 752274 to 753274 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTACAAAATATAAATTTTTTCAAAATATATATTTCTTTGGATGATTACACTGTTTTTCCCTTTTTTCCTTTTCCGTTTATTTTATAATTAATGTATGA
+>PBANKA_1121100.1  | Plasmodium berghei ANKA | MIAB tRNA-2-methylthio-N(6)-dimethylallyladenosine synthase, putative | PbANKA_11_v3, reverse strand, 787735 to 788735 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTTAAACAAAATTTATAAATATTATCTCATTTTTCTTATATATACATTTTTTTTTTAAAAAAAAGGGAAGATTATTTAGTAAAATAATATATCTCATA
+>PBANKA_1122600.1  | Plasmodium berghei ANKA | SUV3 ATP-dependent RNA helicase SUV3, putative | PbANKA_11_v3, reverse strand, 839088 to 840088 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTACAATTTAAAAAAATTCATAAAATAGGCTTTAAGCACTCTTGGTTTTAATTATAATATGTTGCACGTATATATATAATATCCATGTGGGGACCTTTTC
+>PBANKA_1122900.1  | Plasmodium berghei ANKA | HK hexokinase, putative | PbANKA_11_v3, forward strand, 852291 to 853291 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTATATATAAAATTTCATCGCAAAAATAAAAATAAAATTAATGTATATTTTCATATTTAATATTTGGATTTATGCAAAAATATATGCGAAGCTCTTCCA
+>PBANKA_1127000.1  | Plasmodium berghei ANKA | CEPT choline/ethanolaminephosphotransferase | PbANKA_11_v3, reverse strand, 1021581 to 1022581 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTGTATTGTAAGCACAAAAACATATTATATAATTATATAATAGCTATAGTTTATTATCATGTGAGAAAAATGTTCATTTATACGTATTTATATAAATAA
+>PBANKA_1127800.1  | Plasmodium berghei ANKA | DnaJ protein, putative | PbANKA_11_v3, reverse strand, 1042806 to 1043806 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATATAATAAACAAAGGAGTATGATTTAAAAATTCAAATTCTAAAATTTCCAATTATAGAGTATAAGCTTTTGTAGTATGTGCATATTTTTGTATACAAA
+>PBANKA_1128700.1  | Plasmodium berghei ANKA | CRAL/TRIO domain-containing protein, putative | PbANKA_11_v3, forward strand, 1089056 to 1090056 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTTTTTTTTTCACCTTATTAAATATAAAAAAATCAAAAAATCTTTATCTTAATTTTAGTAATACATTATTTCACATTTTATTAAACATTATGAGACCA
+>PBANKA_1129700.1  | Plasmodium berghei ANKA | HAS1 ATP-dependent RNA helicase HAS1, putative | PbANKA_11_v3, reverse strand, 1130162 to 1131162 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATCACATATATTTTGTAAGGATAATAATAGAACAATTTGAATTAATTGAGTCTAAATAATTATATAGTTTTATTTGATCTGGGCATTTCACTACTGTC
+>PBANKA_1131500.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_11_v3, forward strand, 1178855 to 1179855 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTAATTGAATGAAACTGAATTAAACACCTGACTTTTATTTTTTTTTCTGAACGTTCAGAAAGTGTGCACATTTGGAATATTTTTTAGGCAACTACGAGT
+>PBANKA_1131600.1  | Plasmodium berghei ANKA | MCM6 DNA replication licensing factor MCM6, putative | PbANKA_11_v3, forward strand, 1182549 to 1183549 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTAAAATATTAACAGTTATTTACCGTGCCATATAGTATCTTAAATTTTTTTGTTTTTTATTATTTTCTATCAATTCTAGTAAATGAGTTACACCCAT
+>PBANKA_1133300.1  | Plasmodium berghei ANKA | EF-1alpha elongation factor 1-alpha | PbANKA_11_v3, reverse strand, 1254866 to 1255866 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAAATACTTAAAGTATGAATATTAAATTGTAAACTTAAGCATAAAGAGCTCGAAAAGAATTAAGCTTAACTCATCTACAAGCATCAAATTAAATGTTT
+>PBANKA_1133800.1  | Plasmodium berghei ANKA | DNA helicase, putative | PbANKA_11_v3, forward strand, 1266773 to 1267773 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATTAAGCAAACTCATACTTAATTGATATTCTTTTTTAATACTCCAAAATTTTGAAAAGTTTCATTTGTATGCATATATGCATTACGCGTATGTCTTAA
+>PBANKA_1134000.1  | Plasmodium berghei ANKA | UTP21 U3 small nucleolar RNA-associated protein 21, putative | PbANKA_11_v3, reverse strand, 1276808 to 1277808 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TCTCCAAAAAAAAAAAATACAAATAATAATATATATTATGAGGGTAAAATTAAAAAAATCTTTAAACAACTAAGCGAAAATTGCTACTAATACGCCTACC
+>PBANKA_1136700.1  | Plasmodium berghei ANKA | GCbeta guanylyl cyclase beta | PbANKA_11_v3, forward strand, 1375352 to 1376352 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATGCGTATATGATTGTTAGATATATCCCTTCATACATAGTGCACACTTTTTTACACCTGACTGGACATATATAGTCCATTTAATACACACACTTATATG
+>PBANKA_1140200.1  | Plasmodium berghei ANKA | PRP16 pre-mRNA-splicing factor ATP-dependent RNA helicase PRP16, putative | PbANKA_11_v3, reverse strand, 1526502 to 1527502 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATTAAAAATTTTAATATGAAACTTAAAATAATACAAAATTATATATAACTATTAAAAGGGAAAAATAAAAGAAGGCAATCATTAATATAGGTAAAAAAA
+>PBANKA_1140600.1  | Plasmodium berghei ANKA | RPB5 DNA-directed RNA polymerases I, II, and III subunit RPABC1, putative | PbANKA_11_v3, reverse strand, 1545357 to 1546357 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATACTGCATATTATTATGCCTTTCCCAATTTATTACTTATTATTGTTATATTTTCCTTTTTTGTTTATTTTATTATTTTTTTTTATTTGATTTATTTCCC
+>PBANKA_1141500.1  | Plasmodium berghei ANKA | SNARE associated Golgi protein, putative | PbANKA_11_v3, reverse strand, 1564095 to 1565095 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTACGTGCTCTTTTATGTTTTATTAAAGTTATCTTTATTATGCATAAATGCACATTTGTGTGGCTATCCATTATCCATTTAAATATATGAAATTACATAG
+>PBANKA_1142800.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_11_v3, forward strand, 1606797 to 1607797 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAATTAAAATTTTTTTTTCTCTGATATATATGATGCATAATAATTGTTCCTATATTATTTGGCATTCACAAACGTCCCCTTTTTTACGCAATATATATA
+>PBANKA_1142900.1  | Plasmodium berghei ANKA | SKP1 suppressor of kinetochore protein 1 | PbANKA_11_v3, reverse strand, 1612457 to 1613457 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATGCTATTAATAACATTACCTATATGTGAACTTAAAAAAAAAAAAAAAATTCTTGCATATGTTTGCCAAAGGTTATTATAAATATTGTATAATACATAC
+>PBANKA_1144800.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_11_v3, forward strand, 1666290 to 1667290 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CACATTAGCATACCTTCTTACGAAAAAAACCATCATGTCATATTACACACGAAAATATAACTATATCCATCATATATATTTTTTTGGGGGGCAGGAATAA
+>PBANKA_1202400.1  | Plasmodium berghei ANKA | 60S ribosomal protein L13, putative | PbANKA_12_v3, reverse strand, 122884 to 123884 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AGAAAGGGTTGGAAAATATACCTATATATTATAACGTTTTTTTTATTATATCCATGAAAAAAATAAAAATAAATGTAAATATTATGCGGATATAAATATA
+>PBANKA_1202600.1  | Plasmodium berghei ANKA | RING finger E3 ubiquitin-protein ligase, putative | PbANKA_12_v3, reverse strand, 138163 to 139163 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTTTTGCTTTTTTTTTGTTTTACAATATTTTTTTTAAATTAAAAAAAAGAAACAAATTTTGACATGATAAAATTATATAAAATATATTATGTATGTTTAC
+>PBANKA_1202800.1  | Plasmodium berghei ANKA | AKIT2 apicomplexan kinetochore protein 2 | PbANKA_12_v3, reverse strand, 147390 to 148390 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTTTATTGTTAAAAATTAAATATTATTTTTTTTTAGAATTTAATATCATATAAAAATTATGATAAATATATGTATTTGTTTATGATCAGGAAAAAGTT
+>PBANKA_1206100.1  | Plasmodium berghei ANKA | EIF3D eukaryotic translation initiation factor 3 subunit D, putative | PbANKA_12_v3, forward strand, 239629 to 240629 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AACTACAACATTATAAGCTTACGCATTATATGCACTAAATACATGTTTTTCCCATTTTAGCAAAAAAAATATTAAATTTTCATTTTTTTCCATTTTTGTT
+>PBANKA_1206300.1  | Plasmodium berghei ANKA | PHD1 PHD finger protein PHD1, putative | PbANKA_12_v3, forward strand, 253750 to 254750 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACATTACTCTAAATATATTAACACGGGTGGTGTATCAGTTTGTGTGTGTATTCTTACAACTTAATATATATTCGTATTTAACTGTTGGTTTGTTTGTAAT
+>PBANKA_1206600.1  | Plasmodium berghei ANKA | 26S protease regulatory subunit 4, putative | PbANKA_12_v3, reverse strand, 272061 to 273061 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATATATAATATTTTGGCATTAGCAATATATTCTTAATACTATTTTTTTTTAAGCTGAAATATTTATTTACTGCATATATGCAAAATACGTATGTATGT
+>PBANKA_1208700.1  | Plasmodium berghei ANKA | SDH4 succinate dehydrogenase subunit 4, putative | PbANKA_12_v3, forward strand, 342460 to 343460 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACATATAAAAATAAAAAATATGCAATAATAATTAGTATTTTTATGATATTTGTATGGTGAAATATATTTATTAATTTTTATAAGCATAAAATAAAATTTT
+>PBANKA_1210900.1  | Plasmodium berghei ANKA | phosphoglucomutase, putative | PbANKA_12_v3, reverse strand, 403508 to 404508 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTGTATTTACATCAAAATTTTTTTTAGTTATCCAAATATTATTTATTTACATTCATTTATCCACTATCTAACATTATTTATTCGTTTTTTTATAATTA
+>PBANKA_1212000.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_12_v3, forward strand, 449736 to 450736 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATAATACCACAATTGGACTTTTTATAATAAAACATTTTAGTATCATGTGTAATTTATTAAGCTTGTATTGAAAAAAAAATGCGTTACATATTTTACTTT
+>PBANKA_1214800.1  | Plasmodium berghei ANKA | SART1 U4/U6.U5 tri-snRNP-associated protein 1, putative | PbANKA_12_v3, forward strand, 560893 to 561893 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AGTTAAGAGTATATCAAAAAGGGGAAAAAAGGAAAACAAAAGGAAAAACAGGCAAACATGAACAAACGAAATAAATATAAAATTATAAAAATACCAAAGC
+>PBANKA_1215000.1  | Plasmodium berghei ANKA | SMN survival motor neuron-like protein, putative | PbANKA_12_v3, reverse strand, 569154 to 570154 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GCTATATTATCGCAATGTGTGTTATATTATTTCCCCCTTAATTTTAATATACAAATTATTTTCCGATTTTTTTATTTCTAAACTTTATAAATATATGTTA
+>PBANKA_1216300.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_12_v3, forward strand, 612553 to 613553 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATAAAAAAAATAATTATTTAAAAATAAAACTAAATATTTTTTAATGTTTTTCGAAATTATTTTTATTGTATTTTTTTTGTCTTTGGAACTCGTGTGTGC
+>PBANKA_1217500.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_12_v3, reverse strand, 672359 to 673359 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAATTTTTTAAATATAATATAGATTATTTTTTTTTGTGAGATAAAGCATATATTGGAATGAGATTTAACATTTATATTATTTTCATTTCTACTTCCATT
+>PBANKA_1217700.1  | Plasmodium berghei ANKA | DOZI ATP-dependent RNA helicase DDX6 | PbANKA_12_v3, reverse strand, 678658 to 679658 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTATCTTCTAATATACAGAAAATATATCCTGTTTAGGCTTTATATTGTTATTTAGTCTCTGATATCTTTATTTATTATATATATTTTTATTTATTC
+>PBANKA_1218900.1  | Plasmodium berghei ANKA | EF-1delta elongation factor 1-delta, putative | PbANKA_12_v3, reverse strand, 730216 to 731216 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAACAAAAATAAAAACAAAAATAAAAACAAAAATAAAAACAAAAATAAAAACAAAAATAAAAACAAAGAACCGTGAAATCTGGATATTATCATGACAAA
+>PBANKA_1219300.1  | Plasmodium berghei ANKA | HSP110c heat shock protein 110, putative | PbANKA_12_v3, forward strand, 739764 to 740764 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TCTGTTTTTTCCAATTTACATAATTTTTTAAGCAATTAATTACTAAAATAAAATTTGCAATTTTCAACACGTATTAAATAAAAATAAAATTAAATTCTTA
+>PBANKA_1220300.1  | Plasmodium berghei ANKA | PARE prodrug activation and resistance esterase, putative | PbANKA_12_v3, reverse strand, 782399 to 783399 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTCATCATATATTATATATTTTAATTGTATTTTTTATTGATATTAACGGCAATTGTGTAAAGCATCATTTTCCAATTTGATAGCTTTGGAATATTTTT
+>PBANKA_1222400.1  | Plasmodium berghei ANKA | ubiquitin regulatory protein, putative | PbANKA_12_v3, reverse strand, 851820 to 852820 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGAAAAAAGTTTTCCTCATAAATTTTTTTTACTTTTTATTTTCATTTAATTAAAACATATGGATTATGTATAGATAAAAATATATATATAAAGAAACTCA
+>PBANKA_1222500.1  | Plasmodium berghei ANKA | PMX plasmepsin X, putative | PbANKA_12_v3, forward strand, 853662 to 854662 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTTCTGTTTTATGAGCAGGTTTTTTTTATGGCACACTATAATAAAAATTGTCTAATTTTTTTTAGGCATATTAATTAAAAAAAATGATTTTTCCTTCA
+>PBANKA_1224700.1  | Plasmodium berghei ANKA | AAA family ATPase, putative | PbANKA_12_v3, forward strand, 933268 to 934268 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTCTTCGAGCCCTCATGTTTTTGCCATTTGTTAACTACACAATATGTAGTTTGGGTTATAATATAACCATTTAGAAGATTTATTTTTGCTACTTTT
+>PBANKA_1226200.1  | Plasmodium berghei ANKA | METAP1c methionine aminopeptidase 1c, putative | PbANKA_12_v3, reverse strand, 1007365 to 1008365 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CACAAGTTCGAAAAAATATTATAAAATGAGGTAATAATATATATAATAATAGTAATAAAGTAGAAAAAATCATTTTTATCTTTCCTTTATAATAATTCAC
+>PBANKA_1226800.1  | Plasmodium berghei ANKA | RAD54 DNA repair and recombination protein RAD54, putative | PbANKA_12_v3, reverse strand, 1030590 to 1031590 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AGTCTTGTTTATCATAAAATTATTATAATGTTGAGCTAACAAGGAATAGTCTCACCATTATTTGCATATACATCGTACATACATGTTATATATGTATTAT
+>PBANKA_1227100.1  | Plasmodium berghei ANKA | UTP14 U3 small nucleolar RNA-associated protein 14, putative | PbANKA_12_v3, forward strand, 1039142 to 1040142 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATAGTTTTATTAGCTTTATGCAAATAATTTTGTATAATTTGTATAACATTTATATTAAGTTTGAAATATTCAATTATTTTTAACATTTTTTATATCACT
+>PBANKA_1230500.1  | Plasmodium berghei ANKA | ALYREF THO complex subunit 4, putative | PbANKA_12_v3, forward strand, 1182579 to 1183579 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATCTATTGGGTGTGTTAAAAAGTTTAATAGAGCATACATATATAGATATAAATAAGCGTATTAGTTAATGAATAAGTACATATGCACAAATATATAAGCA
+>PBANKA_1230600.1  | Plasmodium berghei ANKA | COG4 conserved oligomeric Golgi complex subunit 4, putative | PbANKA_12_v3, reverse strand, 1188571 to 1189571 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAAATTATTTTGGCTATTTATTTAGTTTGCAAATTTTTAGCTGTTCAATATTTTTTTAGGCGTGGGACGCATTAAAAAGCTAATGCCTATTTTTGGTG
+>PBANKA_1231700.1  | Plasmodium berghei ANKA | RPL2 60S ribosomal protein L2, putative | PbANKA_12_v3, reverse strand, 1232411 to 1233411 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATGCTATTTTTTAAGTAGGTAATATGTAACCTCTTAAATCACTTCATATTAAAAAAAAATGTTAGCAAATAAAAAGATGCAGGTTTCAAATGCTGCGAG
+>PBANKA_1232500.1  | Plasmodium berghei ANKA | EIF3B eukaryotic translation initiation factor 3 subunit B, putative | PbANKA_12_v3, forward strand, 1257179 to 1258179 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATAATTGTATTTTTATATTCATTATTTGGGAAAACTTATCACATATGCTATAAAGCATTTAAAAAAAACAGTCCCAATAAATACAACTTTATCATACA
+>PBANKA_1232800.1  | Plasmodium berghei ANKA | NOSIP domain-containing protein, putative | PbANKA_12_v3, forward strand, 1264470 to 1265470 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAAATAGCTAGTTAAAATTAGCTAAAAATTTTAGTAAAAATCTGCCTGAACAAAAAAAAAAAACACATTATTATTGCCACATTTTACAATATAGCTATTT
+>PBANKA_1233400.1  | Plasmodium berghei ANKA | WDR26 WD repeat-containing protein 26, putative | PbANKA_12_v3, forward strand, 1282748 to 1283748 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAGATAAAAAAAACAAAACAAATATATATGAAATTATAATAAATTAAATTGATTCGAATTGAGAAATAAATTTTATTTGTTCATTGGGTAGATATAAGCA
+>PBANKA_1234400.1  | Plasmodium berghei ANKA | zinc finger protein, putative | PbANKA_12_v3, forward strand, 1319071 to 1320071 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTCATAGCATAGTTTCATACCATTTCATATTAAAGAGTACCTTTTTTATATTCACCCAGCAAATAAAAAAAAAATATATCTATACGTATTTTATATTG
+>PBANKA_1234900.1  | Plasmodium berghei ANKA | PPM9 protein phosphatase PPM9 | PbANKA_12_v3, forward strand, 1338027 to 1339027 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTATAGTATTATTTTTTTTTATATTTCTATATTAATTTTTTTATTGTATTTTTTTTTTAATTTTATTTATTTGCATATAAATAATAATAGTAAAATT
+>PBANKA_1236900.1  | Plasmodium berghei ANKA | TAF10 transcription initiation factor TFIID subunit 10, putative | PbANKA_12_v3, forward strand, 1399267 to 1400267 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAGTACCCAAATATATTTGTAATAATCAATCTCTTATATATTGCCCTTAACATGTAGCAGTATAAAAGCAAAATTTAAAGAGTATATAAAAATATCCATT
+>PBANKA_1237000.1  | Plasmodium berghei ANKA | 18S rRNA (guanine-N(7))-methyltransferase, putative | PbANKA_12_v3, reverse strand, 1403424 to 1404424 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AGAAACAATAACACAGCGTATTAAAAAAAAAAGTTTCATAAAAAAAACAGCAGCTATAACAGTTCTATAAAAAAAGTTACATAAATATGAAATAATTCAT
+>PBANKA_1237100.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_12_v3, forward strand, 1405018 to 1406018 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTTAACAAAATAAATAAGCAAATACTATTTTGTATTATATTTCAGATATTTTATTAAATATTAATACATTTTTAATGATTGGTTGTTTTAGTCTGTTC
+>PBANKA_1240100.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_12_v3, reverse strand, 1541155 to 1542155 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTAATGTAATCATTTGTGTAATATTTGTTTTATTGATGATTTACTTTTTTTTTTTCGTCACCCCTTATATAAATATAATATCTTTCATTTTTTTCAGAAA
+>PBANKA_1301700.1  | Plasmodium berghei ANKA | SF3A1 splicing factor 3A subunit 1, putative | PbANKA_13_v3, forward strand, 100290 to 101290 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CCTTTTCAATACTACATACAAAAGCTATTTTTTCTCATTTTTTTTACACCTTATAAATATTGTAAATCATGAATATTATCATGAGGGCAGCTTATAACAA
+>PBANKA_1302700.1  | Plasmodium berghei ANKA | MD1 male development protein MD1 | PbANKA_13_v3, forward strand, 162946 to 163946 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATGCCTATGATTATATGCTCGTTATCAATAATATAATTTATATATTTCAACAATACACTTTATATAAACAATATGATTTTTATGATCAAACAAGTTTAT
+>PBANKA_1303200.1  | Plasmodium berghei ANKA | Sad1/UNC domain-containing protein, putative | PbANKA_13_v3, forward strand, 186107 to 187107 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CCTGGAACTATTTTTTATATAAGTTAAAAAATATAATACCTAAAGATGCATAAATAATTGTTTATCTTTGCAAATAAAGCGATATATTTGTTCCAAAGCG
+>PBANKA_1303300.1  | Plasmodium berghei ANKA | cytochrome b-c1 complex subunit Rieske, putative | PbANKA_13_v3, reverse strand, 194391 to 195391 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AGCATGAAATTAACAAAATAATAAATTATATAAGTATAATAAATATGCATTTTATGGGTATGCATTGGAAGACATTATGTTAAATAATAAAAAAAAAATA
+>PBANKA_1304500.1  | Plasmodium berghei ANKA | SOC3 protein SOC3 | PbANKA_13_v3, forward strand, 244031 to 245031 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AACTTTTATAAAATCAATCATTTAAAGCATGTATGTATCATTTTTTCTCTTTATATTATTATTATTTTGTCATAAATTTATCTCTTATTGCACCATAAGT
+>PBANKA_1305100.1  | Plasmodium berghei ANKA | 60S ribosomal protein L1, putative | PbANKA_13_v3, forward strand, 263033 to 264033 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTCTTTCCTCTCTGATATTACGTTTATGTCGCATTTTATATTATTTTTTACCATTTTATTGTCGGTATTGTATTATTATTTTTTCTTTTAATAATTAAAA
+>PBANKA_1307800.1  | Plasmodium berghei ANKA | heat shock protein 90, putative | PbANKA_13_v3, forward strand, 371663 to 372663 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAGATGAAAATAAATTAGTTGTATTTATTTTACAAATATAAGCAATTAGCAAATAAATAATTTACAGTCAATACATTCAACATATTTAGAATATATATAT
+>PBANKA_1308200.1  | Plasmodium berghei ANKA | LPAAT 1-acyl-sn-glycerol-3-phosphate acyltransferase, putative | PbANKA_13_v3, forward strand, 401308 to 402308 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAATATGTTCCATTATAAATTATAATATTCAATAAACTATAATAATTTATTTGTATCTTTTTAATTATAAAATATGAAAATATGATGCTTTAATTCAT
+>PBANKA_1309700.1  | Plasmodium berghei ANKA | DDX17 ATP-dependent RNA helicase DDX17, putative | PbANKA_13_v3, forward strand, 451746 to 452746 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTCATGAGCTTTCAAAGTTTTGCTAATTGAAACCAAAAACTATATCCTATTTTTATATATAATTCATAAATATATAAAATCTTTATTATCATAAGTATA
+>PBANKA_1309900.1  | Plasmodium berghei ANKA | LAP M17 leucyl aminopeptidase, putative | PbANKA_13_v3, reverse strand, 462934 to 463934 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATAAATATATTTATATAATATATAAAGGCGTTTTTTTTATTCGCGCCAAATTGCGTACACTCTTTTAAAAATAAAAGGAAAAAAAATATATATATATTG
+>PBANKA_1311800.1  | Plasmodium berghei ANKA | UTP12 U3 small nucleolar RNA-associated protein 12, putative | PbANKA_13_v3, reverse strand, 522725 to 523725 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAAAAAAATTGCCAAAAGTGAAGAGAAATTTTACTCGACTATAAATATAATATGCGGAATTAAATAAAGTATCTATATAAAATGTATGTTAATATTTT
+>PBANKA_1313100.1  | Plasmodium berghei ANKA | MUS81 crossover junction endonuclease MUS81, putative | PbANKA_13_v3, reverse strand, 565684 to 566684 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTGTGCGTTTTTTTTATATATATTAATGCATTATCTTTTTTATTTAAAAAAAAAAAATAGCCACAAATTTAAATAAATAAACATTATATAGTGAGATAGC
+>PBANKA_1314200.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, reverse strand, 608483 to 609483 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATGTGCAACACTTTGGAAAACAGTATTAATTCGAAAAAATCGAAAATATGCAAATGGAAAAGCGAAAGAAATATAATTTAAATATAAAAAAATGGGAAA
+>PBANKA_1314400.1  | Plasmodium berghei ANKA | Cwf21 domain-containing protein | PbANKA_13_v3, forward strand, 611239 to 612239 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTGATGGGGATATATAAATGCATATAAATATCTGATAATAACATTTCAAAATGATAATTATTTTGTAAAATTATCCATGTTACAACTTAAACGGGGACAA
+>PBANKA_1314700.1  | Plasmodium berghei ANKA | ADP-ribosylation factor, putative | PbANKA_13_v3, reverse strand, 621836 to 622836 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GATGGTAATATTAACCACACAAGCTTAATTTTATTTTTTTTTTGTTAAAAAATAGAAGTAATATTAGCAATGATAAAATATTTTATTATTCAATGTAATA
+>PBANKA_1319400.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, reverse strand, 803563 to 804563 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATTCGTCTCTACATTTTATGGAAACTTAATCAACAATTTGATACTATTGCCAAAATAGTATAAAAATAATAAAACATACAATATGATGATTATACAT
+>PBANKA_1320400.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, reverse strand, 843691 to 844691 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTATACATATGTGTATACATAATTATATTTATTTAAAGTCAAATTCATACTCAAAAATAAATATACACTGAAATATCATACATTTCCTGGACACACCAAG
+>PBANKA_1320700.1  | Plasmodium berghei ANKA | SPP signal peptide peptidase, putative | PbANKA_13_v3, reverse strand, 856225 to 857225 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAAAATAAACATTATATTAACCATAAATAAGAATCCTAAAACATATTTAGTATATACTTTATATTAAAGGTAGCATTTTGCGATAATATAATTTTGTTAA
+>PBANKA_1322000.1  | Plasmodium berghei ANKA | alpha/beta hydrolase, putative | PbANKA_13_v3, reverse strand, 910857 to 911857 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAAATACAATGCTGCATATATAAAGCAAATGGTATATGTTAAAAAATGTATTTTCGTATTTTCCGAAAAAGTTGAAACATGTAATGAAATATACATATA
+>PBANKA_1322500.1  | Plasmodium berghei ANKA | DNA-directed RNA polymerase III subunit RPC5, putative | PbANKA_13_v3, reverse strand, 928925 to 929925 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GAAATAAAAGAAAAACGGATTAAATTTTTTTAAATATTAAAAAAAAAAAAAAAACGTGAATTGGTGACATATTTTATAATTCCGAGTTTTATATCCTGTT
+>PBANKA_1322800.1  | Plasmodium berghei ANKA | GTP-binding protein, putative | PbANKA_13_v3, forward strand, 935200 to 936200 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTTAAAATTCTAATAATTTATATTTCCTTCAAATCAAAATGAAAATTCTTCTAGCATATATTATAAATTTTTTTTTCCAATGATAATTCTGTTAATAA
+>PBANKA_1323200.1  | Plasmodium berghei ANKA | AP-4 complex accessory subunit Tepsin, putative | PbANKA_13_v3, forward strand, 947362 to 948362 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAATAATTTCACATATCGATTTATAAATAAGTATTATATATATATGTATACACGCGTGTATAATATATATTTTCCTCTTTGTGAATATAAAGGAGTTTA
+>PBANKA_1323400.1  | Plasmodium berghei ANKA | bax inhibitor 1, putative | PbANKA_13_v3, reverse strand, 954953 to 955953 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATATGCTGAATTTAATATATGTGAAAAAATGTAAATGTATAGTGACAAAGATATAAAAAAGCCAAATTTTATTTTTATAAAAAGTGGGAATAAAAAAA
+>PBANKA_1324100.1  | Plasmodium berghei ANKA | UCHL3 ubiquitin carboxyl-terminal hydrolase isozyme L3, putative | PbANKA_13_v3, forward strand, 966866 to 967866 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GGATCTCTATATTATTATATATATTATATATATGATTGACTATAATATCATAAATAATTTTGTATATTTTTCGTATTTATTATCATAAATTGGCATAGTA
+>PBANKA_1332000.1  | Plasmodium berghei ANKA | U2AF2 splicing factor U2AF large subunit, putative | PbANKA_13_v3, reverse strand, 1302894 to 1303894 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTAGTTTAATCGAGAAAAAAAAGTTTAAAAATTTAAGTAAAAAAGAAATAATAAAACAAAATTATTTGTTTTATTTTTTAATATATTATAATTATTTCG
+>PBANKA_1332500.1  | Plasmodium berghei ANKA | PNO1 pre-rRNA-processing protein PNO1, putative | PbANKA_13_v3, reverse strand, 1315275 to 1316275 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTTTTTTTGGTGTAGTAGCAATTGAAAAGTCTATATATACTATCACCAAAAGGCATATATAGAGAATAAAAATATATTTTAAAAAATATAAGAATGCA
+>PBANKA_1332700.1  | Plasmodium berghei ANKA | duffy-binding protein | PbANKA_13_v3, forward strand, 1319718 to 1320718 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATTAATTTTTTTTAATTTTAAAATTTAATATTATTAATTTTTGTAAGTATAGACCCCAATTTTTTTTTTAATATATAATTATTGTATACAACGTTTTTA
+>PBANKA_1334200.1  | Plasmodium berghei ANKA | RCL1 RNA 3'-terminal phosphate cyclase-like protein, putative | PbANKA_13_v3, forward strand, 1370501 to 1371501 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAGAATTAGTGTTGTAACATAAATATCAATGAGATATAATTCGCAGATTTATTTTTGAATTACAGTGTTATTTTATATTTCAATTTTTTTGCCAACAAT
+>PBANKA_1336300.1  | Plasmodium berghei ANKA | GTPase-activating protein, putative | PbANKA_13_v3, reverse strand, 1437867 to 1438867 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACCTAACATATTTTACTACCTTTTTTTTATTGTGTGCACCTCTAAAAAAAATAAATAAAAAATATTATTTCCATATTAATATATTTATATAATATATATT
+>PBANKA_1337400.1  | Plasmodium berghei ANKA | nucleoside-diphosphatase, putative | PbANKA_13_v3, forward strand, 1471376 to 1472376 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTCAATTTTTATGATTAAAAAAATTGGAAAATTAATATAAAAAAATTAAAATAGTAATAGGCAATCAAATAAAAACTATGAGTGCAAATAGCATATTACT
+>PBANKA_1337500.1  | Plasmodium berghei ANKA | STU2 protein STU2, putative | PbANKA_13_v3, forward strand, 1475711 to 1476711 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATTGTCTTTATACATTAGTGTAAAAAGTGCCATATTCGCGCAAATATGTATACTTGTATATTATATATAAAGAAAGTATTTTATTTCCCTTATTCGAA
+>PBANKA_1337600.1  | Plasmodium berghei ANKA | BRCT domain-containing protein, putative | PbANKA_13_v3, reverse strand, 1492931 to 1493931 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATCCATAAAATATAATATTTTCCAAATGCACAAATAACATTAGTGATTCTCATTTCTTTTTTTTTACGATAATATATTCTTATAATATTTTTCTCTATTT
+>PBANKA_1338600.1  | Plasmodium berghei ANKA | RPL23 60S ribosomal protein L23, putative | PbANKA_13_v3, reverse strand, 1515411 to 1516411 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTGCAATTATAATAAAATTTAATCGGAACTTTAAATGATATATAGTCAAATAAAAAAAAAGTGAAAAATAAGCAAAGCCTTTGGGTTTTCCTATATATG
+>PBANKA_1344000.1  | Plasmodium berghei ANKA | DNA-directed RNA polymerase III subunit RPC1, putative | PbANKA_13_v3, reverse strand, 1736835 to 1737835 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTATTTTCAAAAAAAAAGTTTAAGTTATTTGTTATATATTTTATACCTTGAATTTGTTTAAATTGATGTTTAATATTTTATTTACTTTTTAAGTATT
+>PBANKA_1344800.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, forward strand, 1772581 to 1773581 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTCTTTTACCATAAATAGTAAATATATGGATTAATATGAAACTTTCCCCAAAAAATGGAGAAAATTCATTTCAAAAAATAGCAGAAAAATATAATTACGA
+>PBANKA_1346300.1  | Plasmodium berghei ANKA | UIS19 CPW-WPC family protein | PbANKA_13_v3, forward strand, 1812484 to 1813484 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTGTATTTATTTTTTCTTCCATTCTATGTATATACATTCTATATTACAGCATTTCAATTTCAAAATGGAAGCAATACTATATCACATGTATATGTTTG
+>PBANKA_1346800.1  | Plasmodium berghei ANKA | Qa-SNARE protein, putative | PbANKA_13_v3, reverse strand, 1827226 to 1828226 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATTGCCATAAAAATGTACGCATATATATTACTTATGCAATTAATTGTAAAAAAGGGAATAAAAAAATATTTGTAAAATTGCACTTTAATGTTCATATA
+>PBANKA_1348800.1  | Plasmodium berghei ANKA | ORC4 origin recognition complex subunit 4, putative | PbANKA_13_v3, reverse strand, 1883367 to 1884367 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTTTAATTATAATAATTATTTTATGCGTCCAAAAGTTTTTTCACCTTTTATTTCCTTTAGTTTTCACCATAGCTTAAATTGTTAAATTATATTCTTTTAT
+>PBANKA_1349700.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, forward strand, 1905529 to 1906529 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GGAATATAATTCATCGTTTGGATCATGTTCCTCCATTTCATTCACACACATGTCAATTATATTTATTTTATACCTTTTAAATCAATTTAAGGATTTATGC
+>PBANKA_1350600.1  | Plasmodium berghei ANKA | NUDC nuclear movement protein, putative | PbANKA_13_v3, forward strand, 1927431 to 1928431 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTAATGAGAAACTGAATAATAGCTAGCCCTACAAATTAAGTTTAAATAATATATTACATGTTCATATTTCCTATTATATGAATAAAATCATTGCTACA
+>PBANKA_1351300.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, reverse strand, 1955434 to 1956434 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATATATATGCCCTCAATAGTTGTTATATATATTATGAAAAATTAAAACTAAAAAAAAATTCTTATATTTCATTTTTAAAATAATAAAATTTTTGAAATA
+>PBANKA_1352200.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, forward strand, 1984909 to 1985909 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTTTTCGTTTCCCTATTTCCTAAGGACTATAAAAATGTTTACTATTCTTAAAAATTAGAATATTTGAGAAAATGCATAACAAATATATCCATATATAATG
+>PBANKA_1354000.1  | Plasmodium berghei ANKA | DBR1 RNA lariat debranching enzyme, putative | PbANKA_13_v3, reverse strand, 2045477 to 2046477 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTTACCCTTTTAATATAAATCAGTTATTGTGCAAAATTTTAATTTCCCAGCTCACTCTACATAAATATTATATAAACTGGTTTAAGATATATTTTTTT
+>PBANKA_1354300.1  | Plasmodium berghei ANKA | PiT sodium-dependent phosphate transporter, putative | PbANKA_13_v3, forward strand, 2052019 to 2053019 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATCTAGACATTTTTAAATCTTTTTAATATTAGCCACACATTATTTATAATTAAATAAAAGCTTTGAGCTTTACAAAATTATGTATAATAAATTCATAT
+>PBANKA_1354500.1  | Plasmodium berghei ANKA | 60S ribosomal protein L18-2, putative | PbANKA_13_v3, forward strand, 2059347 to 2060347 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGCTAATATATAAAAATAACATGCTTTACCAAAAATATTGGATAGAAAAAAATTTCATTAAACATTATTAAATTTTATCTGCTATATTTATGTAAGTATA
+>PBANKA_1355200.1  | Plasmodium berghei ANKA | IRP aconitate hydratase, putative | PbANKA_13_v3, forward strand, 2079247 to 2080247 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AGTGTCAATTTTTTTAATATAGATATGTATTGAATATTTTTTTGACGAAATAAGTACAATTAAATTTTTACATTTTTTTCTTTTTTATTTTTTTGTATAT
+>PBANKA_1358700.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, forward strand, 2234535 to 2235535 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAAAGTTTTGTAAAATACTTGTATGTGTATAGTGAAAAAAAGAAATGAAATTGTGTTTTAAAGACTACACTATTTTGTATATATAATAAAATATTAAATT
+>PBANKA_1358800.1  | Plasmodium berghei ANKA | SPC25 kinetochore protein SPC25, putative | PbANKA_13_v3, reverse strand, 2240537 to 2241537 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAACCATTTATTAAGTTTATCGATTATGTAAATTTTATCAGTTTATTAGTTTTATAAATTTATCAATTTTGCAAGCTTTATTATTTTCATTTCATTTTTA
+>PBANKA_1362300.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, reverse strand, 2385824 to 2386824 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TCCTTTTTTTCTTCCAGTTTTTTACGCATTTAAAAAAAACGAACCGAGTTAAATATTTAAAAAAATATAAGTATAATTTTTTTAAATTAATAACACAATA
+>PBANKA_1364100.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, reverse strand, 2433961 to 2434961 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTTTTTTGAATGTTTTGATATTGTTTTATTTTTTTAATTTCAAATGAAGGGGTAAAATTTTTGTTTTTAAGTTTCCAATATTTATTTTTTGCTAACCA
+>PBANKA_1364800.1  | Plasmodium berghei ANKA | ABCB6 ABC transporter B family member 6, putative | PbANKA_13_v3, reverse strand, 2459473 to 2460473 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATAATATTTTTTGAATGGTGCTTCCTTTATATTATGTAACTTATCCTCGTAAATTAAGATATATATAATATTTTTTTTTTATTTATTTTTATGGCTGCA
+>PBANKA_1401100.1  | Plasmodium berghei ANKA | DOHH deoxyhypusine hydroxylase, putative | PbANKA_14_v3, reverse strand, 101847 to 102847 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATGAAATATTTTTATATTTTTCTTAATATATATTTATAAAAAAATTTTACGTATATATTTAATCTTATAAAGGATATTTTTTATTTCTTTGTGTTTGATA
+>PBANKA_1405300.1  | Plasmodium berghei ANKA | RED-like protein, putative | PbANKA_14_v3, reverse strand, 270042 to 271042 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATAAAATAACGCTAAGAAATTTTAGAAGAAAAAAATTGAATGCGCAACGATTTGTTTTATAGAAATTCACTTTATTTCGTCCCATTTCGTTTTCATTT
+>PBANKA_1406200.1  | Plasmodium berghei ANKA | TOM1-like protein, putative | PbANKA_14_v3, forward strand, 289105 to 290105 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CGTATCACCAATGAATATATACGTAATTTATGTCTCTTATTGATTGAAATGATTAAATTCCCATACTAATATGTTAAGATTTTCCCAAAAGTGGCTAATT
+>PBANKA_1406900.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 332314 to 333314 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAATAAAAGATTCATTGAATAAATGGAATAATAAATCTTTCTTTGTTATATTATTTTTAAATACAATTTTTAATATATTTTTAATGGTTATTTCTTAAT
+>PBANKA_1407400.1  | Plasmodium berghei ANKA | DCP2 mRNA-decapping enzyme 2, putative | PbANKA_14_v3, reverse strand, 351414 to 352414 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTGATATGTAAGCAAATATATTTAACAGATTTTTGTTTGGTTTACAATATTTTGTTTATTATTATTTTTTTTAATTTAATTATTTATACATTATTTT
+>PBANKA_1410000.1  | Plasmodium berghei ANKA | RPT1 26S protease regulatory subunit 7, putative | PbANKA_14_v3, reverse strand, 428276 to 429276 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAGACTTTTAGTATTGTAATTTAATTTTCTTTAAAAAAATATGAATTTACACCTTTTACTACATTTTAATTATTTTTATAATGAAATAATAAACAAATAA
+>PBANKA_1412300.1  | Plasmodium berghei ANKA | ankyrin-repeat protein, putative | PbANKA_14_v3, reverse strand, 524136 to 525136 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTACATACAAAAAGATAATAAATATGCACGTGTATAACATTATGTTTGAAAAAATATTATACAAGTTAATAATTTCTATGAATTTTTCAAAACCGAAGAA
+>PBANKA_1414000.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_14_v3, reverse strand, 573616 to 574616 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAATTATACTAAATTTTTATGTACATTAGATTTTTTTAATTTCCCGCTTATTTTACATTAGTACTACGCTATTGTATTTTATCTTTTTTTTTAATTTTG
+>PBANKA_1414100.1  | Plasmodium berghei ANKA | PIS CDP-diacylglycerol--inositol 3-phosphatidyltransferase, putative | PbANKA_14_v3, reverse strand, 576682 to 577682 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAGTGTATTTATAAAAGTGTATTATATAAAAGTGTATATATAAAAATATATTATATAAAAGTGTATTATATTAATTATATGGGAATTTTTAAACAACA
+>PBANKA_1415300.1  | Plasmodium berghei ANKA | SEC20 protein transport protein SEC20, putative | PbANKA_14_v3, reverse strand, 615254 to 616254 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATATATGTTTATGTCCATATATATATCATATTAGTCTAACATATGTTTAATACTAATATTTACCAGTATATGTTTTTAAAAAATTCTTTCATAATTTTG
+>PBANKA_1416300.1  | Plasmodium berghei ANKA | RPS19 40S ribosomal protein S19, putative | PbANKA_14_v3, forward strand, 652704 to 653704 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TACATTAATATTATATATATATATATATATAATTATAGGTATACATATACCCTCAGGAAAACATATATTATATATTTGTAAACTGTAAACGAGCCAAAGT
+>PBANKA_1420500.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 820308 to 821308 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATTACTATGTTTTGATTTTTGGTTAATTTAATATTATAAAAAAAACTTTGAAGCAGTATATATTATGGATATAGTATTTGTGAAAGTATTAATATTA
+>PBANKA_1422200.1  | Plasmodium berghei ANKA | CDF cation diffusion facilitator family protein, putative | PbANKA_14_v3, forward strand, 869286 to 870286 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTATACCTTATTATGTTTACATTTGGAGTTTTTTTCACTTTTTTTTCCGCCTTATAGTCATATCACATAAATTGTATTTTTATTTATTAAAAGAATTT
+>PBANKA_1425350.1  | Plasmodium berghei ANKA | GTP-binding protein YihA3, putative | PbANKA_14_v3, forward strand, 967690 to 968690 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTTTAAATGCCATTGATCTTTATTCATACTTATATGCAAAAATAAAATATGAAATTTTAGGTACACGAAATTATCAATAGTACAAGTGATAGATATATAA
+>PBANKA_1426500.1  | Plasmodium berghei ANKA | CUL1 cullin-1 | PbANKA_14_v3, reverse strand, 1026236 to 1027236 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTTTAAATATTTGTTGCAAGTAGTTATTTTTAAGTAATTTTGTGTGAATAATCAAAGAGTAAAAAAAGGAAAAAAAAATACGGAAAAACACTTAAA
+>PBANKA_1426900.1  | Plasmodium berghei ANKA | DBP1 ATP-dependent RNA helicase DBP1, putative | PbANKA_14_v3, reverse strand, 1038206 to 1039206 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATATATATATTTTTAGATAGAACCAATCAGAAAAATACACATAATTTAAAATATACAAACATAATAAATCACACATTAGTGTAAAAACGAAGCATAGAA
+>PBANKA_1428100.1  | Plasmodium berghei ANKA | asparagine-rich antigen, putative | PbANKA_14_v3, forward strand, 1092654 to 1093654 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTTGTTATTACCGAGCAGTTTTTATTATAATATCTTTAATATGGCTGATTTTTTTTTATGACGAATTATTATAACAATATTAGCATACTATTTTTATT
+>PBANKA_1430700.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_14_v3, forward strand, 1171439 to 1172439 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTTTGGAATATAAAAAAATATAATAAAAATAATTATAATATTAGTATTTATGATTTTTATGCAGCTACATTTACAAAAAAAATGAAAAATAGAATAAA
+>PBANKA_1430900.1  | Plasmodium berghei ANKA | SUN domain-containing protein, putative | PbANKA_14_v3, forward strand, 1176048 to 1177048 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATAACTAAATAAGCAAATAAATTAATATATATATTGAGAGCACAAAAGAGCGGGTGAGGGCTAGAGAAAAGAAGCATTTTTGGTGAGTATGCGATTTG
+>PBANKA_1432900.1  | Plasmodium berghei ANKA | EngA GTP-binding protein EngA, putative | PbANKA_14_v3, forward strand, 1233122 to 1234122 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATGTAGATCGAGCTTCGCTCAAAAATATAAAAATAAATTACCCAATTTATAGAATAAAATTTTCTCCTTTTCATCACTTCATGATTGTAGTTTGTGTTG
+>PBANKA_1433300.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 1247507 to 1248507 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATATAATTTTTTTGTTCTATTAAAATAGCCATGACGAGGATATTTATTTTTTAGCAAATTAATGTTAACAAGATCATTCCGAATTTTTGTTTTAATACA
+>PBANKA_1437300.1  | Plasmodium berghei ANKA | GRP94 endoplasmin, putative | PbANKA_14_v3, reverse strand, 1405678 to 1406678 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTTAATTAAATTTTATTTGTATTATAATGAGCAAAATAAATAGCTTGCTTATTTTTATAATTTTTGTGACTTTGCAAGCATATATATTATAATATA
+>PBANKA_1437400.1  | Plasmodium berghei ANKA | DPH6 diphthine--ammonia ligase, putative | PbANKA_14_v3, reverse strand, 1410203 to 1411203 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACATGTTATTCGTGTTGGGGAAATACATAGAATTCAAAAATATAAAAAATAAAATACCGGAAAACCACGTTGAAATGAGAAATATATGCATATATATACC
+>PBANKA_1438500.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 1471149 to 1472149 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTTTACTACACACATAAATAATAATTCACGACAAAACCCATACTTTGGGGTATTTATTTTATTTCGTGTTTTAATATACCAACTTGATTTATTTAATT
+>PBANKA_1439200.1  | Plasmodium berghei ANKA | PABP1 polyadenylate-binding protein 1, putative | PbANKA_14_v3, forward strand, 1487319 to 1488319 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AACATAAAAACAAAAAAAAAAACATAAAAACAAAAAAGACCCAAAATATAATATTATAAACAAATCGAAGAATATATAATTAAAAAATATTTTTTAAATA
+>PBANKA_1440100.1  | Plasmodium berghei ANKA | DNA-binding protein, putative | PbANKA_14_v3, reverse strand, 1521797 to 1522797 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATAATAATAATATATACATACATTTTTATATTTATATATTCTGAAAAAAATATACAAAATACGACACATAATAAATATACTTAAAATAGTGCTACAACA
+>PBANKA_1441200.1  | Plasmodium berghei ANKA | regulator of MON1-CCZ1 complex, putative | PbANKA_14_v3, reverse strand, 1558392 to 1559392 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGAGTTTTAATATATTTAATTTTTTATATATTTTTTTTGAATTTATACTTTTTAATAATACAATTTTACAAAAATTAATACAAAAGTAGCAAAATTTTTG
+>PBANKA_1441400.1  | Plasmodium berghei ANKA | PCNA2 proliferating cell nuclear antigen 2 | PbANKA_14_v3, reverse strand, 1565116 to 1566116 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTAAAAATGATTTAATTCTACAATGAAAAAAATTCTTCTAAAATTTTATAAAATGCAAAATATACACATATATAAATGCATGTGTATGCAATGTATATA
+>PBANKA_1443800.1  | Plasmodium berghei ANKA | MRP2 multidrug resistance-associated protein 2 | PbANKA_14_v3, reverse strand, 1685317 to 1686317 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAAATTTGACAATGTTATAATCATTAAAAATATTTGTAAGTTTCTATATATTAATGATGAATATTTTTAATATTTTTTAATACTTTTTATAATTTTTTTA
+>PBANKA_1445600.1  | Plasmodium berghei ANKA | RIO1 serine/threonine protein kinase RIO1, putative | PbANKA_14_v3, forward strand, 1745754 to 1746754 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTGTTGTACAACGATATATATGTTGAGAGTATCTCCAAACTTTATAAAAGAAGTCATATAAATATAATATATATGTAAATATATAGAAAATAATAAGCAA
+>PBANKA_1445900.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 1757502 to 1758502 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACTTATAAAAAAATTTATAAAAAAAGCTAGTTGATTATAGAAAACGAAAAAAAAAAATATTTTATTTTTATTTATAAAATTACATAGATTTAATTTTTTT
+>PBANKA_1447800.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_14_v3, forward strand, 1830362 to 1831362 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAATAGAGAAACCAAATGAAATAATAAAATTTCAGAATAACAAATATTTATTTTACTATGCTATGAAATAAATATATTTTCTTCCTTTTTCATTTTTCA
+>PBANKA_1450500.1  | Plasmodium berghei ANKA | XAB2 pre-mRNA-splicing factor SYF1, putative | PbANKA_14_v3, reverse strand, 1959128 to 1960128 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAACATTTTTAACGGAACTATATGCTTAAAAATAAGAGTTAAAATGGAAAAACAAAGGTAACAAATTATTACTGAATTTAGAGTATTATTAAAGGTACTA
+>PBANKA_1451300.1  | Plasmodium berghei ANKA | S-adenosyl-methyltransferase, putative | PbANKA_14_v3, reverse strand, 1981366 to 1982366 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAGAAACTAATTTAATACATTATATACATTCATAAATATGCGTATATATCTATATTTACAATTTTCTAGATATATCTAAATTGTTATAAGGTCATTATGA
+>PBANKA_1451800.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, forward strand, 1995862 to 1996862 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATATATTTGTTATTTTTTTGCATATATTTGTTATTTTTTTGCATATATTTGTTATTTTTTTGCATATATTTGTTATTTTTTTGCATATATTTTTGACAT
+>PBANKA_1453000.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, forward strand, 2033301 to 2034301 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAAAATTTGTAAATACATAAAAAATATTACGATTTAATTGTAATAAAGTTGCTTATAAAATTTGTTTGCTTTTATTTTTAATATCATATAAAGAATTATA
+>PBANKA_1455200.1  | Plasmodium berghei ANKA | DBP9 ATP-dependent RNA helicase DBP9, putative | PbANKA_14_v3, reverse strand, 2144688 to 2145688 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATTAGTTCCCCAATTAGCTAATTTTATATTCATTGGTTCACCTTTCTATATGATTAGTCGTAAATTCGTTTATTTTAATAATCATCTTTTTGATTAA
+>PBANKA_1456200.1  | Plasmodium berghei ANKA | rabGDI rab specific GDP dissociation inhibitor, putative | PbANKA_14_v3, reverse strand, 2167335 to 2168335 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAATAAAAAAATAATTTTTATGCATGTGTAGGAGTTATAATGTGCGTTTTTTTATTTTTTTAGTGTGATAATCTTTAGTCTTATTTATATCGTACAAT
+>PBANKA_1456900.1  | Plasmodium berghei ANKA | translation initiation factor SUI1, putative | PbANKA_14_v3, forward strand, 2181341 to 2182341 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATATTTATGAAATAAATTATTTTCAAATTTCATAGATAATATTAAAAGCGAAATTTTGTGTAATTAATTTTTTTTTATCGGCAATCGGAGCATGCAAAA
+>PBANKA_1457800.1  | Plasmodium berghei ANKA | ARFGAP1 ADP-ribosylation factor GTPase-activating protein 1, putative | PbANKA_14_v3, reverse strand, 2221116 to 2222116 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATAATTCGTTATTTGTTTATTTTATGATAAAAAAAATATAAATATATATGTAATAAAATAAAAAAAAACGTATCTTGAACAAAAAATGCGCTTTCGAAT
+>PBANKA_1462000.1  | Plasmodium berghei ANKA | THUMP domain-containing protein, putative | PbANKA_14_v3, forward strand, 2342567 to 2343567 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CGATTTTTTTTATAATTTTTTTTTTTTTTAAAACCTAACAAATGGGAAAGGATATTTTCATTTATCAAAAGATATAAATTTGGGTAGATGGTTATTTATT
+>PBANKA_1462700.1  | Plasmodium berghei ANKA | THO2 THO complex subunit 2, putative | PbANKA_14_v3, reverse strand, 2371577 to 2372577 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATTTTCAATTTTCCTTAACTATATTTATACGCGCACATAAATAAAATACGGCTTTACAATAATCTATAAAAAATTATAATACATGTATGCAAATTATT
+>PBANKA_1462900.1  | Plasmodium berghei ANKA | FCF2 rRNA-processing protein FCF2, putative | PbANKA_14_v3, forward strand, 2374190 to 2375190 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATATGCAATTATTTTATTATTTCTGTTTTATTATTTAATTTTTTTTGCATACCGCTGTTTATATAGTATACTAATTTTATTGGGGTGGTATTTTTCGGT
+>PBANKA_1010300.1  | Plasmodium berghei ANKA | dynein-related AAA-type ATPase, putative | PbANKA_10_v3, forward strand, 460674 to 461674 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TACAGGCATGATAGTTGTATATCTGGAATATATATAAGCAACTTATATACATCACAGTGCTTGTGGAATTTCATTTTCATACATTTATTATACAAACTTC
+>PBANKA_1010600.1  | Plasmodium berghei ANKA | CAM calmodulin, putative | PbANKA_10_v3, forward strand, 490601 to 491601 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATATTCCGCATATATTGTGTAAATACTATATGAGCACAAAATATATTTTTTTAAATAATTATGAAATAACTTGAAAAATTGTTTTCATAGTTTTAAAT
+>PBANKA_1011800.1  | Plasmodium berghei ANKA | HID1 domain-containing protein, putative | PbANKA_10_v3, reverse strand, 555476 to 556476 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAGGAAAATACATAAATCGTACTTTTGTATTTTTCATTTAACTAAATGATATGTTTTTATTAAAATTTTGGCAAATTATAATGCTAAAGTTGTTGGAT
+>PBANKA_1012100.1  | Plasmodium berghei ANKA | HP12 protein homolog, putative | PbANKA_10_v3, forward strand, 558590 to 559590 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATCATAAATAAAAATACCAAAAAAATATTTTCTCAAAATAGTACGAATTTTTAAAAATAAGAAAATCCCAAATATGCCCTCGTTTCGAATATTGTTAA
+>PBANKA_1012300.1  | Plasmodium berghei ANKA | DNA-binding protein, putative | PbANKA_10_v3, forward strand, 564360 to 565360 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTGAATGCTCGTACTGATTTCAAGAATGAGCACATGTTTGTTCATAATATTTATAATTTAGTTTAAAAATATTTGGGAATTTTTTTTTAAGATATAAAA
+>PBANKA_1015400.1  | Plasmodium berghei ANKA | CPW-WPC family protein | PbANKA_10_v3, forward strand, 672385 to 673385 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTGTAACATAAATTATAAAAATAATTAAAAACATATTATTAGTGAATAACTAGACGTTTTAAAAAAAATTTTTTTAAAGAAATATTTAAGGGATATAGAA
+>PBANKA_1015800.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_10_v3, forward strand, 685027 to 686027 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATATAATTATGTAATAAAATAACGATGATAAACAAACTGAGATATAGTGTGTGTAGTATATAAAAGGAAATCCTAAAAATATTGTTAGCAATTAAAAA
+>PBANKA_1016200.1  | Plasmodium berghei ANKA | protein kinase, putative | PbANKA_10_v3, reverse strand, 701057 to 702057 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGATAAAAACACACAAAAATGCATTACATACTGTATAAAATAAAATATGATATATTATTTTTATTGTACACACAAGTGTAGTTCACAAGCTTTTTCTTTT
+>PBANKA_1016500.1  | Plasmodium berghei ANKA | WBP11 WW domain-binding protein 11, putative | PbANKA_10_v3, forward strand, 708486 to 709486 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTAAACAATATGCAAAAATATCAATTAAAAGCGAATGGGCTATTTTAATTTTTTTTTGAATTTAAACAAATTGAAGAGTATATAAACTTTAAAAATTA
+>PBANKA_1017500.1  | Plasmodium berghei ANKA | UIS28 lipase, putative | PbANKA_10_v3, reverse strand, 748591 to 749591 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTAAAATATATAATTTTCTAACTGTATACTTATATTTTTTTAGTTACAAAATATTTTCTTTGTATATATGAACTCCCCTCCCTATATATGAATTTAAAA
+>PBANKA_1019800.1  | Plasmodium berghei ANKA | calcium-dependent protein kinase, putative | PbANKA_10_v3, reverse strand, 827003 to 828003 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CGGAATGCACATATGTTGCTGCATATGCTTTGTATTTGTTAATATATAATTTTAATTACAAAAAAAACGAGAAAAATACAAATTAACGAATTTTATAAAC
+>PBANKA_1020100.1  | Plasmodium berghei ANKA | PP7 serine/threonine protein phosphatase 7 | PbANKA_10_v3, reverse strand, 843057 to 844057 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTGTGACTTGGCAATTATGCCATAAAAAAAAATAATTTGGGTGTGTAAATTTATTTAAAAAAATAAAAATTGTCGCTAGTGCATGCATTGATAATACATA
+>PBANKA_1020800.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_10_v3, reverse strand, 864870 to 865870 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TCACCCATTCTTATTTTTCCTTTTTGGCATGCTGTATTTCAAAAGTGATAAAATATATGCACTCAAAAAAAGAAAATAATGTTTTACTCATTTGTACTAA
+>PBANKA_1022800.1  | Plasmodium berghei ANKA | GlyRS glycine--tRNA ligase, putative | PbANKA_10_v3, reverse strand, 916304 to 917304 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAACTTTCAAATTAATATTTTTGAAATATATTCATTTTATTTAATATGTCGATATGTACTCTTGGCAATTCGTAAAATTGGAAACACATTTTTATTCATA
+>PBANKA_1023300.1  | Plasmodium berghei ANKA | YTH1 YTH domain-containing protein 1, putative | PbANKA_10_v3, forward strand, 932336 to 933336 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGAAAAAACATGCAAAGAGTTTATATATAAACGTGAAATTTGGTCTATTATATAAAGAAAATGCAACTTTGTATTAGGATATAGTCAAAGGAATAATAAA
+>PBANKA_1023800.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_10_v3, forward strand, 946525 to 947525 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATTGCAAAAAAAATATTAAGCATTTATCTTTCCATAAAACTATTAAATTTATACCCAATATTTTATCATTTGTATAATAGTACTCTTTTTTTTACATT
+>PBANKA_1024100.1  | Plasmodium berghei ANKA | DDX55 ATP-dependent RNA helicase DDX55, putative | PbANKA_10_v3, reverse strand, 963290 to 964290 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTGTTAAATGATTTATTATGTTTACTATTACAACTTTTTTTAATTTTAACAATAATGCGATATACTTCCTTTTAGAATTATTTCATAAAATGATATTT
+>PBANKA_1024700.1  | Plasmodium berghei ANKA | UFD1 ubiquitin fusion degradation protein 1, putative | PbANKA_10_v3, forward strand, 993420 to 994420 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAAACTAAATATTTTAAAAAATTATTATACCCACAAATTAAAAAAGGAAAAAATATAACTAAATTCTTAATGAATGCATTTCCCTTTTCCTATTTATTTA
+>PBANKA_1026500.1  | Plasmodium berghei ANKA | MCA3 metacaspase-3, putative | PbANKA_10_v3, forward strand, 1087202 to 1088202 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATACATATATATGTAATGCTATATGATTGTGATATATATGTGTATTATGTAAAATTACAGTAGTGAATTTCCAGGTCTTTATATATTTGTTTTTTTATT
+>PBANKA_1028700.1  | Plasmodium berghei ANKA | RPN13 26S proteasome regulatory subunit RPN13, putative | PbANKA_10_v3, forward strand, 1170587 to 1171587 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TACAACTATATTATAAAAAAAAAAATTCAAATAAAATAATAGTAAATAAAAGAATAACATATATTTATCCATATAAATAGTATATATGTGTAAAATTTTA
+>PBANKA_1032300.1  | Plasmodium berghei ANKA | CTPS CTP synthase, putative | PbANKA_10_v3, reverse strand, 1311625 to 1312625 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GGCGCAATATCGTGTTTCTCAATATACGCGCCATGCATGAATGCCCGTATATGTTTATGGGTATCCTAAATGTAGCATTCGGAAATTTTTAACATAACAT
+>PBANKA_1033900.1  | Plasmodium berghei ANKA | 40S ribosomal protein S8e, putative | PbANKA_10_v3, reverse strand, 1383324 to 1384324 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TCATATATTTGTTTATACTTAATTTAATATCCTTACCTGAAGCTTTTTTTGAATATCACTTTTAATTTCATTAGTCTATATAAAAGTATGAATAAAAAAT
+>PBANKA_1034900.1  | Plasmodium berghei ANKA | PRP38B pre-mRNA-splicing factor 38B, putative | PbANKA_10_v3, reverse strand, 1423556 to 1424556 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATATCTATATTCATTGTTTTTATTTATACTTTTATTCATTGTTTTTATTTTTATTTTGTTTTCTTAATAATAGAGAAATATCCATTCTTATTATTTT
+>PBANKA_1035000.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_10_v3, forward strand, 1424289 to 1425289 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATCAATTATTTTTAATATGAATTTGTGATTTCTCACTTTTTATTATGGGAAAAAAATGAGAGAACAGTATTATATTTTTATTACAGATCCTAGTATATT
+>PBANKA_1035800.1  | Plasmodium berghei ANKA | PPR1 pentatricopeptide repeat-containing protein 1, putative | PbANKA_10_v3, reverse strand, 1455025 to 1456025 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATTTGACTTTATTAGCAACAAATTAACATGTCATTTCCTTTGTTCGCTTTAAAAAATATTTTTAAATATTTGTCGCTTTTTTTTGTATATTATGACC
+>PBANKA_1037400.1  | Plasmodium berghei ANKA | cysteine-rich small secreted protein CSS, putative | PbANKA_10_v3, forward strand, 1511423 to 1512423 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATTCCATAAAATTAAAATTTGGGGGTGTTTTTAATATGTATACATTTATTATTATGTTTACTATTATTTTTTAATATAAAATATGTATATATATTTAT
+>PBANKA_1038000.1  | Plasmodium berghei ANKA | cytochrome c, putative | PbANKA_10_v3, forward strand, 1527499 to 1528499 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATCCATGTTAAGCAAGTAAATATTTTTATTGTGTATTAAGTTGTAAAAGTAAACATAGTGATATGCAGTAATTATCTATTTTTTTTTTGGAAAATATTG
+>PBANKA_1039100.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_10_v3, reverse strand, 1566778 to 1567778 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTATATATTCAATGTTTTTAATCATAATTATAAAAAAGGTATAAATAATTGCACAATGTTTATTGATCCAATAACCTGATAATCCACTGTATATAT
+>PBANKA_1103400.1  | Plasmodium berghei ANKA | RPL31 60S ribosomal protein L31, putative | PbANKA_11_v3, reverse strand, 147088 to 148088 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATTAAAAGAAATGGTTTTAATTGCTTTTTAATCATGATAAGTAAAATAATTAATAATTGCCAAAAATGTTATATATAAACGGTTATGTTTATTATTA
+>PBANKA_1103800.1  | Plasmodium berghei ANKA | DDX27 ATP-dependent RNA helicase DDX27, putative | PbANKA_11_v3, forward strand, 159403 to 160403 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATGTTAATTCAAAGTATATAACAAAATAACTGTCTGTATACATTTTATTGCATTTTCTACAAATATAAATGTATATTGTACACTATTTGAGTATACT
+>PBANKA_1104000.1  | Plasmodium berghei ANKA | ATP-dependent helicase, putative | PbANKA_11_v3, forward strand, 164137 to 165137 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTCATTTCTCTCAAATTTAATTGATTTTTTCATATTGATTTTATAAAAGCTTGTATATTCATGATATTTTATTATTCTCATAAGAATATGCCTTTGTTAA
+>PBANKA_1104200.1  | Plasmodium berghei ANKA | BCKDHB 2-oxoisovalerate dehydrogenase subunit beta, mitochondrial, putative | PbANKA_11_v3, forward strand, 169432 to 170432 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTAATATAGATATATATTTTTATATTTCCTTCTCGTAACAAACAGTTATAGAGGCACACATAAAATATATTATATATTAGTTACTTAAAAAAAAAATATT
+>PBANKA_1105900.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_11_v3, reverse strand, 236597 to 237597 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACAAAAGGGAGCGTTCTGAAAACATTTTAGCAAATTTGTTGTTAAGCTCTTTGCATTTTTTTGATTGGGAAGAAAATTAAAGGAAATGATTATAATAGTT
+>PBANKA_1107600.1  | Plasmodium berghei ANKA | P38 6-cysteine protein P38, putative | PbANKA_11_v3, reverse strand, 294684 to 295684 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTGTTTTTTGTGTATTTATACTTATTGATAAAAAATAATGGTACGCAATGTGTGAATTTCCGTTTATGCTGATTTATTTCATATATTAATTTGTTTTACT
+>PBANKA_1107800.1  | Plasmodium berghei ANKA | ceramide synthase CERS1, putative | PbANKA_11_v3, reverse strand, 302922 to 303922 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTTTGTGCATTTGTATTCATTAAAACTATTGTGTAATAAGCTGTAATATTTATTATAAACGAATGTGTTTGAAAGTTAAAACTTGTTATATATATTATTG
+>PBANKA_1108300.1  | Plasmodium berghei ANKA | PRP5 pre-mRNA-processing ATP-dependent RNA helicase PRP5, putative | PbANKA_11_v3, forward strand, 319699 to 320699 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATATCATAAAAATATACTTACGGGATTTATGTAATCCTAATGTATATAAATATATACGTAATATCTTTTTTACATCATGAATAAAATACATAAAAATAA
+>PBANKA_1114000.1  | Plasmodium berghei ANKA | aspartate--tRNA ligase, putative | PbANKA_11_v3, forward strand, 537800 to 538800 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAAATTGGCCCACTATACCTTTTTATTTTTATGTATTTTTTTTTCAATTTTTATTAAAATTTTTTTTTATGATATATTAACATTTTGTGCTTTTCTTTAT
+>PBANKA_1114600.1  | Plasmodium berghei ANKA | CWC2 pre-mRNA-splicing factor CWC2, putative | PbANKA_11_v3, reverse strand, 560776 to 561776 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTATGTTTAAACTTTTACGAAATTATAAAAATTAAGAAGTGAAAATAAATGAATAATCGATGGGCATACAAAAGACAATGCTAATAAAAATTTCAAT
+>PBANKA_1115700.1  | Plasmodium berghei ANKA | NDC80 kinetochore protein NDC80 | PbANKA_11_v3, forward strand, 598215 to 599215 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATATCTTTTTTTTTAATCAAAAGTGAAATATTTTAGTAAATAAAAAGTAATAGTATACTAAATAAACACAAAATGATATGCTATAAAAAATAAATATAT
+>PBANKA_1118800.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_11_v3, forward strand, 711110 to 712110 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTAATTCGAATATTCTTTTTATGAAGGGTTAAACAAGTTCCTATTTTTTTGCCATTTTTCAAATTTATATTACTTTACTAGTTCTTTGCATAAGTTACAG
+>PBANKA_1120600.1  | Plasmodium berghei ANKA | RAP protein, putative | PbANKA_11_v3, forward strand, 765294 to 766294 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTTTTATAACTTAAGGTTTCCACAACATTTTTGAATAGTACTGAAATTTAATATCTTATTAATGCATACAATATATTTTGGAGAATATATCGTTACAA
+>PBANKA_1121200.1  | Plasmodium berghei ANKA | vacuolar transporter chaperone, putative | PbANKA_11_v3, forward strand, 787897 to 788897 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATGCATATGAACCTTTAAAAAAATGTTGTAAAATAAGTTATACTATTTTAATTAATATTCCCTATAATTTTATTAAAAATTAAAATAAAAAAAAATTCA
+>PBANKA_1122800.1  | Plasmodium berghei ANKA | ribonuclease H2 subunit A, putative | PbANKA_11_v3, forward strand, 849504 to 850504 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATAGAAAAAAATAAACACATTTTCAATGATCTTGAAAAGTGAAAATAATATGCATATAATGCTCAAAGAAAATTATTATTTAAAAGTAAAATAATAGC
+>PBANKA_1123800.1  | Plasmodium berghei ANKA | GAS8-like protein, putative | PbANKA_11_v3, forward strand, 885333 to 886333 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GAAATAAATGATGATTATTATAATAGTGCTTGAATATTTTATTTTGTGAAAAATTATTATTTTAATTTTTTTATATATAAGTATATTCTCATAAGTGTAA
+>PBANKA_1126500.1  | Plasmodium berghei ANKA | ACAS acetyl-CoA synthetase, putative | PbANKA_11_v3, reverse strand, 974574 to 975574 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GAAAATCACCAATATTCATATATATGCATACTTTTGCCCTTTGAATGCTTAGTTTCGATTGGTATTAAATAATAAGGCTTATTTATATAACACGAGTAAT
+>PBANKA_1126800.1  | Plasmodium berghei ANKA | HECT1 HECT domain-containing protein 1, putative | PbANKA_11_v3, reverse strand, 1005810 to 1006810 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGCGTCGTTTTCTATTGAATAACCAAATTGTTTTATAAATATTTTATATTGTGTATTTTTCTGCATGTAGTTCTTCGATGTGATACATAACATATATGCT
+>PBANKA_1129300.1  | Plasmodium berghei ANKA | YTM1 ribosome biogenesis protein YTM1, putative | PbANKA_11_v3, forward strand, 1113904 to 1114904 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTCTGTTGATATAAGTTAAATATTTTTTTATGTTGTTGCTCTTTCTTTATATGCATGTTGGTGAATTAGATATTTAAAAATGTAATTTAATTAAGTTGT
+>PBANKA_1129400.1  | Plasmodium berghei ANKA | deubiquitinating enzyme MINDY, putative | PbANKA_11_v3, forward strand, 1117110 to 1118110 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATGTATATGTGTGTTCATCCCTTAAGATTTTCAATCAATTAATTCACTAAATATACTTTACTTTTTTCCATATTATTAAATCTGTCAAAAGCTGCAATT
+>PBANKA_1129600.1  | Plasmodium berghei ANKA | TPH domain-containing protein, putative | PbANKA_11_v3, forward strand, 1124338 to 1125338 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGTTAATAAATATATTGCACATGTAATGCACAAATGTCAAGGATTAAGAATTATCATTTTTTTTCACTAAATATTTATTTTGTTTTATTTTTCCATTTTT
+>PBANKA_1130000.1  | Plasmodium berghei ANKA | Ran-binding protein, putative | PbANKA_11_v3, forward strand, 1139485 to 1140485 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAATGTAAATTGTAAAATGTGCATTGAGCTATCTACATATATTTATTTATAAATATGTATACTATAAATGTATATACATATATATTTCTCTATATTTTTA
+>PBANKA_1130400.1  | Plasmodium berghei ANKA | proteasome subunit alpha type-4, putative | PbANKA_11_v3, reverse strand, 1151967 to 1152967 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATAATGTGTTATGATTAATTACCTATTGTTTAATTCTTAATATTAATACTTTTTTTTAATTATTCCCTCACAAAAATATATATAATATATATGCATGGA
+>PBANKA_1130500.1  | Plasmodium berghei ANKA | proteasome subunit alpha type-7, putative | PbANKA_11_v3, forward strand, 1152509 to 1153509 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATATATGTACATATACATTTTATACTATTAAGCACAAACCAGTGTTTTATTTTTATTTTTGTTATATTCCCCTCTCTAATTACCCTGAATCTTGATAA
+>PBANKA_1131000.1  | Plasmodium berghei ANKA | V-type proton ATPase 21 kDa proteolipid subunit, putative | PbANKA_11_v3, reverse strand, 1168106 to 1169106 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTCCTTTTTTTATGTATACAGTATTTATAGTTTTTTTTTTAAATTTATTAAGGCCTATTTTCCTATGTAAAAACCGTAAATAAAAAATAAGAAAAAGC
+>PBANKA_1135500.1  | Plasmodium berghei ANKA | HMGB4 high mobility group protein B4, putative | PbANKA_11_v3, reverse strand, 1335589 to 1336589 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAATGTACATACTATAGTGAATATATGCTATATATACATGTATGTATTATATTTACTATTTTTATGAAGTTTTTCAAACAATTTCTATACTCGTTAATGA
+>PBANKA_1140300.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_11_v3, forward strand, 1527408 to 1528408 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATATTTTTTTTTAATCATAGTTTAAAAGTTATTTTTGTGGGAATATTTGATACATATAATTTCCATTTTTTTTTTCATATTCATTTTATTTCCTGTAAA
+>PBANKA_1143000.1  | Plasmodium berghei ANKA | SNP1 U1 small nuclear ribonucleoprotein 70 kDa homolog, putative | PbANKA_11_v3, forward strand, 1612550 to 1613550 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAGCATAAAGCACTAAAAAGGGAAGAGCCCCAAATATTATATAATAAATTCATAATAATGGAAAATATTATTAATTCGAAAAAGTAAAATTAACAAAAT
+>PBANKA_1200800.1  | Plasmodium berghei ANKA | TRA2B transformer-2 protein homolog beta, putative | PbANKA_12_v3, forward strand, 63897 to 64897 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTTTTTATATAGCCTCAATAAAACATCTTTTTGAAAATTACTTTACTAAGGGACTCACTTTTTTCGTTGTTCGCTTTTCCATAATAATATTTTAGATA
+>PBANKA_1201900.1  | Plasmodium berghei ANKA | 40S ribosomal protein S20e, putative | PbANKA_12_v3, reverse strand, 104183 to 105183 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTATAAGGTAAGAGAAATGTAAATACATGGTTATGCAATCAATAGGGAACATAATTTTATTAATTAGATATTGGCTTAAAATAATATCATAGTTGAAT
+>PBANKA_1202100.1  | Plasmodium berghei ANKA | MKT1 domain-containing protein, putative | PbANKA_12_v3, reverse strand, 112478 to 113478 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATACATGTATATATTTTCAAATACTTCCGTGTGTAAATAAAAGCAAAATGTGTTCATGATATTCTTCGATTTTTTTCATGCCTTATGTGTATATTTGA
+>PBANKA_1204400.1  | Plasmodium berghei ANKA | ALBA3 DNA/RNA-binding protein Alba 3, putative | PbANKA_12_v3, reverse strand, 193274 to 194274 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACCCTACATATATAATATATCAATATTATTATGACACTTTATTTTTCCGTATCTTCTTTATTTACATATTTAAAATTGTAATAATAACTTGATATTTCTT
+>PBANKA_1205900.1  | Plasmodium berghei ANKA | ApiAP2 AP2 domain transcription factor AP2-I, putative | PbANKA_12_v3, reverse strand, 232002 to 233002 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATTTATATTTTGTATGTATTTAAGTTATTAAAAAAAATGCAGGAGCTTTAACATGGCTTAATTATTAGCACAAATATATTAATGTGAATTCCATTATT
+>PBANKA_1208800.1  | Plasmodium berghei ANKA | MORN repeat protein, putative | PbANKA_12_v3, reverse strand, 346233 to 347233 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CCCTTTTTCGCAGCTACGAGCAACTTTATTCTCTCCTCCTGAAATAAAAAAATATATTTTATTATTTTTGATAAAAAATAAAATTATTTATATGTAAAAT
+>PBANKA_1209000.1  | Plasmodium berghei ANKA | eIF2beta eukaryotic translation initiation factor 2 subunit beta, putative | PbANKA_12_v3, reverse strand, 349889 to 350889 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AACTATTTCTCATTTTTTATTACACCTTTTTCGTTTATCTATTCCTATTTTTCTTATATTTTTAAAGCATTTTTTATAGTTTTACAAATAAATATTATGC
+>PBANKA_1211500.1  | Plasmodium berghei ANKA | UTP13 U3 small nucleolar RNA-associated protein 13, putative | PbANKA_12_v3, reverse strand, 426933 to 427933 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GCATTAAAAATTTTAGCATAGGGATAATTTATATATTTTTGTCAATTTGTTTTATTCTCGGGTTATTATTTCTTCGTTTTGTGTCCGCGTTTTTTTTTAT
+>PBANKA_1213000.1  | Plasmodium berghei ANKA | ADA2 transcriptional coactivator ADA2, putative | PbANKA_12_v3, reverse strand, 500998 to 501998 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATATTATATTAAAACAATTTTAATGATTTTATAATTTTAAAAAAACAATGATGAAATAAAAAATATGTATATTTTTTACATATATAACTCGTTTTTTTT
+>PBANKA_1217300.1  | Plasmodium berghei ANKA | ALG7 UDP-N-acetylglucosamine--dolichyl-phosphate N-acetylglucosaminephosphotransferase, putative | PbANKA_12_v3, forward strand, 660837 to 661837 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATAATTCAATTATAAAAAACGAACAAATAAATGAATAAATATTATATATATAACACTACGGCTATCAATATCTCATTAAATGCTACTGTTATTTATTTT
+>PBANKA_1218200.1  | Plasmodium berghei ANKA | CCT5 T-complex protein 1 subunit epsilon, putative | PbANKA_12_v3, reverse strand, 704928 to 705928 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGAAGAAGATACGTGAAAAAAAGCATCAAACGTTGCTATAAAAGCATTACATATATAATATATACATAATATATAAAATAAATAACAATAAAAATACATA
+>PBANKA_1218400.1  | Plasmodium berghei ANKA | SEC22 protein transport protein SEC22, putative | PbANKA_12_v3, reverse strand, 710069 to 711069 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAAAACAAGGCGTATTTATCATAAAATAAATATATGTACATATGAAATTTTAATTTGTAATATATATAATATTTGTGGAGGAGAATTTCTGTGAATATA
+>PBANKA_1218800.1  | Plasmodium berghei ANKA | ABCI3 ABC transporter I family member 1, putative | PbANKA_12_v3, reverse strand, 728028 to 729028 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTAATTTTCTGCTTTTCATTAATTTAAAAAAATAACAAATAGAAAAGATAAAGAATACGAAAAAACAGGAAATCTATTACATGCCGAACTAAACTATTTA
+>PBANKA_1219000.1  | Plasmodium berghei ANKA | heat shock protein 90, putative | PbANKA_12_v3, reverse strand, 733413 to 734413 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTATAAGCAGTATTAATAAAAAAAATAGAATATAAAAAATTCATGGGAGAAAAGAATGGCTTACCCGCATATGAATATAAAAATATGCTTTGCGCTGGC
+>PBANKA_1219200.1  | Plasmodium berghei ANKA | COX4 cytochrome c oxidase subunit 4, putative | PbANKA_12_v3, reverse strand, 737318 to 738318 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAAATAATTCTCTAAAACATTGATCTTGGAACATTTTCATGTGCAAGAAAAATATAACAGGAATTTGGAATAACTATAAAAAAACAATATTGAATTACA
+>PBANKA_1220600.1  | Plasmodium berghei ANKA | Sfi1-like protein SLP, putative | PbANKA_12_v3, reverse strand, 802570 to 803570 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AGTATTATAATGTATGCTAATTTTTCACGTTTTTATGCTTTATAATACATTTTTTATGTGCATTTTTGTAATAAAAAGTTATATACGCATAAAACGCAGT
+>PBANKA_1220700.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_12_v3, forward strand, 803069 to 804069 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTCTATAATTTACTTTTTTTTTATTTCTTTCAATTTTTGGAGATAAAACAAAAACATTTATAAAATACAAAAATCTAATCTCTTTTTATTTTTTAGTATA
+>PBANKA_1221200.1  | Plasmodium berghei ANKA | RPL34 60S ribosomal protein L34, putative | PbANKA_12_v3, reverse strand, 820188 to 821188 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTTATACATCAATACTATTTTATAATATAAATCATTTTATAATATATATATATTTATATATATACCATTTTAATATAAGGGTTATACAATTTTTTGCATA
+>PBANKA_1221300.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_12_v3, reverse strand, 822759 to 823759 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATATTATATAAATATTTCCTTGTGGCGCTACAATGCAAAATAATGTATTAGTTGCAAAAAAAAAAAAAAAAAAAAAAATTAATAATATTCCCACAAAA
+>PBANKA_1222600.1  | Plasmodium berghei ANKA | AP-3 complex subunit delta, putative | PbANKA_12_v3, reverse strand, 861857 to 862857 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTATATATGCATAACGTGTATATGATATAATGCAGCATACTGTTCAGAAAAATATAATAAATACAAAGTAAAATATCAAAAATAATTTTAAAAAGAAAAA
+>PBANKA_1223800.1  | Plasmodium berghei ANKA | V-type proton ATPase subunit a, putative | PbANKA_12_v3, forward strand, 897046 to 898046 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATACTTCTATGTATATATATATATGCCTATGTTATTATATTTTTATGTTTTTTTTTTACAAAAGAAAACTGCATAAATTAATTCCTACTTACCGCTTTT
+>PBANKA_1225000.1  | Plasmodium berghei ANKA | serine/threonine protein kinase, FIKK family | PbANKA_12_v3, forward strand, 944006 to 945006 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTAAGACCAATTGATTGATATTCCTACAAACTAAATTTCAGTATCAGGTAATTAAGCACAATATACATACCCACCTTGTATTTATTTACATATAAAATTT
+>PBANKA_1226900.1  | Plasmodium berghei ANKA | mitogen-activated protein kinase organizer 1, putative | PbANKA_12_v3, reverse strand, 1033795 to 1034795 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAATATTTCCATATTGAAATGATATTAATCAGTATAAACTATGAACCTCAAAACAAATTATAATGAAATTGAAAATTGAGATATTTCTATTATGGCTTTA
+>PBANKA_1227400.1  | Plasmodium berghei ANKA | CNA serine/threonine protein phosphatase 2B catalytic subunit A | PbANKA_12_v3, reverse strand, 1048553 to 1049553 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAAATATATTATACATGATTAATTATATTTATTTTTTATTTATATGTGTATACATTAACTTTCTATGCGTTAATATTTGCCACACCTTATATCGTATACT
+>PBANKA_1227700.1  | Plasmodium berghei ANKA | inositol 5-phosphatase, putative | PbANKA_12_v3, forward strand, 1058613 to 1059613 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTAAAATTGTGGACCATATATAGAATATTATATTTTTTTATGAATAATATATACACAACAAATGTTTTAAGATTTGTTTTTTTTCATTTCTTTTATTATT
+>PBANKA_1229700.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_12_v3, forward strand, 1150577 to 1151577 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTAGTAAATAAAACGTCGATTGCGTTTTTATTATTTTGCCATATCTAAATTATTATGTATATGTGTTTTTCATTTTGATGATATGATTGCAATTTTTT
+>PBANKA_1230100.1  | Plasmodium berghei ANKA | ribonuclease, putative | PbANKA_12_v3, reverse strand, 1169250 to 1170250 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAGCCAAAATACAAAAAAAAAAAAAACATATATATATAATAAAATAAGGGGGACACACAAATAACAAAGTACCAAAATAATTAAATATTATTATGAGGGT
+>PBANKA_1231000.1  | Plasmodium berghei ANKA | RPS11 40S ribosomal protein S11, putative | PbANKA_12_v3, reverse strand, 1201422 to 1202422 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAATAAATCGTGCTTAATTCCATACGATTTAGCATTTGTTATAACATTATCAAGTATGCAATTATTAAGCAAGCATATATACATTTATTATTATATTTA
+>PBANKA_1231800.1  | Plasmodium berghei ANKA | 60S ribosomal protein L12, putative | PbANKA_12_v3, reverse strand, 1234732 to 1235732 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATATATATATATATAATCATCAACATATATTTTAGAGTTAGCCTTGATAAAAATATTATTATTTTATTTTACTTTATTTCTTTCCCTTTTGCACCTTA
+>PBANKA_1232200.1  | Plasmodium berghei ANKA | FACT-L FACT complex subunit SPT16 | PbANKA_12_v3, forward strand, 1245975 to 1246975 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTTATTCTTATTTTTGCGAATATTTATAAAGTTATGAAAATGTTTTGATATATATCGAGACATATAATGAAAAGAGAAAATACTTTACTTGCATAA
+>PBANKA_1234600.1  | Plasmodium berghei ANKA | EELM2 domain-containing protein, putative | PbANKA_12_v3, reverse strand, 1330096 to 1331096 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATAATGTTTTTTTATGTATCACATAAAAGAAAGGGGATAAAACAATTTATGTTATAATAACATCCGTTATTTTTCCCAAAGGACATATATATATTTTT
+>PBANKA_1235900.1  | Plasmodium berghei ANKA | zinc finger protein, putative | PbANKA_12_v3, reverse strand, 1374510 to 1375510 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATAGATATAATACATTTGCATTTTTTATTTTATCTGTGATGTAAATGTAAACTATTTTATTAATATATGTAAATTTAATTGGCTACATTTTTTTTTTTT
+>PBANKA_1236300.1  | Plasmodium berghei ANKA | DDX1 ATP-dependent RNA helicase DDX1, putative | PbANKA_12_v3, forward strand, 1381422 to 1382422 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATATTAAAATTGAAACAATTTTTTAAGGTAAAATGATATATTTAATATGCTACTATTTATATTTAAATAATTACATGAATTGAAAATATTTTTTTGTTT
+>PBANKA_1238500.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_12_v3, reverse strand, 1478126 to 1479126 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATAGAAGAATAAAAAAGTTACAATAATCAATATAATAAAAATTAGGTGATAAAATTCCATGAAACCAATAAGGTATATTAAATTTATTTCACGGGCTA
+>PBANKA_1240000.1  | Plasmodium berghei ANKA | SMC6 structural maintenance of chromosomes protein 6, putative | PbANKA_12_v3, forward strand, 1532792 to 1533792 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATAATTTTTACACTTTTTTTTATACTTTTTATAATTTTTACACTTTTTTTATACTTTATTATTTAATTTGTATATTGTTGTAACATTTTACACATAAA
+>PBANKA_1243400.1  | Plasmodium berghei ANKA | nuclear GTP-binding protein, putative | PbANKA_12_v3, reverse strand, 1635433 to 1636433 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTATTAAAAGCGTAGCGAAACAGTAAAATAAGAAAAAAAAATGTATATATTGAATTTCTTAACTTAATTTATTGACTTAATTAATTTCTTAACTTAATT
+>PBANKA_1245200.1  | Plasmodium berghei ANKA | CPW-WPC family protein | PbANKA_12_v3, forward strand, 1700636 to 1701636 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATATCCTATAATATGTACAGAAATATATTTTCAGTTTTATACTAGTATCCATTTATGTAAGGAATCCGATTTTTTATATTTGTCAAATTTGTATATCC
+>PBANKA_1245400.1  | Plasmodium berghei ANKA | SURF1 domain-containing protein, putative | PbANKA_12_v3, forward strand, 1712800 to 1713800 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAAATAAAATTATCATGTAAATATTATTATTTTTTCCTTTATAATACGATATACCTTATATACATATATATTATGTTTTATGAATTTCGACATTTGCTGC
+>PBANKA_1300600.1  | Plasmodium berghei ANKA | BDP4 bromodomain protein 4, putative | PbANKA_13_v3, forward strand, 48632 to 49632 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAGAAGACCAAACAAAATTATTATAATATATACATATGAAAATAATAGAACAATTTAGTTGAATTTGACGCTTTTCCATTTTTGTTAAATATTTTACAGA
+>PBANKA_1303500.1  | Plasmodium berghei ANKA | NDUFA4 cytochrome c oxidase subunit NDUFA4, putative | PbANKA_13_v3, reverse strand, 203660 to 204660 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACAAAAACAAAAAAAAATAAGAATTTTTACAAATCAGGAATTATTTGGTATATATTTTTCTGTTCATTTTCCAGCGGTTTATTGAATTATTTGGCAATAG
+>PBANKA_1303700.1  | Plasmodium berghei ANKA | vesicle-associated membrane protein, putative | PbANKA_13_v3, forward strand, 207611 to 208611 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTGATAATTTTATTATATTTATTTTAATATATTTTTTTTATCATAAAACAAATTCTTTGCTTAAAAATTGATTGATAAAAGAACCCAAAACATCAAAATG
+>PBANKA_1303800.1  | Plasmodium berghei ANKA | TIM triosephosphate isomerase, putative | PbANKA_13_v3, forward strand, 210752 to 211752 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATGCACATATATTTAATTAAAAATATGGAAATTTATATTTCCTATAAATTATAGCATTAAACGGATATACTTTTTTAACATAATAAAAAATCGAGAAAAA
+>PBANKA_1304000.1  | Plasmodium berghei ANKA | cohesin complex subunit RAD21, putative | PbANKA_13_v3, reverse strand, 225143 to 226143 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATTTAATATTACTTTAAATATATTTATAATTTTTATATTTAATATGCACCTGAAAAACGAAATACAATTGGAGAAAGAGAGATAAATATAATTAATAAC
+>PBANKA_1305500.1  | Plasmodium berghei ANKA | acid cluster protein 33 homologue, putative | PbANKA_13_v3, reverse strand, 283720 to 284720 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GATTTGAAGTTTGTATAAGATTTATGATTTTTACTATTCATGCATTTTGAAAATATTTCAGAAGGGTAAATAGGGTTACAAATTTAATATATTTCACTTG
+>PBANKA_1307600.1  | Plasmodium berghei ANKA | DPCK dephospho-CoA kinase, putative | PbANKA_13_v3, reverse strand, 368559 to 369559 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTAAGCAAAAATTATAATATTTGTAAAAGTATTATGTTATATTTCATTATTTGCTGAATACTGCAAATATAAACTAATAGCGAGACTACACTATCCTACT
+>PBANKA_1309400.1  | Plasmodium berghei ANKA | RNA-binding protein, putative | PbANKA_13_v3, forward strand, 439067 to 440067 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTATTTCATAATTTTTCAAGCATATATGCTTTCGGCATTGATTAAAGAAAGATCATATAAATAAATATATGTGTTAAAATCATAAAAACTATTAAAG
+>PBANKA_1309500.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, reverse strand, 444673 to 445673 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GGGGGTGTTTTTTTATAGGATTGCATGAATACAAGGGATATATATATATATATAATATTTATAATATATAAATATATTTATATAATTTTTTAGTTCTCAT
+>PBANKA_1310200.1  | Plasmodium berghei ANKA | NUP313 nucleoporin NUP313 | PbANKA_13_v3, forward strand, 471598 to 472598 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATGTGCATAATAAGTGTACATATGGAATATACTACATATTTTAGGGACACAAGTTTGAATAAAAATGCATGGATATTTCATAAGTTTACAGAAAAAGTA
+>PBANKA_1311000.1  | Plasmodium berghei ANKA | UIS21 conserved protein, unknown function | PbANKA_13_v3, forward strand, 495021 to 496021 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GCTATTGTTATAACTTTATTAAATAAATATCAAGGAAAGTAAATTGTTAATTATTCAAATTGCATTAATTTTTATATTTTTTTTATATTTTTTTTATTTA
+>PBANKA_1313000.1  | Plasmodium berghei ANKA | BRF1 transcription factor IIIb subunit, putative | PbANKA_13_v3, forward strand, 557637 to 558637 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAAAAAAATATATTTATTAAAAATAAGGACTTATGAAAGATAATATACAATAAAATAATTATATATGATTTGTTTTTGTCATTCTTTATTTCATCATAT
+>PBANKA_1314100.1  | Plasmodium berghei ANKA | E3 ubiquitin-protein ligase ZNF598, putative | PbANKA_13_v3, reverse strand, 601401 to 602401 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATAATCACCGAATGAAAAGAATAATATATAGAATATATATAATAAATATATAGAATCAAAAAACCATATTTAATTTCATAATAATGTAAATATTAATT
+>PBANKA_1316000.1  | Plasmodium berghei ANKA | DER1-1 DER1-like protein, putative | PbANKA_13_v3, reverse strand, 676142 to 677142 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTAAATATAAACAGAATATGAGAAGTTTATATTTGTATGAACATAAATGCTTATGTTATATTCATAGTTATGTATAAAGATATATATTACAGAAAATCCT
+>PBANKA_1316100.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, forward strand, 676676 to 677676 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATTATATATATATTATTTTTTAAAATATTAATCCTTCGTAAATAAATGTTTAGCAAAAGTTTTAATTAATTTCGAAATAATCCATGAAAATTTTAAGTT
+>PBANKA_1317200.1  | Plasmodium berghei ANKA | NTH NAD(P) transhydrogenase | PbANKA_13_v3, reverse strand, 726493 to 727493 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TACATACATACAAAAATAGAAAGACATAAAGAAAAATATATAATATCATATTATATATTTATTTTAATGAATATATTTAATCATTGTATAATGTGCCTAG
+>PBANKA_1318100.1  | Plasmodium berghei ANKA | APP aminopeptidase P, putative | PbANKA_13_v3, forward strand, 757373 to 758373 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTTTTATATAACATTTTACTAAACTTATAATTTATTCGTCCCTTAAATTCTCCCTTTCGATCTCTATTATACCTACTATTACATAATAGGATATAT
+>PBANKA_1320900.1  | Plasmodium berghei ANKA | TRX1 thioredoxin 1, putative | PbANKA_13_v3, reverse strand, 861523 to 862523 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTGAGAAACACTTATATTCTTTCTTTAAATTTTCATTTCTTTATAATATATTTTTTCGTCACCGGATTTTTTAATTTTTAATCCAGTTAATACACCTTTT
+>PBANKA_1321300.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, forward strand, 878242 to 879242 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGAAATTTTTTAACATAAAAAATAATTGGGATTAAGCAAACAATGAATAGTTAAAATTATATTATATAAATAAAACAAGCAAACAAAATAGAACATTCGA
+>PBANKA_1321400.1  | Plasmodium berghei ANKA | UIS20 large ribosomal subunit nuclear export factor, putative | PbANKA_13_v3, forward strand, 881424 to 882424 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATAATTAAAATTCAAGTTTTAAAAAGTGAATAAAAAAACATCACTTTTACGTAGAATATAATTTATAATTAATATATGGCACATAATATATCATATAT
+>PBANKA_1323000.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_13_v3, reverse strand, 942195 to 943195 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTTATAATTTTCATTTTATTGTTTTTTTAATTATATCTATTTATTGATAATCATTTAAAAAGTTACATATTTTTAAAATAAGATTTGATAAACACGTT
+>PBANKA_1324000.1  | Plasmodium berghei ANKA | RPL29 60S ribosomal protein L29, putative | PbANKA_13_v3, reverse strand, 967022 to 968022 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATTTTTTTTCGATATATTACTCTAATACTTTTTATTAAAACTGCGGGAAAAAGGTATATATTTTTCCCGTTTTTTTTTAAAGGGGATTAAAGTGCAAA
+>PBANKA_1326000.1  | Plasmodium berghei ANKA | GTP-binding protein, putative | PbANKA_13_v3, reverse strand, 1024204 to 1025204 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGTATATATTAATACACAAAATACTACTATTACAAAACGCATTCAAGCCATAATATATAATTATATATACTTAATAATATGAAAAGGTAAAATATCAAAA
+>PBANKA_1328100.1  | Plasmodium berghei ANKA | ATP synthase (C/AC39) subunit, putative | PbANKA_13_v3, reverse strand, 1127445 to 1128445 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTTTTGCACACGAATGGAAAAAAAACTTTCAAATATATAAAAAAGCTAGCATTTATATGCTTAGAGAAAATTTTTATGTTAACAAAAATTTTAATATAT
+>PBANKA_1328300.1  | Plasmodium berghei ANKA | ATP-dependent zinc metalloprotease FTSH, putative | PbANKA_13_v3, reverse strand, 1133768 to 1134768 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TACGCTCTTAATGCATATAAACAAGCACGCATTTCCACTATTATTATGTAGTTTTATATTTTTTTATGCCATTTGTTGATGTTAATTTTTATGTTTGAAT
+>PBANKA_1328400.1  | Plasmodium berghei ANKA | COX6A cytochrome c oxidase subunit 6A, putative | PbANKA_13_v3, forward strand, 1135688 to 1136688 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTCATTACAATTTTTTTTATTTTTTTAGTATATTTATAATGGTACAATTTTCTATCTGCTTTATAAAATAATATATCAAATTATATATAGAATAAATTC
+>PBANKA_1330700.1  | Plasmodium berghei ANKA | RPL22 50S ribosomal protein L22, apicoplast, putative | PbANKA_13_v3, reverse strand, 1241910 to 1242910 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTGCATATGTTATATATATAACAATTAGCAATGGCGTGCTTTTAAGAGGGGGGAACGGTCGCATACTTAGGTTAAAAGAAATATATGTATAACGAATTTA
+>PBANKA_1331800.1  | Plasmodium berghei ANKA | DER1-1 derlin-1, putative | PbANKA_13_v3, reverse strand, 1291404 to 1292404 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAATAAAAAAGTATTATGCTATACATTTATAAATAAATGCGCAAAAAGTGCCTTAATACATACATAAATAAATATTACAGAAAAATTGCCAAGATTAAC
+>PBANKA_1331900.1  | Plasmodium berghei ANKA | eIF4A eukaryotic initiation factor 4a, putative | PbANKA_13_v3, forward strand, 1296871 to 1297871 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAAGGCTATATATTTATTTATTTATACTATACTTATTTATTTAGTATACTTACAATATATTTTTTATTTGTTCATTATGTGTATCTTACCTTATATAGA
+>PBANKA_1334400.1  | Plasmodium berghei ANKA | inorganic anion antiporter, putative | PbANKA_13_v3, forward strand, 1377635 to 1378635 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAAATAAGCGCATTTAATTACAAACTCGCCAAAAAGAGAAATGATAAAAAATAACCGTCGAAAAAAATTTTTAATTTTCAGTTTTATTAAAATAAATAAA
+>PBANKA_1335200.1  | Plasmodium berghei ANKA | ISY1 pre-mRNA-splicing factor ISY1, putative | PbANKA_13_v3, forward strand, 1404973 to 1405973 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATCCAAATTTAAATAAATTAATTCTTACAGAAGATTATATTCCCTATTAATTCCGCGTTCGTTTCCTCTTTTTATTTTTTAAGATTATTTTTTCGTTTTA
+>PBANKA_1337100.1  | Plasmodium berghei ANKA | SF1 splicing factor 1, putative | PbANKA_13_v3, forward strand, 1461285 to 1462285 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATTATTTACAAAAATAAAAGGTGATAAAATATTAATAGTCAATTGTTTTTTTTGCTTATTCTCATTTTATGAGAAAAATAAAAATGCTTTATAAAAGAA
+>PBANKA_1338400.1  | Plasmodium berghei ANKA | V-type proton ATPase subunit G, putative | PbANKA_13_v3, reverse strand, 1511278 to 1512278 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAATTTACACAAACAAAAATATTTTTTTTTTTTACTATAGTACTATTTTATTTTTTGTTTGTGATAGTTTACCATATATCCATATTAGTTCGTATTTGT
+>PBANKA_1339300.1  | Plasmodium berghei ANKA | cyclin-like protein, putative | PbANKA_13_v3, forward strand, 1537138 to 1538138 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTCTCTTTTTTTTTTTGGATATTTATTAATAAATTCAAGCTTAAAAGTTGAACAACCTTGTGTCAACTTTTTTTATATTACACATTCATGGGTATATGC
+>PBANKA_1340100.1  | Plasmodium berghei ANKA | LDH L-lactate dehydrogenase | PbANKA_13_v3, forward strand, 1572731 to 1573731 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTCCATCCCACTACGAGAAAATATTTTTATAAAAAAATTCCCCTTAATTTACTGTGTATATGTATATATACATAAAATTTTATAAAAAAAAAATAATA
+>PBANKA_1342000.1  | Plasmodium berghei ANKA | Qa-SNARE protein, putative | PbANKA_13_v3, reverse strand, 1656482 to 1657482 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTGGAAGTGTGCGAACATCATTTCCCTGAAAATGTGTGGGATACATTATTCGTGTGCTATACTAAGTTTTTCTTTTTTCTTCGTTTTTCTCCGTTTAAA
+>PBANKA_1343000.1  | Plasmodium berghei ANKA | ribose-phosphate pyrophosphokinase, putative | PbANKA_13_v3, forward strand, 1685716 to 1686716 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ACTTATATATTACATAATGAAATATATTTTTTTTTGGCATTTAATGGAATAAAAAATAAAAATAAGTTTATATTATTTAGTATTTTCATTATTATATAGT
+>PBANKA_1344600.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, reverse strand, 1767601 to 1768601 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTAATAATAATTCATACATATTATATATATGTACAATAATTATAGAATATAAAAACCTTCTTAAGTATTTTTTTCCACATATCCACAAAAAAACGTCATA
+>PBANKA_1347200.1  | Plasmodium berghei ANKA | nucleotidyltransferase, putative | PbANKA_13_v3, reverse strand, 1838230 to 1839230 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CCCCATAATAATATTAGCTATTTTTTATGACATGTTCATATTTTTTCTATACTTTTGAATATACATGTAGCTAATTTACATTGTATTTTTTTTTTTTTTT
+>PBANKA_1347800.1  | Plasmodium berghei ANKA | CPN20 20 kDa chaperonin, putative | PbANKA_13_v3, forward strand, 1851237 to 1852237 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTAATTATATTTCTATCCTTTGCAAAAAAATATTTTTTTATATTAAAATTTAGTATGAATATATGAAAAAAATCGGAAAAATGTAATAGGAAAAATGC
+>PBANKA_1348300.1  | Plasmodium berghei ANKA | UTP4 U3 small nucleolar RNA-associated protein 4, putative | PbANKA_13_v3, reverse strand, 1868111 to 1869111 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GGAAAAAATAAAAAAAAATTAAATTTGTAATATATTAAGAGTATTAGCTTATTTTCCTTTAGCTTCCTTTCAATTTATATTTTTTTTATCTTTTAAGTGG
+>PBANKA_1350100.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, forward strand, 1917132 to 1918132 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TCCGACCTCATTTTTGGAGAAAAATTATAATAAAAAAAAATTTAATATAACAAACAAAATTTAACATATAAGAAAAATAATAATTATATAAAGTAATGTG
+>PBANKA_1350300.1  | Plasmodium berghei ANKA | RanBPM and CLTH-like protein, putative | PbANKA_13_v3, reverse strand, 1923539 to 1924539 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTGATAATATATTTTGTTTTCATAAGTTGCCATGGAATTTTTTAAAAAATATTACAGCTATTGTGGATTTTTTTTTCTCTATAACACTTATATGCGCA
+>PBANKA_1352100.1  | Plasmodium berghei ANKA | SprT-like domain-containing protein, putative | PbANKA_13_v3, reverse strand, 1984750 to 1985750 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAGACGAAATGTTTTGAACATTGTGGTAAATATTGGTATTTAATATTGAACTTTCTTTTCCTGTAACGCGAATAATAATTTTCGATTTTTTTTTATTC
+>PBANKA_1352300.1  | Plasmodium berghei ANKA | conserved protein, unknown function | PbANKA_13_v3, reverse strand, 1990754 to 1991754 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGGGCACATATGTTCTTTAATTTCCCAAGCAGTTATAGTTGGGAAATGCCATAGAGGGATACAAACTGTATCTTTTTATTTTTTTTTATTATTTTTTTTT
+>PBANKA_1352500.1  | Plasmodium berghei ANKA | CPW-WPC family protein | PbANKA_13_v3, reverse strand, 1998585 to 1999585 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATAGAAAGGTATATTTATTTCGAATGATTTATCATGCTTATAATTTTTATTAAAAATAAAAACAAGTATTTATATATGTTTATGTATGCATAATTGTGA
+>PBANKA_1353000.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_13_v3, forward strand, 2013354 to 2014354 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAATTTTCTTTCTGTATGTGTTTAGATATTCATTATAAATACTAAAATATAATTTAGGCATATATATAAACTTGAAAATGTTCATAATTTTTAACTCACA
+>PBANKA_1355100.1  | Plasmodium berghei ANKA | 40S ribosomal protein S6, putative | PbANKA_13_v3, reverse strand, 2076781 to 2077781 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTAATTATTATTATCTATATTTCGCTTTATTTCGTTAAATTTTTATTTATTTTTTTTTATTTTTACGATATATTTTTTCTAAATTTTTAATTTTTGTTTT
+>PBANKA_1355900.1  | Plasmodium berghei ANKA | PEPCK phosphoenolpyruvate carboxykinase, putative | PbANKA_13_v3, forward strand, 2100901 to 2101901 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGCTATAAGCTTATATACCCACCTTTTTTGAAAGGGGGAATAATAACGCATATAACTGTTTTTTATTTGTACGAAATAGTTAATTGTATTATGCAACTAT
+>PBANKA_1357900.1  | Plasmodium berghei ANKA | RING zinc finger protein, putative | PbANKA_13_v3, forward strand, 2209482 to 2210482 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTAAAAACTATATTATCACGAAATAAAAACTATATATTATTTAAAAAGAAAATAAGCATATATTTACTGAAGTATATACAAAGGAACTACACATATATGT
+>PBANKA_1359200.1  | Plasmodium berghei ANKA | ALBA2 DNA/RNA-binding protein Alba 2, putative | PbANKA_13_v3, forward strand, 2251091 to 2252091 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CCTATTGTTTAAAAAAAATAATGGAAGCATTTTCATTAAATTCAAAAAAAATAATTAATAATAATGGTACATAGAATTTTGTATACATAAAACAGTGGTA
+>PBANKA_1361000.1  | Plasmodium berghei ANKA | step II splicing factor, putative | PbANKA_13_v3, forward strand, 2323067 to 2324067 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTCCTGCTATTGTTAGCAGAATTTGTGAACAATTGATAAAACGCAATTAATAATATTAAATATAATAAATATATATGTTTATGTGTTATTGATTAATTTT
+>PBANKA_1361300.1  | Plasmodium berghei ANKA | TBC domain protein, putative | PbANKA_13_v3, forward strand, 2343740 to 2344740 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTCTTATTTTTGACATTCACTTCCTTAATATTAAATACATTACAACTACTGATACCTTCCCCCCCCAAAAAAAAAAAAATATCAATAGTAATATGGATG
+>PBANKA_1362100.1  | Plasmodium berghei ANKA | TKL3 tyrosine kinase-like protein, putative | PbANKA_13_v3, forward strand, 2369611 to 2370611 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGTGTTATAATATTAAGGACATTTTATGATATTAATATTTATTCCCTTTATATGCCTAAATTTTTATTTAAAAATATAGGGAAAATCCAAATATGGTATT
+>PBANKA_1362200.1  | Plasmodium berghei ANKA | cytidine and deoxycytidylate deaminase, putative | PbANKA_13_v3, forward strand, 2374809 to 2375809 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTCTTATTTTGTGCACATTTCTATGCAATATAAAATATACATAATGTTTTTTTTTTTTATCATGTATGAATACAACTTATGTATCATTTTTTTGCTTTTT
+>PBANKA_1402600.1  | Plasmodium berghei ANKA | DNA ligase I, putative | PbANKA_14_v3, reverse strand, 175377 to 176377 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTATTATATGAATTATGGAAAAGCCACTTAAGCAAGTAACCTTAGAGTGAGTTAAATAAAAAAAATTTATGATTACATAAATAATGGATGTTATTGTAA
+>PBANKA_1405600.1  | Plasmodium berghei ANKA | UTP6 U3 small nucleolar RNA-associated protein 6, putative | PbANKA_14_v3, forward strand, 273987 to 274987 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTATTAACAAAATGTTTTGAAAAAATATAGATATTTGGATTTTGCATAAAAGTTGCAAGTATAATTGGTTTTGCCTTATCAATAACAGAATAAATTATG
+>PBANKA_1416400.1  | Plasmodium berghei ANKA | NOC4 nucleolar complex protein 4, putative | PbANKA_14_v3, reverse strand, 658051 to 659051 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAATTGAATATATGTTAGTCTATCTATTTTATGGCATAAAAAATAATTTTAATTGTGGTAGTTATTATATCCAAATGGGAAAAAACAACATTATTATA
+>PBANKA_1418200.1  | Plasmodium berghei ANKA | protein phosphatase PP2A regulatory subunit A, putative | PbANKA_14_v3, reverse strand, 727781 to 728781 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGTATATTTTTTATTTTATTTATTTTTATATAAGATGAAATATTTCCATCATTTCATCGGTTGAGTTCAATTTACCAAAATAGTAACATAAATAAATAGC
+>PBANKA_1420800.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, forward strand, 830082 to 831082 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAATGTAAATATGATTATAATAAATAAATTGTTTAATGGAAACATAAAAATTACGTTTTCTCATTTCATTTTCTTTTTTTATTTCCGATTTTTTGTTTT
+>PBANKA_1420900.1  | Plasmodium berghei ANKA | DHHC4 palmitoyltransferase DHHC4, putative | PbANKA_14_v3, forward strand, 835158 to 836158 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAGTAGTGCATGCGTAATAACAAGTTGTGTGGAAGTGGTAGTTTTCATTTTTTTTATACTATTATATTATATATAATATGCCATAATGCAATAACAAAAC
+>PBANKA_1423200.1  | Plasmodium berghei ANKA | AAA family ATPase, putative | PbANKA_14_v3, forward strand, 899982 to 900982 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTATATATTTTTTTTTTTTTTTTATTTTGGTATGATTTAACAAAGTTACATAAATATTTTTAGCATACTTGATATATAAAAGTATTACATATATAATATA
+>PBANKA_1423800.1  | Plasmodium berghei ANKA | ABCF1 ABC transporter F family member 1, putative | PbANKA_14_v3, forward strand, 915723 to 916723 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGGTGTTTATGTTTTTTTTTTCCTATGGCACTTTCACATTTTATTATTTTTTTTTTAATTTCCCATTTATACTATCCTCCAAGAATTTAGGTATACGAGT
+>PBANKA_1426200.1  | Plasmodium berghei ANKA | CAF1 CCR4-associated factor 1, putative | PbANKA_14_v3, reverse strand, 1012583 to 1013583 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TGTTGTGTTGTCAATTTTTATGAAAATGCTGGATACATTTCATCAATACAATTTTAAAATATACGACTAGAAAGAGTAAAACATTAAAAACGCGCATATA
+>PBANKA_1426300.1  | Plasmodium berghei ANKA | EMC1 ER membrane protein complex subunit 1, putative | PbANKA_14_v3, reverse strand, 1019586 to 1020586 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATAAATTTTATGAATACTTTTATAAATAAAGCAATAACTCGTGCTTTCATTTATTTTTGTTTATATATTTTATATTCGCATTTATTTTATTATTTGAGCA
+>PBANKA_1426400.1  | Plasmodium berghei ANKA | mitochondrial carrier protein, putative | PbANKA_14_v3, forward strand, 1019989 to 1020989 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TATGCATATTTTCATGTGTGTATTTTTATTATTATTTTGTTTATTACATTCACATAAAAAACAAATAAATTTAAAGAATCTTAAAAATGCGTATTTTAAA
+>PBANKA_1427200.1  | Plasmodium berghei ANKA | PPM5 protein phosphatase PPM5 | PbANKA_14_v3, forward strand, 1048870 to 1049870 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTTATTATATATTTTTTTGCTCTCATTTTAACATAACTTTAGTAATATTGATAAATTATTATTTTTTATTATATTTTCTTTTAATTTACTTCATATTT
+>PBANKA_1428700.1  | Plasmodium berghei ANKA | EIF3A eukaryotic translation initiation factor 3 subunit A, putative | PbANKA_14_v3, reverse strand, 1118338 to 1119338 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CATATATACTCATATTTACATTATTTAACTATGTAGAAATGTACAAGCAAAAGGCAGTGTCAGTGCTTTATACTATTAAAACATGAAATGCAACTTTTAA
+>PBANKA_1435300.1  | Plasmodium berghei ANKA | PRP17 pre-mRNA-processing factor 17, putative | PbANKA_14_v3, forward strand, 1324840 to 1325840 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CGTAATTAATGGTATATTCATAATTTTTAATTTTTTATTATTAATCCTTTTCATAAAAATTTTTAAATAAAATCACAATATTCGATAAAAATGTACATGT
+>PBANKA_1435700.1  | Plasmodium berghei ANKA | TSR3 ribosome biogenesis protein TSR3, putative | PbANKA_14_v3, reverse strand, 1347359 to 1348359 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TACGATTTTGCATTCTCATTACAAAACACATGTTAAGTTTTAGTGGATTTCCAAGTTAATATAATTTATTAGCACATAATATTTACACTACTACACATAC
+>PBANKA_1437900.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 1432826 to 1433826 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTAAAAGAAACAAATAAAAATCACCATAAGGTTGCAAATGAATTTTATATTTTGGCCTTATAATTATCAAAACATCGGTAAAAAATAAATATGCAATGTA
+>PBANKA_1439600.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 1504227 to 1505227 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTATTTATAATATGTATTTTTTTCCTTATTAACACACTAATGATTTATAATATATTTTTTGATTTTATTTTCATAAGTATATAAACCATAAATTACGTCA
+>PBANKA_1440300.1  | Plasmodium berghei ANKA | rRNA-processing protein, putative | PbANKA_14_v3, reverse strand, 1525463 to 1526463 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTAAAAAGCTTTAGAAATAAAACCAATTAAATATTATGTACGTATTTTATATTTCAATATCATTTTTTTTCAGATAAAGAATATTAACTAATTTTAAA
+>PBANKA_1441100.1  | Plasmodium berghei ANKA | HAD2 haloacid dehalogenase-like hydrolase, putative | PbANKA_14_v3, forward strand, 1553212 to 1554212 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AGAAAGGATATTCGATATTAAAAACTATAAATGTGTGCTTAATATTTTTCATAAGAATTTTACCTATTAATTTAATTTTTTTTTTCAACTATATTAATAT
+>PBANKA_1443000.1  | Plasmodium berghei ANKA | NEK1 NIMA related kinase 1, putative | PbANKA_14_v3, forward strand, 1639245 to 1640245 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CAAAGTTATTATTTAATCAATCTCCATTACTATATGGGACATAACACATGCTTGATACACAATTATGACCATGTGCTTGGAATAATTCGTAAAAAACAAA
+>PBANKA_1444700.1  | Plasmodium berghei ANKA | TBC domain-containing protein, putative | PbANKA_14_v3, forward strand, 1714687 to 1715687 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATATCAACTAGATAAATTAAAAAGAAATGTTAACAGTATTTTTTTTGTTGTATAGGGATAGTTATGGCAATTTGTGACTTGCTTACATACATACGTGTA
+>PBANKA_1447000.1  | Plasmodium berghei ANKA | cytochrome b5, putative | PbANKA_14_v3, forward strand, 1807965 to 1808965 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+GTTACATTCTGTATTTGTATGCATCATACACATACTTATTTTTTCACAAAGTTAAAAAATATTGATACCTTTTTTCTTAAAGTATATAGTTATTTAGGTG
+>PBANKA_1448900.1  | Plasmodium berghei ANKA | DNA polymerase epsilon subunit B, putative | PbANKA_14_v3, reverse strand, 1896583 to 1897583 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TCACAAAATAATGCTCCTTTTAAGGATATTAATTTTTAAATATAATTTTTTTTTTAATTATGAAAAGGGATTTTTTTACTGAAAAAATAATATATAATTT
+>PBANKA_1449300.1  | Plasmodium berghei ANKA | ULG8 upregulated in late gametocytes ULG8, putative | PbANKA_14_v3, reverse strand, 1909630 to 1910630 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAGTGAATATATATAAATTTGTTTGTCATAATTTTAAAGTCATATAATAAAGCATACAGTAAATTGTCTTTTAACTTTATAAATATGTCTATATATGGG
+>PBANKA_1449500.1  | Plasmodium berghei ANKA | CHCH domain-containing protein, putative | PbANKA_14_v3, forward strand, 1916753 to 1917753 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATTTAACGTTTTAATACATAGTATGAGTATATATAATACTAATTAACATACAGTATTTGACAAAAACAAGTGATAAACCAACAAAACAAAATGAATGAAA
+>PBANKA_1451700.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 1995507 to 1996507 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TACATAACAAATTAATTATATTTCCATGGATAATAATCCTATAATATTTTTTTAAACAATAAAAAAATGTAGATAATAATACATGTATATAATATTATAG
+>PBANKA_1452000.1  | Plasmodium berghei ANKA | hydrolase, putative | PbANKA_14_v3, forward strand, 2002936 to 2003936 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TAAAAAATATATTTTTTTTACTTTGTTTTACTTTTTTTTACTTTTTTTTTCTTTTTTTTTCTTTTTTTTACTTTTTTATTTTCCATGCTATTTCCACATG
+>PBANKA_1452500.1  | Plasmodium berghei ANKA | conserved Plasmodium protein, unknown function | PbANKA_14_v3, forward strand, 2020744 to 2021744 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATGTATATATGCAGATGATATATACGACTGAAATATGGTTATATAGTATTTCATAAATTTTGAAATCAAATAAAAATAGCGAAAGTACAATTTTAGTT
+>PBANKA_1453100.1  | Plasmodium berghei ANKA | sphingomyelin phosphodiesterase, putative | PbANKA_14_v3, reverse strand, 2039928 to 2040928 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATAAGTACCAAACAAATGAATGAAAATAAATAAATGTTAACAATTTTAAAATCAATAAATAATTTTATGCTATGATTTATAAATAATTTTTATATTAA
+>PBANKA_1454900.1  | Plasmodium berghei ANKA | UIS8 conserved Plasmodium protein, unknown function | PbANKA_14_v3, reverse strand, 2135867 to 2136867 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAATTGATCTGTCCAAGAAAGAAACAAAAAAGAACAGCTCGAAAAAATAAATACAAATAAAAAAGCAAAGCTAAAATAATAAAAAGGAAAGCTTATTTAT
+>PBANKA_1455400.1  | Plasmodium berghei ANKA | QSOX sulfhydryl oxidase | PbANKA_14_v3, reverse strand, 2149846 to 2150846 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+TTTATGATTATCGGTATAGTGAATTAGTGATTTTATAATTTTGTAATTTTTAATATTTTTTGTGTGCATGCATGATTTAAATGCCTTTAATCGTCCATAT
+>PBANKA_1458300.1  | Plasmodium berghei ANKA | kinesin-13 | PbANKA_14_v3, forward strand, 2233208 to 2234208 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AATATGTATGTACATAAATATGATAATACTAAGTACATACACATAAATATGTATACATATAAACTTATACATGCATATAATATATTACGTACATGCATAG
+>PBANKA_1459700.1  | Plasmodium berghei ANKA | BUD13 pre-mRNA-splicing factor CWC26, putative | PbANKA_14_v3, forward strand, 2280788 to 2281788 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+ATATGCATTTATAAAATAAAAAACTGAATGGAGAAAATTTATCAAACTTTAAAGAGCAAAATAAAATATATTTATAGTGTTTGTTAAGAATGAAACTGAC
+>PBANKA_1461800.1  | Plasmodium berghei ANKA | RPT6 26S protease regulatory subunit 8, putative | PbANKA_14_v3, reverse strand, 2338729 to 2339729 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+AAAAGAAAAAAATGCAAATAAATATGGAAAAAAAATATATTTGCCACGTGAATATATAAATTATATTATATATAATAGGCATACAATAGTATAAGAAAAA
+>PBANKA_1464500.1  | Plasmodium berghei ANKA | DRS1 ATP-dependent RNA helicase DRS1, putative | PbANKA_14_v3, forward strand, 2424558 to 2425558 | Unspliced Genomic Sequence, CodeStart-1000 to CodeStart | segment_length=1001
+CTAGGACAAAAAATATATTTTTTTTTCAATTATACATGGATTTTTTATATGTTAAATATTCTTGCCTTATTTGTTTTTTCTTATATATCATTTCCCGAAA

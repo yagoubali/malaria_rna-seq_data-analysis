@@ -1,0 +1,11 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+DGCGCC	FixK_FnrN_Rhizobiales	1	0.000986713	0.550586	0.599324	6	TGCGCC	TTGCGCCCGGTCAA	-
+DGCGCC	MX000192	1	0.00108265	0.604119	0.599324	6	TGCGCC	TTGCGCCGCCGCAA	+
+GCCSGT	MX000417	7	0.00147901	0.825287	0.476111	6	GCCCGT	GTCAGGCGCGGGTCAGCGCCGCGTCAGCG	+
+TGCGCWCG	FixK_FnrN_Rhizobiales	1	0.000231808	0.129349	0.256754	8	TGCGCACG	TTGCGCCCGGTCAA	-
+TGCGCWCG	YE2053_Rhizobiales_Burkholderiales_Yersinia	3	0.000820629	0.457911	0.371179	8	TGCGCACG	AATTGCACACGTGTGCAAAA	+
+TGCGCWCG	mlr8213_Mesorhizobium_Streptomyces	7	0.00167558	0.934973	0.371179	8	TGCGCACG	AAACGCTTGCGCAAGCGTTT	+
+
+# Tomtom (Motif Comparison Tool): Version 5.5.7 compiled on Jan 23 2025 at 10:16:31
+# The format of this file is described at https://meme-suite.org/meme/doc/tomtom-output-format.html.
+# tomtom -verbosity 1 -oc meme_chip_out/Cluster2.Sub1/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_chip_out/Cluster2.Sub1/meme_out/meme.xml /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/prodoric_2021.9.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/collectf.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/regtransbase.meme

@@ -1,0 +1,1434 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="fimo.tsv""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="fimo.gff""><b>Results in GFF3 Format</b></a></td>
+<td bgcolor="#00FFFF" id="best_site"><a href="best_site.narrowPeak""><b>Best Site per Sequence</b></a></td>
+<script>
+var new_icon_src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAQCAMAAAAyEe/dAAAACVBMVEX//wAAAAD////s2cV/AAAAdUlEQVQYlXVRBxLAIAhL+P+jC2HZhXcBZEWEldDsZcLIcAhHWWnK8SDcWQhMFUHdAQ1CqQ5+CWPmlHojl+nCJNRtzu4qRc3IUzmTVpXYK0nox0z0PI1stgchdK7lEv7ekhvalw8WW547Gyzedt/2/gLx8WXjXF/1AYFriNAWAAAAAElFTkSuQmCC";
+var new_icon = document.createElement("img");
+new_icon.src = new_icon_src;
+new_icon.alt = "NEW";
+const elem = document.getElementById("best_site");
+elem.appendChild(document.createTextNode("  "));
+elem.appendChild(new_icon);
+</script>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.5.7, (Release date: Wed Jun 19 13:59:04 2024 -0700)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="https://meme-suite.org/meme/doc/fimo-output-format.html">https://meme-suite.org/meme/doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="https://meme-suite.org">https://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE meme_chip_out/Cluster2.Sub4/Cluster2.Sub4.fasta
+  <br />
+  Database contains 64 sequences, 64064 residues
+</p>
+<p>
+  MOTIFS meme_chip_out/Cluster2.Sub4/meme_out/meme.xml (DNA)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">ATRTGTGTRTGCAT</td>
+        <td style="text-align:right;padding-left: 1em;">14</td>
+        <td style="text-align:left;padding-left: 1em;">ATATGTGTGTGCAT</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">GCGCCACA</td>
+        <td style="text-align:right;padding-left: 1em;">8</td>
+        <td style="text-align:left;padding-left: 1em;">GCGCCACA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">GGGGWG</td>
+        <td style="text-align:right;padding-left: 1em;">6</td>
+        <td style="text-align:left;padding-left: 1em;">GGGGTG</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (meme_chip_out/Cluster2.Sub4/background):
+<br/>
+
+A 0.401 C 0.099 G 0.099 T 0.401 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 112 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0931000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">33</td>
+      <td style="text-align:left;">46</td>
+      <td style="text-align:left;">1.56e-10</td>
+      <td style="text-align:left;">1.92e-05</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTGTGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0926900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">200</td>
+      <td style="text-align:left;">213</td>
+      <td style="text-align:left;">7.88e-10</td>
+      <td style="text-align:left;">4.84e-05</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTGTGTGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0929200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">466</td>
+      <td style="text-align:left;">479</td>
+      <td style="text-align:left;">4.53e-09</td>
+      <td style="text-align:left;">0.000185</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGTGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0834300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">464</td>
+      <td style="text-align:left;">477</td>
+      <td style="text-align:left;">8.61e-09</td>
+      <td style="text-align:left;">0.000211</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAGTGTGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">819</td>
+      <td style="text-align:left;">832</td>
+      <td style="text-align:left;">8.61e-09</td>
+      <td style="text-align:left;">0.000211</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAGTGTGTGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0835700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">465</td>
+      <td style="text-align:left;">478</td>
+      <td style="text-align:left;">3.13e-08</td>
+      <td style="text-align:left;">0.000641</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATTTGTGTGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0918100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">515</td>
+      <td style="text-align:left;">528</td>
+      <td style="text-align:left;">9.76e-08</td>
+      <td style="text-align:left;">0.00171</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGGGTATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0817300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">884</td>
+      <td style="text-align:left;">897</td>
+      <td style="text-align:left;">1.48e-07</td>
+      <td style="text-align:left;">0.00227</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGGGTGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0912300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">505</td>
+      <td style="text-align:left;">518</td>
+      <td style="text-align:left;">2.48e-07</td>
+      <td style="text-align:left;">0.00339</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGACTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">795</td>
+      <td style="text-align:left;">808</td>
+      <td style="text-align:left;">3.06e-07</td>
+      <td style="text-align:left;">0.00375</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGCGTGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">814</td>
+      <td style="text-align:left;">827</td>
+      <td style="text-align:left;">4.73e-07</td>
+      <td style="text-align:left;">0.00527</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTATGTCTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">89</td>
+      <td style="text-align:left;">102</td>
+      <td style="text-align:left;">7.1e-07</td>
+      <td style="text-align:left;">0.00726</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTGAGTACCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0816200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">467</td>
+      <td style="text-align:left;">480</td>
+      <td style="text-align:left;">8.29e-07</td>
+      <td style="text-align:left;">0.00782</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTACGTGTGCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">940</td>
+      <td style="text-align:left;">953</td>
+      <td style="text-align:left;">1.01e-06</td>
+      <td style="text-align:left;">0.00881</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATATGTGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1002100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">32</td>
+      <td style="text-align:left;">45</td>
+      <td style="text-align:left;">1.09e-06</td>
+      <td style="text-align:left;">0.00895</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTATGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">776</td>
+      <td style="text-align:left;">789</td>
+      <td style="text-align:left;">1.25e-06</td>
+      <td style="text-align:left;">0.00956</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGGGTATACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">901</td>
+      <td style="text-align:left;">914</td>
+      <td style="text-align:left;">2.11e-06</td>
+      <td style="text-align:left;">0.0152</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATGTATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0922000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">459</td>
+      <td style="text-align:left;">472</td>
+      <td style="text-align:left;">2.29e-06</td>
+      <td style="text-align:left;">0.0155</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTATATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0833100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">483</td>
+      <td style="text-align:left;">496</td>
+      <td style="text-align:left;">2.39e-06</td>
+      <td style="text-align:left;">0.0155</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGTATGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1003800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">901</td>
+      <td style="text-align:left;">914</td>
+      <td style="text-align:left;">2.65e-06</td>
+      <td style="text-align:left;">0.0158</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATGTGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0941200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">822</td>
+      <td style="text-align:left;">835</td>
+      <td style="text-align:left;">2.7e-06</td>
+      <td style="text-align:left;">0.0158</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATTTATGTGTGCGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0912300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">857</td>
+      <td style="text-align:left;">870</td>
+      <td style="text-align:left;">2.89e-06</td>
+      <td style="text-align:left;">0.0161</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTATGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0913200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">768</td>
+      <td style="text-align:left;">781</td>
+      <td style="text-align:left;">3.96e-06</td>
+      <td style="text-align:left;">0.0204</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATTTGTATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0817300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">531</td>
+      <td style="text-align:left;">544</td>
+      <td style="text-align:left;">4.12e-06</td>
+      <td style="text-align:left;">0.0204</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATGTGTACACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0824700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">133</td>
+      <td style="text-align:left;">146</td>
+      <td style="text-align:left;">4.28e-06</td>
+      <td style="text-align:left;">0.0204</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGTGTGCAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0829000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">344</td>
+      <td style="text-align:left;">357</td>
+      <td style="text-align:left;">4.33e-06</td>
+      <td style="text-align:left;">0.0204</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTGTGTAGGG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0833500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">629</td>
+      <td style="text-align:left;">642</td>
+      <td style="text-align:left;">4.8e-06</td>
+      <td style="text-align:left;">0.0218</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATATATGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0907200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">518</td>
+      <td style="text-align:left;">531</td>
+      <td style="text-align:left;">5.03e-06</td>
+      <td style="text-align:left;">0.0221</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGAGGGTACACAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">878</td>
+      <td style="text-align:left;">891</td>
+      <td style="text-align:left;">5.65e-06</td>
+      <td style="text-align:left;">0.0239</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATATGTGTACAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1002100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">26</td>
+      <td style="text-align:left;">39</td>
+      <td style="text-align:left;">6.19e-06</td>
+      <td style="text-align:left;">0.0248</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGCATGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0834300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">905</td>
+      <td style="text-align:left;">918</td>
+      <td style="text-align:left;">6.32e-06</td>
+      <td style="text-align:left;">0.0248</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTTTATGCGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0923400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">465</td>
+      <td style="text-align:left;">478</td>
+      <td style="text-align:left;">6.47e-06</td>
+      <td style="text-align:left;">0.0248</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAGTTTGTGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0824800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">466</td>
+      <td style="text-align:left;">479</td>
+      <td style="text-align:left;">6.83e-06</td>
+      <td style="text-align:left;">0.025</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AATAGTGAGTGCGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">791</td>
+      <td style="text-align:left;">804</td>
+      <td style="text-align:left;">6.91e-06</td>
+      <td style="text-align:left;">0.025</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTATGTATACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1002100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">33</td>
+      <td style="text-align:left;">7.78e-06</td>
+      <td style="text-align:left;">0.0273</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATGGATATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1008100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">520</td>
+      <td style="text-align:left;">533</td>
+      <td style="text-align:left;">8.32e-06</td>
+      <td style="text-align:left;">0.0283</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATATGTCTGGAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0908800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">150</td>
+      <td style="text-align:left;">163</td>
+      <td style="text-align:left;">9.78e-06</td>
+      <td style="text-align:left;">0.0316</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATTTATGTGCACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0942500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">444</td>
+      <td style="text-align:left;">457</td>
+      <td style="text-align:left;">9.78e-06</td>
+      <td style="text-align:left;">0.0316</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATTTATGTGCACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0938500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">209</td>
+      <td style="text-align:left;">222</td>
+      <td style="text-align:left;">1.12e-05</td>
+      <td style="text-align:left;">0.0342</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGTGTGTGTAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0925500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">882</td>
+      <td style="text-align:left;">895</td>
+      <td style="text-align:left;">1.12e-05</td>
+      <td style="text-align:left;">0.0342</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGTGTGTGTAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1002700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39</td>
+      <td style="text-align:left;">52</td>
+      <td style="text-align:left;">1.22e-05</td>
+      <td style="text-align:left;">0.0365</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATTTATGCGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0829000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">342</td>
+      <td style="text-align:left;">355</td>
+      <td style="text-align:left;">1.35e-05</td>
+      <td style="text-align:left;">0.0379</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTGTGTGTAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1008800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">276</td>
+      <td style="text-align:left;">289</td>
+      <td style="text-align:left;">1.37e-05</td>
+      <td style="text-align:left;">0.0379</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGATGGTATGCGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0925000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">331</td>
+      <td style="text-align:left;">344</td>
+      <td style="text-align:left;">1.37e-05</td>
+      <td style="text-align:left;">0.0379</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATGAGCACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0829000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">758</td>
+      <td style="text-align:left;">771</td>
+      <td style="text-align:left;">1.39e-05</td>
+      <td style="text-align:left;">0.0379</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAGAGCAAGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0925000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">319</td>
+      <td style="text-align:left;">332</td>
+      <td style="text-align:left;">1.44e-05</td>
+      <td style="text-align:left;">0.0379</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTATATACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0938500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">739</td>
+      <td style="text-align:left;">752</td>
+      <td style="text-align:left;">1.45e-05</td>
+      <td style="text-align:left;">0.0379</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATATATGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">938</td>
+      <td style="text-align:left;">951</td>
+      <td style="text-align:left;">1.52e-05</td>
+      <td style="text-align:left;">0.039</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTCTGCGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1009100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">562</td>
+      <td style="text-align:left;">575</td>
+      <td style="text-align:left;">1.81e-05</td>
+      <td style="text-align:left;">0.0453</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTTGCGGGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0931000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">103</td>
+      <td style="text-align:left;">116</td>
+      <td style="text-align:left;">2.19e-05</td>
+      <td style="text-align:left;">0.0528</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGTGTACTT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0833100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">603</td>
+      <td style="text-align:left;">616</td>
+      <td style="text-align:left;">2.19e-05</td>
+      <td style="text-align:left;">0.0528</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATATATATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0914200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">754</td>
+      <td style="text-align:left;">767</td>
+      <td style="text-align:left;">2.32e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAGTAAATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">876</td>
+      <td style="text-align:left;">889</td>
+      <td style="text-align:left;">2.35e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGTACAGGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1002700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">106</td>
+      <td style="text-align:left;">119</td>
+      <td style="text-align:left;">2.5e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATATATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0907200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">209</td>
+      <td style="text-align:left;">222</td>
+      <td style="text-align:left;">2.5e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATATATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0907200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">667</td>
+      <td style="text-align:left;">680</td>
+      <td style="text-align:left;">2.5e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATATATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0925500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">878</td>
+      <td style="text-align:left;">891</td>
+      <td style="text-align:left;">2.53e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTGTATGTAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0835800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">712</td>
+      <td style="text-align:left;">725</td>
+      <td style="text-align:left;">2.61e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTACATATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">85</td>
+      <td style="text-align:left;">98</td>
+      <td style="text-align:left;">2.64e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGTGTGAGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">825</td>
+      <td style="text-align:left;">838</td>
+      <td style="text-align:left;">2.64e-05</td>
+      <td style="text-align:left;">0.0539</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGCATATACGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">644</td>
+      <td style="text-align:left;">657</td>
+      <td style="text-align:left;">2.75e-05</td>
+      <td style="text-align:left;">0.0552</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATTTTTGTACGCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0901400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">853</td>
+      <td style="text-align:left;">866</td>
+      <td style="text-align:left;">2.85e-05</td>
+      <td style="text-align:left;">0.0565</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAGTAAACGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">26</td>
+      <td style="text-align:left;">39</td>
+      <td style="text-align:left;">2.97e-05</td>
+      <td style="text-align:left;">0.0579</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATATGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0938500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">124</td>
+      <td style="text-align:left;">137</td>
+      <td style="text-align:left;">3.15e-05</td>
+      <td style="text-align:left;">0.0604</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAAATGTATACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0917900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111</td>
+      <td style="text-align:left;">124</td>
+      <td style="text-align:left;">3.2e-05</td>
+      <td style="text-align:left;">0.0604</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAGCATATGCGG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1003800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">905</td>
+      <td style="text-align:left;">918</td>
+      <td style="text-align:left;">3.39e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GAATATGTACACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0938500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">207</td>
+      <td style="text-align:left;">220</td>
+      <td style="text-align:left;">3.47e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTGTGTGTATAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0821700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">662</td>
+      <td style="text-align:left;">675</td>
+      <td style="text-align:left;">3.51e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAGTATATGTGCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">385</td>
+      <td style="text-align:left;">398</td>
+      <td style="text-align:left;">3.68e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATATGCACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0833100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">900</td>
+      <td style="text-align:left;">913</td>
+      <td style="text-align:left;">3.68e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTAAGTGTAGGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0926900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">202</td>
+      <td style="text-align:left;">215</td>
+      <td style="text-align:left;">3.71e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTGTGCATAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">821</td>
+      <td style="text-align:left;">834</td>
+      <td style="text-align:left;">3.71e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTGTGCATAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">391</td>
+      <td style="text-align:left;">404</td>
+      <td style="text-align:left;">3.74e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TTATGTATGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0925000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">196</td>
+      <td style="text-align:left;">209</td>
+      <td style="text-align:left;">3.78e-05</td>
+      <td style="text-align:left;">0.0626</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GGATGGATGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0817300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">908</td>
+      <td style="text-align:left;">921</td>
+      <td style="text-align:left;">3.83e-05</td>
+      <td style="text-align:left;">0.0627</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATGGATATACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1008100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">508</td>
+      <td style="text-align:left;">521</td>
+      <td style="text-align:left;">3.92e-05</td>
+      <td style="text-align:left;">0.0632</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAATATACGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0911800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">175</td>
+      <td style="text-align:left;">188</td>
+      <td style="text-align:left;">4.17e-05</td>
+      <td style="text-align:left;">0.0664</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGTTTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">789</td>
+      <td style="text-align:left;">802</td>
+      <td style="text-align:left;">4.28e-05</td>
+      <td style="text-align:left;">0.0673</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATATATATGCGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0833000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">760</td>
+      <td style="text-align:left;">773</td>
+      <td style="text-align:left;">4.37e-05</td>
+      <td style="text-align:left;">0.0677</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATTTGCAAATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0824700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">751</td>
+      <td style="text-align:left;">764</td>
+      <td style="text-align:left;">4.49e-05</td>
+      <td style="text-align:left;">0.0677</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGTATGCGCAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0835700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">347</td>
+      <td style="text-align:left;">360</td>
+      <td style="text-align:left;">4.52e-05</td>
+      <td style="text-align:left;">0.0677</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGTGTACTG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1003800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">713</td>
+      <td style="text-align:left;">726</td>
+      <td style="text-align:left;">4.6e-05</td>
+      <td style="text-align:left;">0.0677</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAATATGCACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0907200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">772</td>
+      <td style="text-align:left;">785</td>
+      <td style="text-align:left;">4.6e-05</td>
+      <td style="text-align:left;">0.0677</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAGTATATGCACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0917500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">321</td>
+      <td style="text-align:left;">334</td>
+      <td style="text-align:left;">4.65e-05</td>
+      <td style="text-align:left;">0.0677</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATTTATGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0906500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">414</td>
+      <td style="text-align:left;">427</td>
+      <td style="text-align:left;">4.69e-05</td>
+      <td style="text-align:left;">0.0677</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAGAATGTGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0906500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">636</td>
+      <td style="text-align:left;">649</td>
+      <td style="text-align:left;">4.78e-05</td>
+      <td style="text-align:left;">0.0681</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAAATTGTATGCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0825900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">647</td>
+      <td style="text-align:left;">660</td>
+      <td style="text-align:left;">4.83e-05</td>
+      <td style="text-align:left;">0.0681</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATATATGCGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0912300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">806</td>
+      <td style="text-align:left;">819</td>
+      <td style="text-align:left;">4.9e-05</td>
+      <td style="text-align:left;">0.0683</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAATGTGTAGCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0923000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">208</td>
+      <td style="text-align:left;">221</td>
+      <td style="text-align:left;">5.38e-05</td>
+      <td style="text-align:left;">0.0742</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCATGGGAATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0911800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">177</td>
+      <td style="text-align:left;">190</td>
+      <td style="text-align:left;">5.57e-05</td>
+      <td style="text-align:left;">0.076</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTAAACACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">764</td>
+      <td style="text-align:left;">777</td>
+      <td style="text-align:left;">5.68e-05</td>
+      <td style="text-align:left;">0.0766</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATTTATATATGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1003800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">935</td>
+      <td style="text-align:left;">948</td>
+      <td style="text-align:left;">5.77e-05</td>
+      <td style="text-align:left;">0.0769</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GATTTTATGCGCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0917900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">76</td>
+      <td style="text-align:left;">89</td>
+      <td style="text-align:left;">5.96e-05</td>
+      <td style="text-align:left;">0.0778</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATATATCTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0922000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">457</td>
+      <td style="text-align:left;">470</td>
+      <td style="text-align:left;">5.96e-05</td>
+      <td style="text-align:left;">0.0778</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATGCATATACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0941200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">916</td>
+      <td style="text-align:left;">929</td>
+      <td style="text-align:left;">6.09e-05</td>
+      <td style="text-align:left;">0.0786</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ACATGCGTATGCGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0925000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">208</td>
+      <td style="text-align:left;">221</td>
+      <td style="text-align:left;">6.25e-05</td>
+      <td style="text-align:left;">0.0799</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAATGTGAACACGG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1002700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">327</td>
+      <td style="text-align:left;">340</td>
+      <td style="text-align:left;">6.43e-05</td>
+      <td style="text-align:left;">0.0811</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATTTGTAACTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0925500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">880</td>
+      <td style="text-align:left;">893</td>
+      <td style="text-align:left;">6.48e-05</td>
+      <td style="text-align:left;">0.0811</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTGTGTGTATGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0835800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">718</td>
+      <td style="text-align:left;">731</td>
+      <td style="text-align:left;">6.71e-05</td>
+      <td style="text-align:left;">0.0832</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">AAGTACATGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0833000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">7</td>
+      <td style="text-align:left;">20</td>
+      <td style="text-align:left;">6.9e-05</td>
+      <td style="text-align:left;">0.0845</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAGTGTGCACCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0931000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">35</td>
+      <td style="text-align:left;">48</td>
+      <td style="text-align:left;">6.95e-05</td>
+      <td style="text-align:left;">0.0845</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGTGTGCATGT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">938</td>
+      <td style="text-align:left;">951</td>
+      <td style="text-align:left;">7.08e-05</td>
+      <td style="text-align:left;">0.0852</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATGTGTGCATAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0834300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">466</td>
+      <td style="text-align:left;">479</td>
+      <td style="text-align:left;">7.82e-05</td>
+      <td style="text-align:left;">0.0931</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GAGTGTGTGCATAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0835800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">144</td>
+      <td style="text-align:left;">157</td>
+      <td style="text-align:left;">8.25e-05</td>
+      <td style="text-align:left;">0.0973</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAATATCTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">101</td>
+      <td style="text-align:left;">114</td>
+      <td style="text-align:left;">8.44e-05</td>
+      <td style="text-align:left;">0.0986</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTGTGAATGAAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0916600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">833</td>
+      <td style="text-align:left;">846</td>
+      <td style="text-align:left;">8.54e-05</td>
+      <td style="text-align:left;">0.0988</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGAGGGTACGTAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0926900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">605</td>
+      <td style="text-align:left;">618</td>
+      <td style="text-align:left;">8.66e-05</td>
+      <td style="text-align:left;">0.0994</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">TTATGTGTATGGAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0817300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">533</td>
+      <td style="text-align:left;">546</td>
+      <td style="text-align:left;">8.82e-05</td>
+      <td style="text-align:left;">0.1</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ACATGTGTACACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0821700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">143</td>
+      <td style="text-align:left;">156</td>
+      <td style="text-align:left;">9.29e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATGTTTATATACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0911800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">187</td>
+      <td style="text-align:left;">200</td>
+      <td style="text-align:left;">9.46e-05</td>
+      <td style="text-align:left;">0.105</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATATATGTGCTCAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_0919100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">522</td>
+      <td style="text-align:left;">535</td>
+      <td style="text-align:left;">9.63e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ATAATTATGTACAT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">ATRTGTGTRTGCAT</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">PBANKA_1003800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">929</td>
+      <td style="text-align:left;">942</td>
+      <td style="text-align:left;">9.67e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ACTTGTATGCGCAT</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+fimo --verbosity 1 --oc meme_chip_out/Cluster2.Sub4/fimo_out_1 --bgfile meme_chip_out/Cluster2.Sub4/background --motif ATRTGTGTRTGCAT meme_chip_out/Cluster2.Sub4/meme_out/meme.xml meme_chip_out/Cluster2.Sub4/Cluster2.Sub4.fasta
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = meme_chip_out/Cluster2.Sub4/fimo_out_1</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = meme_chip_out/Cluster2.Sub4/meme_out/meme.xml</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = meme_chip_out/Cluster2.Sub4/Cluster2.Sub4.fasta</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = meme_chip_out/Cluster2.Sub4/background</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = DNA</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = true</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

@@ -1,0 +1,3546 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="fimo.tsv""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="fimo.gff""><b>Results in GFF3 Format</b></a></td>
+<td bgcolor="#00FFFF" id="best_site"><a href="best_site.narrowPeak""><b>Best Site per Sequence</b></a></td>
+<script>
+var new_icon_src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAQCAMAAAAyEe/dAAAACVBMVEX//wAAAAD////s2cV/AAAAdUlEQVQYlXVRBxLAIAhL+P+jC2HZhXcBZEWEldDsZcLIcAhHWWnK8SDcWQhMFUHdAQ1CqQ5+CWPmlHojl+nCJNRtzu4qRc3IUzmTVpXYK0nox0z0PI1stgchdK7lEv7ekhvalw8WW547Gyzedt/2/gLx8WXjXF/1AYFriNAWAAAAAElFTkSuQmCC";
+var new_icon = document.createElement("img");
+new_icon.src = new_icon_src;
+new_icon.alt = "NEW";
+const elem = document.getElementById("best_site");
+elem.appendChild(document.createTextNode("  "));
+elem.appendChild(new_icon);
+</script>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.5.7, (Release date: Wed Jun 19 13:59:04 2024 -0700)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="https://meme-suite.org/meme/doc/fimo-output-format.html">https://meme-suite.org/meme/doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="https://meme-suite.org">https://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE meme_chip_out/Cluster3.Sub3/Cluster3.Sub3.fasta
+  <br />
+  Database contains 363 sequences, 363363 residues
+</p>
+<p>
+  MOTIFS meme_chip_out/Cluster3.Sub3/meme_out/meme.xml (DNA)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">TTTYYCYWTTT</td>
+        <td style="text-align:right;padding-left: 1em;">11</td>
+        <td style="text-align:left;padding-left: 1em;">TTTTTCCTTTT</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">CBTCMCYCSCY</td>
+        <td style="text-align:right;padding-left: 1em;">11</td>
+        <td style="text-align:left;padding-left: 1em;">CGTCACCCCCT</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">GTRTGC</td>
+        <td style="text-align:right;padding-left: 1em;">6</td>
+        <td style="text-align:left;padding-left: 1em;">GTATGC</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (meme_chip_out/Cluster3.Sub3/background):
+<br/>
+
+A 0.402 C 0.098 G 0.098 T 0.402 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 304 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1348800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">10</td>
+      <td style="text-align:left;">15</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1131000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">5</td>
+      <td style="text-align:left;">10</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1355200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">24</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1227400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">49</td>
+      <td style="text-align:left;">54</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1219300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">71</td>
+      <td style="text-align:left;">76</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1322000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">86</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1202100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">96</td>
+      <td style="text-align:left;">101</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1437300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">113</td>
+      <td style="text-align:left;">118</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1107600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">121</td>
+      <td style="text-align:left;">126</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1449300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">127</td>
+      <td style="text-align:left;">132</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1126800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">128</td>
+      <td style="text-align:left;">133</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1220700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">147</td>
+      <td style="text-align:left;">152</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1350100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148</td>
+      <td style="text-align:left;">153</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1122600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">150</td>
+      <td style="text-align:left;">155</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1309900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">159</td>
+      <td style="text-align:left;">164</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1126800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">154</td>
+      <td style="text-align:left;">159</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1352300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">183</td>
+      <td style="text-align:left;">188</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1027100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">187</td>
+      <td style="text-align:left;">192</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1433300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">207</td>
+      <td style="text-align:left;">212</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1352500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">208</td>
+      <td style="text-align:left;">213</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1352200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">208</td>
+      <td style="text-align:left;">213</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1200800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">211</td>
+      <td style="text-align:left;">216</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1348800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">253</td>
+      <td style="text-align:left;">258</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1038000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">261</td>
+      <td style="text-align:left;">266</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1444700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">266</td>
+      <td style="text-align:left;">271</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1032300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">293</td>
+      <td style="text-align:left;">298</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1449500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">327</td>
+      <td style="text-align:left;">332</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1109300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">337</td>
+      <td style="text-align:left;">342</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1301700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">346</td>
+      <td style="text-align:left;">351</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1120100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">353</td>
+      <td style="text-align:left;">358</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1220600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">351</td>
+      <td style="text-align:left;">356</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1307600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">388</td>
+      <td style="text-align:left;">393</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1120600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">393</td>
+      <td style="text-align:left;">398</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1144800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">400</td>
+      <td style="text-align:left;">405</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1344800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">405</td>
+      <td style="text-align:left;">410</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1351300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">404</td>
+      <td style="text-align:left;">409</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1437900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">414</td>
+      <td style="text-align:left;">419</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1445900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">432</td>
+      <td style="text-align:left;">437</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1202800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">435</td>
+      <td style="text-align:left;">440</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1313100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">451</td>
+      <td style="text-align:left;">456</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1342000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">458</td>
+      <td style="text-align:left;">463</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1113400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">458</td>
+      <td style="text-align:left;">463</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1328100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">457</td>
+      <td style="text-align:left;">462</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1336300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">482</td>
+      <td style="text-align:left;">487</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1441100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">483</td>
+      <td style="text-align:left;">488</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1222500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">483</td>
+      <td style="text-align:left;">488</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1136700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">492</td>
+      <td style="text-align:left;">497</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1342000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">503</td>
+      <td style="text-align:left;">508</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1104200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">504</td>
+      <td style="text-align:left;">509</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1455400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">512</td>
+      <td style="text-align:left;">517</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1131500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">513</td>
+      <td style="text-align:left;">518</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1216300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">545</td>
+      <td style="text-align:left;">550</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1035800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">569</td>
+      <td style="text-align:left;">574</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1350300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">584</td>
+      <td style="text-align:left;">589</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1129400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">593</td>
+      <td style="text-align:left;">598</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1357900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">595</td>
+      <td style="text-align:left;">600</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1304500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">600</td>
+      <td style="text-align:left;">605</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1352100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">630</td>
+      <td style="text-align:left;">635</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1020800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">657</td>
+      <td style="text-align:left;">662</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1034900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">658</td>
+      <td style="text-align:left;">663</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1322000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">660</td>
+      <td style="text-align:left;">665</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1354500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">678</td>
+      <td style="text-align:left;">683</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1448900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">697</td>
+      <td style="text-align:left;">702</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1401100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">697</td>
+      <td style="text-align:left;">702</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1448900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">701</td>
+      <td style="text-align:left;">706</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1144800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">707</td>
+      <td style="text-align:left;">712</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1010600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">745</td>
+      <td style="text-align:left;">750</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1104200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">754</td>
+      <td style="text-align:left;">759</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1352500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">757</td>
+      <td style="text-align:left;">762</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1439200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">761</td>
+      <td style="text-align:left;">766</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1420800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">787</td>
+      <td style="text-align:left;">792</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1310200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">787</td>
+      <td style="text-align:left;">792</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1437300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">788</td>
+      <td style="text-align:left;">793</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1020800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">799</td>
+      <td style="text-align:left;">804</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1441400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">798</td>
+      <td style="text-align:left;">803</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1321300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">800</td>
+      <td style="text-align:left;">805</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1314700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">814</td>
+      <td style="text-align:left;">819</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1114000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">824</td>
+      <td style="text-align:left;">829</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1316000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">831</td>
+      <td style="text-align:left;">836</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1109300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">827</td>
+      <td style="text-align:left;">832</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1426500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">838</td>
+      <td style="text-align:left;">843</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1141500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">839</td>
+      <td style="text-align:left;">844</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1115700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">850</td>
+      <td style="text-align:left;">855</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1020800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">858</td>
+      <td style="text-align:left;">863</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1120100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">855</td>
+      <td style="text-align:left;">860</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1330700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">873</td>
+      <td style="text-align:left;">878</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1118800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">881</td>
+      <td style="text-align:left;">886</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1339300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">892</td>
+      <td style="text-align:left;">897</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1223800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">903</td>
+      <td style="text-align:left;">908</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1245400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">907</td>
+      <td style="text-align:left;">912</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1226900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">907</td>
+      <td style="text-align:left;">912</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1202100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">916</td>
+      <td style="text-align:left;">921</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1015800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">915</td>
+      <td style="text-align:left;">920</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1461800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">916</td>
+      <td style="text-align:left;">921</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1311000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">918</td>
+      <td style="text-align:left;">923</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1212000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">923</td>
+      <td style="text-align:left;">928</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1447000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">933</td>
+      <td style="text-align:left;">938</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1362100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">954</td>
+      <td style="text-align:left;">959</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1232200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">957</td>
+      <td style="text-align:left;">962</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1226800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">961</td>
+      <td style="text-align:left;">966</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1240000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">970</td>
+      <td style="text-align:left;">975</td>
+      <td style="text-align:left;">1.49e-05</td>
+      <td style="text-align:left;">0.106</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTGTGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1405600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">4</td>
+      <td style="text-align:left;">9</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1122900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">16</td>
+      <td style="text-align:left;">21</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1309400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">17</td>
+      <td style="text-align:left;">22</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1026500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">19</td>
+      <td style="text-align:left;">24</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1019500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">24</td>
+      <td style="text-align:left;">29</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1025200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">30</td>
+      <td style="text-align:left;">35</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1221300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">28</td>
+      <td style="text-align:left;">33</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1219200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">36</td>
+      <td style="text-align:left;">41</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1456200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">36</td>
+      <td style="text-align:left;">41</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1220700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">36</td>
+      <td style="text-align:left;">41</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1230600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">40</td>
+      <td style="text-align:left;">45</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1415300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">46</td>
+      <td style="text-align:left;">51</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1441100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">41</td>
+      <td style="text-align:left;">46</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1405600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">43</td>
+      <td style="text-align:left;">48</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1219300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">45</td>
+      <td style="text-align:left;">50</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1134000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">57</td>
+      <td style="text-align:left;">62</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1425350.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">59</td>
+      <td style="text-align:left;">64</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1330700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">70</td>
+      <td style="text-align:left;">75</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1010300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">80</td>
+      <td style="text-align:left;">85</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1322500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">86</td>
+      <td style="text-align:left;">91</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1439200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">100</td>
+      <td style="text-align:left;">105</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1358700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">96</td>
+      <td style="text-align:left;">101</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1227400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">113</td>
+      <td style="text-align:left;">118</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1420800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">114</td>
+      <td style="text-align:left;">119</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1437300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">117</td>
+      <td style="text-align:left;">122</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1453000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">134</td>
+      <td style="text-align:left;">139</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1012300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">136</td>
+      <td style="text-align:left;">141</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1126800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">150</td>
+      <td style="text-align:left;">155</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1217300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">155</td>
+      <td style="text-align:left;">160</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1010300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">155</td>
+      <td style="text-align:left;">160</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1321300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">161</td>
+      <td style="text-align:left;">166</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1301700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">163</td>
+      <td style="text-align:left;">168</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1321400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">175</td>
+      <td style="text-align:left;">180</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1354000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">183</td>
+      <td style="text-align:left;">188</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1126800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">189</td>
+      <td style="text-align:left;">194</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1227400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">192</td>
+      <td style="text-align:left;">197</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1347200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">196</td>
+      <td style="text-align:left;">201</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1232800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">199</td>
+      <td style="text-align:left;">204</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1415300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">206</td>
+      <td style="text-align:left;">211</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1304500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">207</td>
+      <td style="text-align:left;">212</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1337400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">218</td>
+      <td style="text-align:left;">223</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1351300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">219</td>
+      <td style="text-align:left;">224</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1232500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">220</td>
+      <td style="text-align:left;">225</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1354500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">219</td>
+      <td style="text-align:left;">224</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1451700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">226</td>
+      <td style="text-align:left;">231</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1227100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">233</td>
+      <td style="text-align:left;">238</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1025200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">240</td>
+      <td style="text-align:left;">245</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1362100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">239</td>
+      <td style="text-align:left;">244</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1027100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">249</td>
+      <td style="text-align:left;">254</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1120100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">255</td>
+      <td style="text-align:left;">260</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1437300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">276</td>
+      <td style="text-align:left;">281</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1121200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">279</td>
+      <td style="text-align:left;">284</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1032600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">294</td>
+      <td style="text-align:left;">299</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1226800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">296</td>
+      <td style="text-align:left;">301</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1117700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">303</td>
+      <td style="text-align:left;">308</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1428700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">303</td>
+      <td style="text-align:left;">308</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1227700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">305</td>
+      <td style="text-align:left;">310</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1111600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">307</td>
+      <td style="text-align:left;">312</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1122900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">303</td>
+      <td style="text-align:left;">308</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1328300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">304</td>
+      <td style="text-align:left;">309</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1217700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">313</td>
+      <td style="text-align:left;">318</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1142800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">308</td>
+      <td style="text-align:left;">313</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1322800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">327</td>
+      <td style="text-align:left;">332</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1318100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">328</td>
+      <td style="text-align:left;">333</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1328400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">328</td>
+      <td style="text-align:left;">333</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1211500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">333</td>
+      <td style="text-align:left;">338</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1033900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">334</td>
+      <td style="text-align:left;">339</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1305500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">331</td>
+      <td style="text-align:left;">336</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1350300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">334</td>
+      <td style="text-align:left;">339</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1451300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">334</td>
+      <td style="text-align:left;">339</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1302700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">338</td>
+      <td style="text-align:left;">343</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1018700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">341</td>
+      <td style="text-align:left;">346</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1230100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">374</td>
+      <td style="text-align:left;">379</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1320400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">369</td>
+      <td style="text-align:left;">374</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1455400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">378</td>
+      <td style="text-align:left;">383</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1361300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">388</td>
+      <td style="text-align:left;">393</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1430700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">384</td>
+      <td style="text-align:left;">389</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1332000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">386</td>
+      <td style="text-align:left;">391</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1437900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">386</td>
+      <td style="text-align:left;">391</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1407400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">393</td>
+      <td style="text-align:left;">398</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1452500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">393</td>
+      <td style="text-align:left;">398</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1129400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">399</td>
+      <td style="text-align:left;">404</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1029300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">402</td>
+      <td style="text-align:left;">407</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1012300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">407</td>
+      <td style="text-align:left;">412</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1453100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">421</td>
+      <td style="text-align:left;">426</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1451800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">416</td>
+      <td style="text-align:left;">421</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1106500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">421</td>
+      <td style="text-align:left;">426</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1305500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">423</td>
+      <td style="text-align:left;">428</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1103400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">432</td>
+      <td style="text-align:left;">437</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1107600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">444</td>
+      <td style="text-align:left;">449</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1111600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">444</td>
+      <td style="text-align:left;">449</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1307800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">443</td>
+      <td style="text-align:left;">448</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1014700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">449</td>
+      <td style="text-align:left;">454</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1223800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">450</td>
+      <td style="text-align:left;">455</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1220600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">462</td>
+      <td style="text-align:left;">467</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1144800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">458</td>
+      <td style="text-align:left;">463</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1447000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">467</td>
+      <td style="text-align:left;">472</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1126500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">476</td>
+      <td style="text-align:left;">481</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1230500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">482</td>
+      <td style="text-align:left;">487</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1222600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">485</td>
+      <td style="text-align:left;">490</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1012700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">492</td>
+      <td style="text-align:left;">497</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1462900.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">498</td>
+      <td style="text-align:left;">503</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1231000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">505</td>
+      <td style="text-align:left;">510</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1449300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">503</td>
+      <td style="text-align:left;">508</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1303300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">508</td>
+      <td style="text-align:left;">513</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1330700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">511</td>
+      <td style="text-align:left;">516</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1423200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">513</td>
+      <td style="text-align:left;">518</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1133800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">519</td>
+      <td style="text-align:left;">524</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1120600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">516</td>
+      <td style="text-align:left;">521</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1036400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">522</td>
+      <td style="text-align:left;">527</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1114600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">517</td>
+      <td style="text-align:left;">522</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1461800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">529</td>
+      <td style="text-align:left;">534</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1441400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">535</td>
+      <td style="text-align:left;">540</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1352500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">535</td>
+      <td style="text-align:left;">540</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1462700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">537</td>
+      <td style="text-align:left;">542</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1430900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">539</td>
+      <td style="text-align:left;">544</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1428100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">535</td>
+      <td style="text-align:left;">540</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1304000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">556</td>
+      <td style="text-align:left;">561</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1121100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">556</td>
+      <td style="text-align:left;">561</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1355200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">560</td>
+      <td style="text-align:left;">565</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1338400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">566</td>
+      <td style="text-align:left;">571</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1039100.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">561</td>
+      <td style="text-align:left;">566</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1309900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">566</td>
+      <td style="text-align:left;">571</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1128700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">563</td>
+      <td style="text-align:left;">568</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1300600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">566</td>
+      <td style="text-align:left;">571</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1401100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">585</td>
+      <td style="text-align:left;">590</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1422200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">586</td>
+      <td style="text-align:left;">591</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1357900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">591</td>
+      <td style="text-align:left;">596</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1347200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">601</td>
+      <td style="text-align:left;">606</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1209000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">601</td>
+      <td style="text-align:left;">606</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1015800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">618</td>
+      <td style="text-align:left;">623</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1439600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">615</td>
+      <td style="text-align:left;">620</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1337100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">626</td>
+      <td style="text-align:left;">631</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1015800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">622</td>
+      <td style="text-align:left;">627</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1033900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">631</td>
+      <td style="text-align:left;">636</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1416300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">628</td>
+      <td style="text-align:left;">633</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1425350.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">632</td>
+      <td style="text-align:left;">637</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1313100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">654</td>
+      <td style="text-align:left;">659</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1216300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">651</td>
+      <td style="text-align:left;">656</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1337500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">658</td>
+      <td style="text-align:left;">663</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1304000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">661</td>
+      <td style="text-align:left;">666</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1129300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">662</td>
+      <td style="text-align:left;">667</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1131500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">670</td>
+      <td style="text-align:left;">675</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1206300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">677</td>
+      <td style="text-align:left;">682</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1428700.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">682</td>
+      <td style="text-align:left;">687</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1338400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">691</td>
+      <td style="text-align:left;">696</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1319400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">690</td>
+      <td style="text-align:left;">695</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1202800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">698</td>
+      <td style="text-align:left;">703</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1141500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">693</td>
+      <td style="text-align:left;">698</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1323200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">697</td>
+      <td style="text-align:left;">702</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1107800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">698</td>
+      <td style="text-align:left;">703</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1024700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">704</td>
+      <td style="text-align:left;">709</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1418200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">705</td>
+      <td style="text-align:left;">710</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1216300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">708</td>
+      <td style="text-align:left;">713</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1022800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">722</td>
+      <td style="text-align:left;">727</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1359200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">718</td>
+      <td style="text-align:left;">723</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1107600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">722</td>
+      <td style="text-align:left;">727</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1423800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">723</td>
+      <td style="text-align:left;">728</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1126800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">727</td>
+      <td style="text-align:left;">732</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1222400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">734</td>
+      <td style="text-align:left;">739</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1019500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">734</td>
+      <td style="text-align:left;">739</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1232200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">747</td>
+      <td style="text-align:left;">752</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1351300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">745</td>
+      <td style="text-align:left;">750</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1338600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">755</td>
+      <td style="text-align:left;">760</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1032300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">761</td>
+      <td style="text-align:left;">766</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1459700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">763</td>
+      <td style="text-align:left;">768</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1321300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">770</td>
+      <td style="text-align:left;">775</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1238500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">772</td>
+      <td style="text-align:left;">777</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1304000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">768</td>
+      <td style="text-align:left;">773</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1243400.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">773</td>
+      <td style="text-align:left;">778</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1361300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">773</td>
+      <td style="text-align:left;">778</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1231800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">784</td>
+      <td style="text-align:left;">789</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1414100.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">805</td>
+      <td style="text-align:left;">810</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1105900.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">809</td>
+      <td style="text-align:left;">814</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1453000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">816</td>
+      <td style="text-align:left;">821</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1402600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">812</td>
+      <td style="text-align:left;">817</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1321300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">817</td>
+      <td style="text-align:left;">822</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1106700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">839</td>
+      <td style="text-align:left;">844</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1309700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">850</td>
+      <td style="text-align:left;">855</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1217300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">857</td>
+      <td style="text-align:left;">862</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1141500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">857</td>
+      <td style="text-align:left;">862</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1032600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">860</td>
+      <td style="text-align:left;">865</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1361300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">865</td>
+      <td style="text-align:left;">870</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1206600.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">866</td>
+      <td style="text-align:left;">871</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1302700.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">876</td>
+      <td style="text-align:left;">881</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1314200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">880</td>
+      <td style="text-align:left;">885</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1010600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">884</td>
+      <td style="text-align:left;">889</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1303300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">902</td>
+      <td style="text-align:left;">907</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1443000.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">908</td>
+      <td style="text-align:left;">913</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1461800.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">912</td>
+      <td style="text-align:left;">917</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1219200.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">911</td>
+      <td style="text-align:left;">916</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1443000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">912</td>
+      <td style="text-align:left;">917</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1440300.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">928</td>
+      <td style="text-align:left;">933</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1118800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">933</td>
+      <td style="text-align:left;">938</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1039600.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">933</td>
+      <td style="text-align:left;">938</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1441400.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">934</td>
+      <td style="text-align:left;">939</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1450500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">939</td>
+      <td style="text-align:left;">944</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1426200.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">940</td>
+      <td style="text-align:left;">945</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1450500.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">943</td>
+      <td style="text-align:left;">948</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1322800.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">948</td>
+      <td style="text-align:left;">953</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1232500.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">968</td>
+      <td style="text-align:left;">973</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1206300.1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">985</td>
+      <td style="text-align:left;">990</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">GTRTGC</td>
+      <td style="text-align:left;">MEME-3</td>
+      <td style="text-align:left;">PBANKA_1453000.1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">981</td>
+      <td style="text-align:left;">986</td>
+      <td style="text-align:left;">7.6e-05</td>
+      <td style="text-align:left;">0.18</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTATGC</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+fimo --verbosity 1 --oc meme_chip_out/Cluster3.Sub3/fimo_out_3 --bgfile meme_chip_out/Cluster3.Sub3/background --motif GTRTGC meme_chip_out/Cluster3.Sub3/meme_out/meme.xml meme_chip_out/Cluster3.Sub3/Cluster3.Sub3.fasta
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = meme_chip_out/Cluster3.Sub3/fimo_out_3</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = meme_chip_out/Cluster3.Sub3/meme_out/meme.xml</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = meme_chip_out/Cluster3.Sub3/Cluster3.Sub3.fasta</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = meme_chip_out/Cluster3.Sub3/background</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = DNA</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = true</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

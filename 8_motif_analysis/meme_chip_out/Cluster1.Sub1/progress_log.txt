@@ -1,0 +1,42 @@
+Invoking:
+  getsize meme_chip_out/Cluster1.Sub1/Cluster1.Sub1.fasta 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.009003
+Invoking:
+  fasta-most -min 50 < meme_chip_out/Cluster1.Sub1/Cluster1.Sub1.fasta 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.058701
+Invoking:
+  fasta-center -dna -len 100 < meme_chip_out/Cluster1.Sub1/Cluster1.Sub1.fasta 1> meme_chip_out/Cluster1.Sub1/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.073111
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 2 meme_chip_out/Cluster1.Sub1/Cluster1.Sub1.fasta meme_chip_out/Cluster1.Sub1/background
+Finished invoke:
+  name: bg  status: 0  time: 0.006776
+Invoking:
+  meme meme_chip_out/Cluster1.Sub1/seqs-centered -oc meme_chip_out/Cluster1.Sub1/meme_out -mod zoops -nmotifs 3 -minw 6 -maxw 15 -bfile meme_chip_out/Cluster1.Sub1/background -dna -seed 0 -searchsize 100000 -time 2919 -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 68.797616
+Invoking:
+  streme --verbosity 1 --oc meme_chip_out/Cluster1.Sub1/streme_out -dna --seed 0 --p meme_chip_out/Cluster1.Sub1/seqs-centered --minw 6 --maxw 15 --time 6170 --order 2 --thresh 0.05 --align center --totallength 4000000
+Finished invoke:
+  name: streme  status: 0  time: 2.653006
+Invoking:
+  centrimo -seqlen 1001 -verbosity 1 -oc meme_chip_out/Cluster1.Sub1/centrimo_out -bfile meme_chip_out/Cluster1.Sub1/background -score 5.0 -ethresh 10.0 meme_chip_out/Cluster1.Sub1/Cluster1.Sub1.fasta meme_chip_out/Cluster1.Sub1/meme_out/meme.xml meme_chip_out/Cluster1.Sub1/streme_out/streme.xml /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/prodoric_2021.9.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/collectf.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/regtransbase.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 7.314082
+Invoking:
+  tomtom -verbosity 1 -oc meme_chip_out/Cluster1.Sub1/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_chip_out/Cluster1.Sub1/meme_out/meme.xml /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/prodoric_2021.9.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/collectf.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/regtransbase.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 1.688798
+Invoking:
+  tomtom -verbosity 1 -oc meme_chip_out/Cluster1.Sub1/streme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme_chip_out/Cluster1.Sub1/streme_out/streme.xml /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/prodoric_2021.9.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/collectf.meme /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/regtransbase.meme
+Finished invoke:
+  name: streme_tomtom  status: 0  time: 2.877006
+Writing output
+Invoking:
+  meme-chip_html_to_tsv meme_chip_out/Cluster1.Sub1/meme-chip.html meme_chip_out/Cluster1.Sub1/summary.tsv "meme-chip -oc meme_chip_out/Cluster1.Sub1 -time 240 -ccut 100 -dna -order 2 -minw 6 -maxw 15 -db /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/prodoric_2021.9.meme -db /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/collectf.meme -db /mnt/sdb3/adaobi/motifDB/motif_databases/PROKARYOTE/regtransbase.meme -meme-mod zoops -meme-nmotifs 3 -meme-searchsize 100000 -streme-pvt 0.05 -streme-align center -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 UTR_1000/Cluster1.Sub1.fasta" 5.5.7 "Wed Jun 19 13\:59\:04 2024 -0700"
+Finished invoke:
+  name: summary  status: 512  time: 0.038801
+Done
