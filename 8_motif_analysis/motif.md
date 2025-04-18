@@ -68,5 +68,81 @@ for  fasta in ${fasta_files[@]}; do
     -centrimo-score 5.0 -centrimo-ethresh 10.0 ${input_dir}/${fasta}
 
    done
-```
 
+##tomtom
+input_dir="/mnt/sdb3/adaobi/malaria_rna-seq_data-analysis/8_motif_analysis/meme_out_15"
+for  fasta in ${fasta_files[@]}; do
+   out_dir=$(echo ${fasta} | sed -e 's/.fasta//g')
+   echo ${out_dir}
+   mkdir -p tomtom/${out_dir}
+   cd tomtom/${out_dir}
+   tomtom -no-ssc -oc . -verbosity 1 -min-overlap 5 -dist ed -evalue -thresh 1.0 -incomplete-scores \
+     ${input_dir}/${out_dir}/meme.html \
+     ${motif_databases}/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme
+   cd .. 
+   cd ..
+   done
+
+```
+# ChI-Seq motifs analysis 
+
+```bash
+
+fasta_files=('Peak_calling_PfMORC_ChIP-seq_ring_stage.fasta'  'Peak_calling_PfMORC_ChIP-seq_schizont_stage.fasta'  'Peak_calling_PfMORC_ChIP-seq_trophozoite_stage.fasta')
+
+input_dir="/mnt/sdb3/adaobi/R2/chip-seq/"
+motif_databases="/mnt/sdb3/adaobi/motifDB/motif_databases"
+# streme
+for fasta in ${fasta_files[@]}; do
+   out_dir=$(echo ${fasta} | sed -e 's/.fasta//g')
+   echo ${out_dir}
+   mkdir -p streme_out/${out_dir}
+
+   streme --verbosity 1 --oc streme_out/${out_dir}  --dna \
+   --totallength 4000000 --time 14400 --minw 8 --maxw 15 --thresh 0.05 \
+    ‑‑with‑db=${motif_databases}    \
+   --align center --p ${input_dir}/${fasta}
+   done
+# meme
+
+for  fasta in ${fasta_files[@]}; do
+   out_dir=$(echo ${fasta} | sed -e 's/.fasta//g')
+   echo ${out_dir}
+   mkdir -p meme_out_15/${out_dir}
+
+   meme ${input_dir}/${fasta}  -dna -oc  meme_out_15/${out_dir}  \
+   -nostatus -time 14400 -mod zoops -nmotifs 15 -minw 6 -maxw 50 -objfun classic -revcomp -markov_order 0
+   done
+
+# meme-chip
+
+for  fasta in ${fasta_files[@]}; do
+   out_dir=$(echo ${fasta} | sed -e 's/.fasta//g')
+   echo ${out_dir}
+   mkdir -p meme_chip_out/${out_dir}
+
+   meme-chip -oc meme_chip_out/${out_dir}  -time 240 -ccut 100 -dna -order 2 -minw 6 -maxw 15 \
+    -db ${motif_databases}/PROKARYOTE/prodoric_2021.9.meme \
+    -db ${motif_databases}/PROKARYOTE/collectf.meme \
+    -db ${motif_databases}/PROKARYOTE/regtransbase.meme \
+    -meme-mod zoops -meme-nmotifs 3 -meme-searchsize 100000 \
+    -streme-pvt 0.05 -streme-align center -streme-totallength 4000000 \
+    -centrimo-score 5.0 -centrimo-ethresh 10.0 ${input_dir}/${fasta}
+
+   done
+
+##tomtom
+input_dir="/mnt/sdb3/adaobi/R2/chip-seq/meme_out_15"
+for  fasta in ${fasta_files[@]}; do
+   out_dir=$(echo ${fasta} | sed -e 's/.fasta//g')
+   echo ${out_dir}
+   mkdir -p tomtom/${out_dir}
+   cd tomtom/${out_dir}
+   tomtom -no-ssc -oc . -verbosity 1 -min-overlap 5 -dist ed -evalue -thresh 1.0 -incomplete-scores \
+     ${input_dir}/${out_dir}/meme.html \
+     ${motif_databases}/JASPAR/JASPAR2022_CORE_non-redundant_v2.meme
+   cd .. 
+   cd ..
+   done
+
+```
